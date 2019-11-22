@@ -1,2 +1,1 @@
-# BN-Tedesco
-Ciclo di Biennio: Davide Tedesco
+# Lezione di giovedì 21 novembre 2019\n\n## Argomenti
