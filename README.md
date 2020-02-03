@@ -1,1 +1,7 @@
-# Lezione di giovedì 21 novembre 2019\n\n## Argomenti
+# Repository del ciclo di Biennio di Davide Tedesco
+
+# Progetti:
+
+-Chitarra Classica(MºBernardini)
+
+-Sassofono(MºLupone)
