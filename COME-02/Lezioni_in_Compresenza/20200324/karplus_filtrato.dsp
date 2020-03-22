@@ -1,12 +1,11 @@
-declare name 		"karplus";
+declare name 		"karplus_filtrato";
 declare version 	"1.0";
-declare author 		"Grame";
+declare author 		"DT";
 declare license 	"BSD";
-declare copyright 	"(c)GRAME 2006";
 
-//-----------------------------------------------
-// 				karplus-strong
-//-----------------------------------------------
+//-----------------------------------------------------------
+// 				karplus-strong synhtesis based on the GRAME example
+//-----------------------------------------------------------
 import("stdfaust.lib");
 import("music.lib");
 
@@ -35,4 +34,7 @@ resonator(d, a) = (+ : delay(4096, d-1.5)) ~ (average : *(1.0-a)) ;
 process = noise * hslider("level", 0.5, 0, 1, 0.1)
 		: vgroup("excitator", *(button("play"): trigger(size)))
 		: vgroup("resonator", resonator(dur, att)):
-  dm.filterbank_demo<:_,_; //filtro
+		//filter
+  	dm.filterbank_demo
+		//stereo splitter
+		<:_,_;
