@@ -14,6 +14,6 @@ Ricerca sulla chitarra classica(acustica con corde in nylon) e primo approccio a
 - catalogazione dei suoni consonantici e vocalici per implementazione in live degli stessi sull'attuatore -> esempi
 - criteri per la spazializzazione in sala da concerto ???
 - gestione agevole del suono ripreso micro e macro ???
-- algoritmo di sintesi corda > Karplus-Strong -> [paper](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200303/Karplus-Strong-CMJ-1983.pdf) ->[esempi](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200324/karplus_filtrato.dsp)
+- algoritmo di sintesi corda > Karplus-Strong -> [paper](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200303/Karplus-Strong-CMJ-1983.pdf) ->[Algoritmo realizzato in Faust](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200324/karplus_filtrato.dsp) ->[Algoritmo realizzato in Max]()
 
 
