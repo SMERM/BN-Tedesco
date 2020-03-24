@@ -1,9 +1,6 @@
 # Repository del ciclo di Biennio di Davide Tedesco
 
-# Primo Progetto :
-
-Chitarra Classica
--
+**Primo Progetto: Chitarra Classica**
 
 Ricerca sulla chitarra classica(acustica con corde in nylon) e primo approccio allo sviluppo di studi per lo strumento "espanso".
 
