@@ -15,4 +15,6 @@ Ricerca sulla chitarra classica(acustica con corde in nylon) e primo approccio a
 - Lettura e studio del manuale The Contemporary Guitar di John Schneider -> [Manuale](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200331/The-Contemporary-Guitar-Schneider-Vol-5.pdf)
 - Lettura e studio di Principles of Idiomatic Guitar Writing di Jonathan Godfrey ->[Testo](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200331/Principles%20of%20Idiomatic%20Guitar%20Writing%20-%20Jonathan%20Godfrey.pdf),  [Esempi Audio](https://github.com/SMERM/BN-Tedesco/tree/master/COME-02/Lezioni_in_Compresenza/20200331/Principles%20of%20Idiomatic%20Guitar%20Writing%20-%20Jonathan%20Godfrey_Audio_Tracks)
 
-
+**Lavori**
+- [Sketches](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200324/Sketches.pdf)
+- Studi: [Studio n.1]()
