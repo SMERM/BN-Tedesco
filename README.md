@@ -19,4 +19,4 @@ Ricerca sulla chitarra classica(acustica con corde in nylon) e primo approccio a
 
 **Lavori**
 - [Sketches](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200324/Sketches.pdf)
-- Studi: [Draft_1 Studio n.1]()
+- Studi: [Draft_1 Studio n.1 Partitura](), [Draft_1 Studio n.1 Audio]()
