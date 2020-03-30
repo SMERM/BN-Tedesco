@@ -1,5 +1,5 @@
 # Repository del ciclo di Biennio di Davide Tedesco
-
+![Guitar](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Bernardini/20200114/Schemi_chitarra_classica/ebguitars_plan_complete_large.png)
 **Primo Progetto: Chitarra Classica**
 
 Ricerca sulla chitarra classica(acustica con corde in nylon) e primo approccio allo sviluppo di studi per lo strumento "espanso".
