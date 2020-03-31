@@ -3,4 +3,3 @@
 - Studio n.1 (Ascolto e visione partitura)
 - Ascolto esempi Karplus
 - Visione Algortimo Faust
-- Visione Legenda
