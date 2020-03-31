@@ -4,8 +4,9 @@
 - [Ascolto esempi Karplus](https://github.com/SMERM/BN-Tedesco/tree/master/COME-02/Lezioni_in_Compresenza/20200331/Esempi_Karplus-Strong_Attuatore_su_chitarra)
 - Visione [Algortimo Faust](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200324/Karplus_filtrato_caqt_app.png)
 
--
-- Karplus
+
+**Karplus**
+
 Non-linear distortion o waveshaping, compressori digitali ce ne sono molti ma complessi, e filter bank non è un filtro da scultura
 
 Elliot Carter > è stato in grado di parlare del suo tempo in un mondo nord-americano
@@ -37,7 +38,7 @@ tenuto ad libitum > freeze del buffer > modulando il buffer, modulando il filtro
 
 JOS > Karplus > trucchi aggiuntivi > modelli fisici
 
-- Draft Studio n.1
+**Draft Studio n.1**
 
 velocità > carattere antifonale del tutto > poca contemporaneità > 2 elementi > ci si aspetta che a un certo punto succede qualcosa
 
