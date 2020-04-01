@@ -1,5 +1,5 @@
 import("stdfaust.lib");
-//Primo oscillatore del VCS3 con un oscillatore
+//Primo oscillatore del VCS3 con oscillatore sine e saw
 decimal(x) = x - floor(x);
 freq = vslider("FREQUENCY [style:knob][scale:exp]",1,1,10000,0.01);
 step = freq/ma.SR;

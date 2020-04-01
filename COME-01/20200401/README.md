@@ -1,4 +1,4 @@
-##Appunti della lezione di Mercoledí 1mo Aprile 2020
+##Appunti della lezione di Mercoledí 1mo Aprile 2020##
 
 - Introduzione al progetto SEAM, basato sull'[articolo](https://github.com/s-e-a-m https://www.academia.edu/16348988/Sustainable_live_electro-acoustic_music) di Bernardini e Vidolin
 
