@@ -60,9 +60,7 @@
 -----------------------
 **Fasore**
 
-// parte di codice
-- fasore in faust > 
-`process = +(0.01)~_;`
+- fasore in faust > `process = +(0.01)~_;`
 
 - praticamente un conta campioni, ma infinito, ma a noi serve che abbia una ciclicità
 
