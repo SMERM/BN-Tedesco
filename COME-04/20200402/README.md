@@ -89,11 +89,11 @@ Altro sistema più recente [**Dolby Atoms**](https://www.dolby.com/us/en/brands/
 
 Per usare la spazializzazione dobbiamo capire come noi percepiamo i suoni che ci arrivano posteriormente e si puó vedere che c'è un buco a 4000 hz
 
-![risposta_percettiva_suoni_posteriori](https://github.com/SMERM/BN-Tedesco/blob/master/COME-04/20200402/risposta_percettiva_suoni_posteriori)
+![risposta_percettiva_suoni_posteriori](https://github.com/SMERM/BN-Tedesco/blob/master/COME-04/20200402/risposta_percettiva_suoni_posteriori.png)
 
 Esiste un grafico delle phantom images _farfallone_
 
-![grafico_farfallone](https://github.com/SMERM/BN-Tedesco/blob/master/COME-04/20200402/grafico_farfallone)
+![grafico_farfallone](https://github.com/SMERM/BN-Tedesco/blob/master/COME-04/20200402/grafico_farfallone.png)
 
 diffusione dei suoni quadrifonici, differenza intraurale in dB tra 2 canali adiacenti
 
