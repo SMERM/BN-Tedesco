@@ -83,3 +83,23 @@ Anche Sony volle realizzare il suo sistema che chiamo **SDDS**
 Vi fu poi un aumenti di canali da 5.1, 6.1, 7.1 fino al 10.2 con 2 canali per il subwoofer
 
 Altro sistema più recente [**Dolby Atoms**](https://www.dolby.com/us/en/brands/dolby-atmos.html),con altoparlanti sul soffitto, che permette di far muovere fino a 100 oggetti sonori in uno spazio
+
+### Spazializzazione
+
+Per usare la spazializzazione dobbiamo capire come noi percepiamo i suoni che ci arrivano posteriormente e si puó vedere che c'è un buco a 4000 hz
+
+![risposta_percettiva_suoni_posteriori](https://github.com/SMERM/BN-Tedesco/blob/master/COME-04/20200402/risposta_percettiva_suoni_posteriori)
+
+Esiste un grafico delle phantom images _farfallone_
+
+![grafico_farfallone](https://github.com/SMERM/BN-Tedesco/blob/master/COME-04/20200402/grafico_farfallone)
+
+diffusione dei suoni quadrifonici, differenza intraurale in dB tra 2 canali adiacenti
+
+Il suono non lo percepiamo come sono posizionati in realtà dei 2 altoparlanti, per via del modo in cui noi percepiamo il suono, percettivamente quindi il suono non è lineare, altoparlanti si mettono a piú e meno trenta gradi è dunque racchiusa nel grafico, e ciò giustifica anche il posizionamento degli altoparlanti nel 5.1
+
+Abbiamo un udito che funziona in sincronia con la vista, puntiamo infatti visivamente a ciò che vogliamo ascoltare e ciò deriva dal nostro sviluppo e non avendo le orecchie orientabili come gli animali, e dunque
+
+Molti compositori, algoritmi di compensazione del grafico, cercando di correggere l'ascolto su un impianto quadrifonico
+
+Spazializzatore realizzato con Nottoli basato su un concetto iniziale di panning di ampiezza e successivamente con integrazioni
