@@ -64,6 +64,16 @@ sul canale Surround il suono era -3 dB, filtrato, veniva applicato NR(Noise Redu
 
 Vantaggio di questo sitema era che se avevo un sistema solo stereo, non avevo incompatibilità ed era quindi _Stereo compatibile_
 
-**Primo sistema digitale multi-canale** fu il Dolby 5.1
+**Primo sistema digitale multi-canale** fu il **Dolby Digital** (sistema 5.1) o sigla AC-3
 
-Ovviamente inizialmente la memoria era limitata, e dunque iniziò ad usarsi la compressione (con mp3 ad esempio, motion picture group 3), riducendo il peso di un dato 
+Ovviamente inizialmente la memoria era limitata, e dunque iniziò ad usarsi la compressione (con mp3 ad esempio, motion picture group 3), riducendo il peso di un dato
+
+Dolby Digital > migrò anche nello standard per i consumer dal solo cinema e nacque il concetto di _Home Theater_
+
+![Standard 5.1 per Home video]()
+
+notare che gli speaker LS e RS non sono dietro ma di lato
+
+**THX**(Standard della Lucasfilm) certificazione per i cinema
+
+Altri standard si diffusero come il **DTS** (Digital Theater System), primo film Jurassic Park, con una compressione diversa dall'AC-3, lavora ad un bit rate variabile, con supporto differente, audio era custodito su un cd messo in sync con modalità di sincronizzazione con la pellicola (i dvd venivano venduti don sistema Dolby e DTS)
