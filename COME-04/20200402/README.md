@@ -56,10 +56,14 @@ Dolby iniziò a commercializzare un sistema multi-canale per un sistema analogic
 
 Codifica questi 4 canali e canale centrale -3 db > vuol dire mixare il parlato pan-pottato al centro e attenuato di 3 dB
 
-[Dolby sorround schema](https://github.com/SMERM/BN-Tedesco/blob/master/COME-04/20200402/Dolby_Sorround.png)
+![Dolby sorround schema](https://github.com/SMERM/BN-Tedesco/blob/master/COME-04/20200402/Dolby_Sorround.png)
 
 sul canale Surround il suono era -3 dB, filtrato, veniva applicato NR(Noise Reduction) e Phase Shifter(spostato di fase di 90º)
 
 **Decoder** faceva il procedimento opposto
 
 Vantaggio di questo sitema era che se avevo un sistema solo stereo, non avevo incompatibilità ed era quindi _Stereo compatibile_
+
+**Primo sistema digitale multi-canale** fu il Dolby 5.1
+
+Ovviamente inizialmente la memoria era limitata, e dunque iniziò ad usarsi la compressione (con mp3 ad esempio, motion picture group 3), riducendo il peso di un dato 
