@@ -1,11 +1,11 @@
-#Appunti Lezione 2 Aprile 2020
+# Appunti Lezione 2 Aprile 2020
 
 [Cartella Google Drive](https://drive.google.com/drive/folders/0B--_h5RB_vmyR3FnajlkSE1zNG8?usp=sharing)
 
 Biennio, Elettroacustica parte teorica e parte laboratoriale
 
 
-##Programma
+## Programma
 
 - Argomenti: Amplificazione, Ambisonics, elettronica ed elettrotecnica, piccoli circuiti realizzati in classe
 
@@ -15,7 +15,7 @@ Biennio, Elettroacustica parte teorica e parte laboratoriale
 
 - Articoli di Leonardo Scopece su microfono VMS
 
-##Lezione
+## Lezione
 
 Ascolto stereo con 2 altoparlanti attraverso il cross-talk, differisce in accuratezza rispetto all'ascolto che avviene in cuffia attraverso quindi un **ascolto binaurale**
 
@@ -50,7 +50,7 @@ Dolby e Gerzon lavorarono insieme e poi si divisero
 Dolby > Commercializzazione dei sistemi
 Gerzon > ricerca su Ambisonics
 
-###Gli standard
+### Gli standard
 Dolby iniziò a commercializzare un sistema multi-canale per un sistema analogico con 4 canali con codifica e decodifica
 
 **Encoder** con 4 canali: Left, Right, Center e unico canale Surround(canale diffuso dietro ed ai lati)
@@ -85,7 +85,7 @@ Vi fu poi un aumenti di canali da 5.1, 6.1, 7.1 fino al 10.2 con 2 canali per il
 
 Altro sistema più recente [**Dolby Atoms**](https://www.dolby.com/us/en/brands/dolby-atmos.html),con altoparlanti sul soffitto, che permette di far muovere fino a 100 oggetti sonori in uno spazio
 
-###Spazializzazione
+### Spazializzazione
 
 Per usare la spazializzazione dobbiamo capire come noi percepiamo i suoni che ci arrivano posteriormente e si puó vedere che c'è un buco a 4000 hz
 
