@@ -70,10 +70,16 @@ Ovviamente inizialmente la memoria era limitata, e dunque iniziò ad usarsi la c
 
 Dolby Digital > migrò anche nello standard per i consumer dal solo cinema e nacque il concetto di _Home Theater_
 
-![Standard 5.1 per Home video]()
+![Standard 5.1 per Home video](https://github.com/SMERM/BN-Tedesco/blob/master/COME-04/20200402/Standard_5.1_per_Home_video.png)
 
 notare che gli speaker LS e RS non sono dietro ma di lato
 
 **THX**(Standard della Lucasfilm) certificazione per i cinema
 
 Altri standard si diffusero come il **DTS** (Digital Theater System), primo film Jurassic Park, con una compressione diversa dall'AC-3, lavora ad un bit rate variabile, con supporto differente, audio era custodito su un cd messo in sync con modalità di sincronizzazione con la pellicola (i dvd venivano venduti don sistema Dolby e DTS)
+
+Anche Sony volle realizzare il suo sistema che chiamo **SDDS**
+
+Vi fu poi un aumenti di canali da 5.1, 6.1, 7.1 fino al 10.2 con 2 canali per il subwoofer
+
+Altro sistema più recente [**Dolby Atoms**](https://www.dolby.com/us/en/brands/dolby-atmos.html),con altoparlanti sul soffitto, che permette di far muovere fino a 100 oggetti sonori in uno spazio
