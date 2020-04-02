@@ -50,7 +50,7 @@ Dolby e Gerzon lavorarono insieme e poi si divisero
 Dolby > Commercializzazione dei sistemi
 Gerzon > ricerca su Ambisonics
 
-### Gli standard
+### Gli standard multi-canale
 Dolby iniziò a commercializzare un sistema multi-canale per un sistema analogico con 4 canali con codifica e decodifica
 
 **Encoder** con 4 canali: Left, Right, Center e unico canale Surround(canale diffuso dietro ed ai lati)
