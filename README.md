@@ -1,5 +1,6 @@
 # Repository del ciclo di Biennio di Davide Tedesco
-
+## [COME-01](https://github.com/SMERM/BN-Tedesco/tree/master/COME-01)
+## [COME-02](https://github.com/SMERM/BN-Tedesco/tree/master/COME-02)
 **Primo Progetto: Chitarra Classica**
 
 ![Guitar](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Bernardini/20200114/Schemi_chitarra_classica/ebguitars_plan_complete_large.png)
@@ -20,3 +21,6 @@ Ricerca sulla chitarra classica(acustica con corde in nylon) e primo approccio a
 **Lavori**
 - [Sketches](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200324/Sketches.pdf)
 - Studi: [Draft_1 Studio n.1 Partitura](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200331/Draft_1_Studio_n.1_Partitura.pdf), [Draft_1 Studio n.1 Audio](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200331/Draft_1_Studio_n.1_Audio.wav)
+
+## [COME-04](https://github.com/SMERM/BN-Tedesco/tree/master/COME-04)
+
