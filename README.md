@@ -3,7 +3,7 @@
 ## [COME-01](https://github.com/SMERM/BN-Tedesco/tree/master/COME-01)
 
 ## [COME-02](https://github.com/SMERM/BN-Tedesco/tree/master/COME-02)
-**Primo Progetto: Chitarra Classica**
+### Primo Progetto: Chitarra Classica
 
 ![Guitar](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Bernardini/20200114/Schemi_chitarra_classica/ebguitars_plan_complete_large.png)
 
@@ -20,7 +20,7 @@ Ricerca sulla chitarra classica(acustica con corde in nylon) e primo approccio a
 - Lettura e studio del manuale "The Contemporary Guitar" di John Schneider -> [Manuale](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200331/The-Contemporary-Guitar-Schneider-Vol-5.pdf)
 - Lettura e studio di "Principles of Idiomatic Guitar Writing" di Jonathan Godfrey ->[Testo](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200331/Principles%20of%20Idiomatic%20Guitar%20Writing%20-%20Jonathan%20Godfrey.pdf),  [Esempi Audio](https://github.com/SMERM/BN-Tedesco/tree/master/COME-02/Lezioni_in_Compresenza/20200331/Principles%20of%20Idiomatic%20Guitar%20Writing%20-%20Jonathan%20Godfrey_Audio_Tracks)
 
-**Lavori**
+### Lavori 
 - [Sketches](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200324/Sketches.pdf)
 #### Studi 
 - Studio n.1 : [Draft_1 Studio n.1 Partitura](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200331/Draft_1_Studio_n.1_Partitura.pdf), [Draft_1 Studio n.1 Audio](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200331/Draft_1_Studio_n.1_Audio.wav), [Draft_2 Studio n.1 Partitura]()
