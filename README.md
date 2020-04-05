@@ -10,7 +10,7 @@
 Ricerca sulla chitarra classica(acustica con corde in nylon) e primo approccio allo sviluppo di studi per lo strumento "espanso".
 
 - la chitarra come percussione, ovvero catalogazione delle modalità di percussione-> [schema ed esempi](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Bernardini/20200204/Modi%20di%20percussione%20con%20le%20dita.pdf)
-- eccitazione del piano armonico attraverso un attuatore (Visaton EX 60 R) -> [analisi spettrale ed esempi](https://github.com/SMERM/BN-Tedesco/tree/master/COME-02/Lezioni_in_Compresenza/20200317/Various_Sweeps)
+- eccitazione del piano armonico attraverso un attuatore [Visaton EX 60 R](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200407/ex60r_8.pdf) -> [analisi spettrale ed esempi](https://github.com/SMERM/BN-Tedesco/tree/master/COME-02/Lezioni_in_Compresenza/20200317/Various_Sweeps)
 - ripresa con sensore piezoelettrico dello strumento(Rappresentazione del _micro_, il "da vicino") -> [Esempi]()
 - ripresa microfonica con microfono esterno dallo strumento (Rappresentazione del _macro_, il "davanti allo strumento") -> [esempi]()
 - catalogazione dei suoni consonantici e vocalici per implementazione in live degli stessi sull'attuatore -> esempi
