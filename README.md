@@ -2,6 +2,9 @@
 
 ## [COME-01](https://github.com/SMERM/BN-Tedesco/tree/master/COME-01)
 
+### Brani trattati:
+- Luigi Nono - Post-prae-ludium n. 1 per Donau
+- Giorgio Nottoli - Incontro
 ## [COME-02](https://github.com/SMERM/BN-Tedesco/tree/master/COME-02)
 ### Primo Progetto: Chitarra Classica
 
