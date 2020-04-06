@@ -26,7 +26,7 @@ Ricerca sulla chitarra classica(acustica con corde in nylon) e primo approccio a
 #### Studi 
 - Legenda: [Draft_1_Legenda]()
 - Studio n.1 : [Draft_1 Studio n.1 Partitura](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200331/Draft_1_Studio_n.1_Partitura.pdf), [Draft_1 Studio n.1 Audio](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200331/Draft_1_Studio_n.1_Audio.wav), [Draft_2 Studio n.1 Partitura]()
-- Studio n.2: [Draft_1 Studio n.2 Partitura]()
+- Studio n.2: [Draft_1 Studio n.2 Partitura](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200407/Draft_1%20Studio_n.2_Partitura.pdf)
 
 ## [COME-04](https://github.com/SMERM/BN-Tedesco/tree/master/COME-04)
 
