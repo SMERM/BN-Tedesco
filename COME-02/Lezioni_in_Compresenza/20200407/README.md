@@ -35,7 +35,7 @@ far capire all'esecutore che cosa sta cercando
 
 Live Electronicher > dovrebbe avere una manopola dell'accordatura > per ovviare a problemi di accordatura della chitarra
 
-Per la prossima lezione
+### Per la prossima lezione
 - registrazione studio n.2
 - registrazione studio n.1 aggiornato
 - partitura aggiornata
