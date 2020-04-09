@@ -23,9 +23,9 @@ Michael Gerzon cercó di superare la stereofonia che puó esser considerata limi
 
 La ripresa stereofonica inoltre poteva avere carenze spaziali ed essendo planare, restituiva solamente qualitativamente e spazialmente i luoghi
 
-Primi studi che Gerzon cercó, come appassionato di audio, sistema di ascolto quadricanale, dove veniva riprodotta una registrazione stereofonica con 4 altoparlanti posizionati in un modo specifico![quadrifonia_gerzon]()
+Primi studi che Gerzon cercó, come appassionato di audio, sistema di ascolto quadricanale, dove veniva riprodotta una registrazione stereofonica con 4 altoparlanti posizionati in un modo specifico![quadrifonia_gerzon](https://github.com/SMERM/BN-Tedesco/blob/master/COME-04/20200409/quadrifonia_gerzon.png)
 
-Pensò inoltre ad un altro sistema a 2 canali, ![tecnica_ambiofonica](), tecnica con 2 microfoni a figura otto spaziati, questo sistema viene usato nel software dei televisori, stereofonia simulata con altoparlanti molto vicini
+Pensò inoltre ad un altro sistema a 2 canali, ![tecnica_ambiofonica](https://github.com/SMERM/BN-Tedesco/blob/master/COME-04/20200409/tecnica_ambiofonica.png), tecnica con 2 microfoni a figura otto spaziati, questo sistema viene usato nel software dei televisori, stereofonia simulata con altoparlanti molto vicini
 
 [Sito dedicato all'Ambiphonic](https://www.ambiophonics.org/)
 
@@ -43,8 +43,9 @@ Codifica ambiophonic con [software](https://www.ambiophonics.org/pc-mobile-appli
 
 Gerzon abbandona l'ambiphonic ed ha l'intuazione dell'Ambisonic, da matematico, applicazione della teoria matematica, partendo dall'impianto matematico di Blumlein(che spiegò matematicamente le curve polari dei microfoni), i diagrammi polari hanno una loro funzione mtematica che li descrive
 
-[cardiode]()
-[cardiode_sferico]()
+Files in formato [grapher](https://support.apple.com/it-it/guide/grapher/gcalb3dec608/mac) per macos
+[cardiode](https://github.com/SMERM/BN-Tedesco/blob/master/COME-04/20200409/cardioide.gcx)
+[cardiode_sferico](https://github.com/SMERM/BN-Tedesco/blob/master/COME-04/20200409/cardiode_sferico.gcx)
 
 4 figure polari sovrapposte in una sfera, direzione angolare del suono, senza distanza, la codifica Ambisonic, non ci da informazioni sull'angolazione ma non la distanza
 
@@ -64,7 +65,7 @@ Ambisonic di secondo e terzo ordine > equazioni sferiche piú complesse che indi
 
 con le componenti w,x,y,z sono 4 tracce che contengo la direzione angolare di un suono,  ma come funziona la decodifica?
 
-[decodifica_ambisonic]()
+[decodifica_ambisonic](https://github.com/SMERM/BN-Tedesco/blob/master/COME-04/20200409/decodifica_ambisonic.png)
 
 angolo tetha:angolo di scostamento orizzontale
 angolo phi:angolo di scostamento verticale
