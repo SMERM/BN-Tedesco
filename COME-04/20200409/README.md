@@ -65,7 +65,8 @@ Ambisonic di secondo e terzo ordine > equazioni sferiche piú complesse che indi
 
 con le componenti w,x,y,z sono 4 tracce che contengo la direzione angolare di un suono,  ma come funziona la decodifica?
 
-[decodifica_ambisonic](https://github.com/SMERM/BN-Tedesco/blob/master/COME-04/20200409/decodifica_ambisonic.png)
+Formula decodifica:
+![decodifica_ambisonic](https://github.com/SMERM/BN-Tedesco/blob/master/COME-04/20200409/decodifica_ambisonic.png)
 
 angolo tetha:angolo di scostamento orizzontale
 angolo phi:angolo di scostamento verticale
