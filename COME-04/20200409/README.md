@@ -75,7 +75,7 @@ Gerzon con Ambisonic posso avere altoparlanti posizionati in modi diversi, e pos
 
 realizzazione con un microfono reale dell'Ambisonic > realizza un array microfonico con 4 capsule microfoniche cardiodi > microfono tetraedrico(A-format) > 4 microfoni cardiodi collocati sulle facce di un tetraedro > ricavo dei microfoni a figura-8, sommando e sottraendo fronti d'onda dei microfoni
 
-[Microfono Rode Soundfiels](https://www.thomann.de/it/rode_nt_sf1.htm)
+[Microfono Rode Soundfield](https://www.thomann.de/it/rode_nt_sf1.htm)
 
 omni=w=0.5(LFU+LBD+RFD+RBU)
 x=
