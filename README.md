@@ -2,9 +2,13 @@
 
 ## [COME-01](https://github.com/SMERM/BN-Tedesco/tree/master/COME-01)
 Esecuzione e interpretazione della musica elettroacustica. Ambienti esecutivi e di controllo per il live electronics.
-### Brani trattati:
+### Brani trattati durante il corso:
 - Luigi Nono - Post-prae-ludium n. 1 per Donau
 - Giorgio Nottoli - Incontro
+
+#### Giorgio Nottoli - Incontro
+- realizzazione del VCS3 in Faust
+
 ## [COME-02](https://github.com/SMERM/BN-Tedesco/tree/master/COME-02)
 Composizione musicale elettroacustica.
 ### Primo Progetto: Chitarra Classica
@@ -36,7 +40,7 @@ Ricerca sulla chitarra classica(acustica con corde in nylon) e primo approccio a
 
 ## [COME-04](https://github.com/SMERM/BN-Tedesco/tree/master/COME-04)
 Elettroacustica
-### Argomenti trattati
+### Argomenti trattati:
 - Audio multi-canale
 - Ambiphonic
 - Ambisonics
