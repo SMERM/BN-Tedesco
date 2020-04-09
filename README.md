@@ -36,6 +36,7 @@ Ricerca sulla chitarra classica(acustica con corde in nylon) e primo approccio a
 
 ## [COME-04](https://github.com/SMERM/BN-Tedesco/tree/master/COME-04)
 Elettroacustica
-- audio multi-canale
+### Argomenti trattati
+- Audio multi-canale
 - Ambiphonic
 - Ambisonics
