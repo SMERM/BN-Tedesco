@@ -31,5 +31,8 @@ Aristogone ed Anacreonte consideravano il suono delle corde pizzicate con le dit
 Alcuni musicisti usavano tutti e due gli stili, a seconda del carattere di musica che essi dovevano interpretare. Tibullio in una delle sue elegie, (Terzo Libro, Elegie 4, v. 39), descrive in un passaggio, liberamente tradotto, dice: "E accompagnando la sua stessa voce con una chitara e percuotendo le corde con un plettro d'avorio, e cantando una melodia allegra a voce alta e squillante; ma dopo cioe, pizzicando le corde delicatamente con le sue dita, cantò queste parole..."
 Infine, Virgilio, nell'Eneide, dice "Lí essi danzavano in cerchio mentre cantavano una gioiosa canzone; il bardo di Tracia, nei suoi lunghi ed comodi abiti, accompagnava il ritmo su di una cithare a sette corde, ora pizzicando le corde con le dita, ora con il plettro."
 Fortunatamente, nel Medioevo, gli strumenti a corda, suonati sia con le dita che con un arco, divennero quelli piú utilizzati. Arcipreste de Hita definí come "fastidiosi e striduli" gli strumenti a corda con uno acuto ed aspro tono.
----
+
+
+-------------
+
 pagina 41 en
