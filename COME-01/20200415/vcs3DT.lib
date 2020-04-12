@@ -40,7 +40,7 @@ commercial or closed source license or any other license if you decide so.
 
 declare name "Faust EMS VCS3 Exploration Library";
 declare version "0.1";
-declare author "Giuseppe Silvi";
+declare author "Giuseppe Silvi & Davide Tedesco";
 declare license "CC4";
 
 //==============================================================================
@@ -77,4 +77,27 @@ vcs3osc1(f,s,sl,pl) = sine+wsine, saw
     sine = sin(phasor(step)*2*ma.PI) : *(0.5*sin(s*(ma.PI)));
     wsine = sin(phasor(step)*(-1)*ma.PI) : +(0.5) : *(cos(s*(ma.PI)));
     saw = phasor(step)-(0.5);
+};
+// vcs3osc2(f,s,sl,tl) : _,_
+// ```
+//
+// Where
+// f is the frequency between 1 and 10000 Hz
+// s is the shape between 0 and 10, sinusoidal at 0.5, halfsin at 0, -half at 10
+// sl is the shaped-square amplitude level
+// tl is the triangle amplitude level
+//
+// Where the two outputs are respectively:
+// (SHAPED)SQUARE and TRIANGLE
+//
+//------------------------------------------------------------------------------
+// osc2_g(x) = hgroup("[002]OSCILLATOR 2", x);
+// freq  = osc2_g(vslider("[002]FREQUENCY[style:knob][scale:exp]", 100,1,10000,0.01) : si.smoo);
+vcs3osc2(f,s,sl,tl) = square+wsquare, triangle
+  with{
+    step = f/ma.SR;
+    phasor(step) = step : (+ : ma.decimal)~_;
+    square = (step(f) > 0.5) * 2 - 1;;
+    wsquare = sin(phasor(step)*(-1)*ma.PI) : +(0.5) : *(cos(s*(ma.PI)));
+    triangle = phasor(step)-(0.5);
 };
