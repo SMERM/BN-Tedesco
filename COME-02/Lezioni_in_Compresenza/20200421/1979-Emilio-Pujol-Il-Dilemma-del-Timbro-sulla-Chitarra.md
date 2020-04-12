@@ -2,10 +2,10 @@
 
 Traduzione Italiana a cura di Davide Tedesco
 
->"Nessun soggetto è descritto da una tale ricchezza di definizioni come averne indefinite"
+>_"Nessun soggetto è descritto da una tale ricchezza di definizioni come averne indefinite"_
 >Becquer
 
-      La definizione scientifica del suono. Il timbro nella sonorità. Differenze di timbro in ogni strumento. Fattori che definiscono l'apprezzamento di un suono. Tendenze che ne determinano la classificazione. Dilemma del Timbro sulla Chitarra.
+La definizione scientifica del suono. Il timbro nella sonorità. Differenze di timbro in ogni strumento. Fattori che definiscono l'apprezzamento di un suono. Tendenze che ne determinano la classificazione. Dilemma del Timbro sulla Chitarra.
 
 Il musicista studioso, ansioso di scoprire il piú interno segreto della sua arte, cercherebbe invano una definizione soddisfacente di suono in libri di materia scientifica. La sua ricerca terminerebbe in modo deludente prima di esser sconcertato da un insieme di parole e figure pensate per spiegare un qualcosa che solamente lo spirito puó penetrare.
 Questi libri ci dicono, con linguaggio alti-sonante, e metodologie scolastiche, che il suono è un qualcosa prodotto dalle vibrazioni di un corpo in un mezzo elastico attravero il quale si propagano le onde sonore, e che il timbro o qualità, intesità, volume e numero di vibrazioni(N.d.T. al secondo) sono estremamente variabili.
