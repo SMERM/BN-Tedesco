@@ -2,7 +2,7 @@
 
 Traduzione Italiana a cura di Davide Tedesco
 
->_"Nessun soggetto è descritto da una tale ricchezza di definizioni come averne indefinite"_
+>_"Nessun soggetto è descritto da una tale ricchezza di >definizioni come averne indefinite"_
 >Becquer
 
 La definizione scientifica del suono. Il timbro nella sonorità. Differenze di timbro in ogni strumento. Fattori che definiscono l'apprezzamento di un suono. Tendenze che ne determinano la classificazione. Dilemma del Timbro sulla Chitarra.
