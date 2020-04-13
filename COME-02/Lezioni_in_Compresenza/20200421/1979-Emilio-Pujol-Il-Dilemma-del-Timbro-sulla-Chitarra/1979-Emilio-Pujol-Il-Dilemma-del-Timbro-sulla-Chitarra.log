@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.16)  13 APR 2020 18:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.16)  13 APR 2020 18:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1116,12 +1116,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 131--133
 
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (6.05814pt too wide) in paragraph at lines 133--133
-\T1/pplj/m/n/10.95 WAY so-bre las otras mar-cas de-pianos; PAGÉS, BENE-DID, RE-
-CIO, AL-TAMIRA
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 133--135
 
  []
@@ -1186,11 +1180,11 @@ a-Chitarra.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 278.
  ) 
 Here is how much of TeX's memory you used:
- 24680 strings out of 492616
- 467655 string characters out of 6129481
+ 24685 strings out of 492616
+ 467721 string characters out of 6129481
  888035 words of memory out of 5000000
- 28289 multiletter control sequences out of 15000+600000
- 627789 words of font info for 124 fonts, out of 8000000 for 9000
+ 28291 multiletter control sequences out of 15000+600000
+ 630514 words of font info for 128 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  63i,22n,88p,16139b,538s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
@@ -1205,10 +1199,10 @@ i/iwona/iwonar.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/palatino
 a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><
 /usr/local/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
 Output written on 1979-Emilio-Pujol-Il-Dilemma-del-Timbro-sulla-Chitarra.pdf (1
-5 pages, 197843 bytes).
+5 pages, 200350 bytes).
 PDF statistics:
  125 PDF objects out of 1000 (max. 8388607)
  98 compressed objects within 1 object stream
  18 named destinations out of 1000 (max. 500000)
- 19473 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 19985 words of extra memory for PDF output out of 20736 (max. 10000000)
 
