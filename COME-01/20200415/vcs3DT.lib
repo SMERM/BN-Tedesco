@@ -78,12 +78,21 @@ vcs3osc1(f,s,sl,pl) = sine+wsine, saw
     wsine = sin(phasor(step)*(-1)*ma.PI) : +(0.5) : *(cos(s*(ma.PI)));
     saw = phasor(step)-(0.5);
 };
+// OSCILLATOR 2
+//------------------------------------------------------------------------------
+// Oscillator with two outputs: SINE and PHASOR. Where SINE component has
+// three different shapes.
+//
+// #### Reference
+// #### Usage
+//
+// ```
 // vcs3osc2(f,s,sl,tl) : _,_
 // ```
 //
 // Where
 // f is the frequency between 1 and 10000 Hz
-// s is the shape between 0 and 10, sinusoidal at 0.5, halfsin at 0, -half at 10
+// s is the shape between 0 and 10, square at 0.5, halfsin at 0, -half at 10
 // sl is the shaped-square amplitude level
 // tl is the triangle amplitude level
 //
@@ -97,7 +106,39 @@ vcs3osc2(f,s,sl,tl) = square+wsquare, triangle
   with{
     step = f/ma.SR;
     phasor(step) = step : (+ : ma.decimal)~_;
+    square = (phasor<(step/2))=0: (phasor>(step/2))=1;
+    wsquare = sin(phasor(step)*(-1)*ma.PI) : +(0.5) : *(cos(s*(ma.PI)));
+    triangle = phasor((step/2)) : -(phasor((step/2))) : -0.5;
+};
+// OSCILLATOR 3
+//------------------------------------------------------------------------------
+// Oscillator with two outputs: SINE and PHASOR. Where SINE component has
+// three different shapes.
+//
+// #### Reference
+// #### Usage
+//
+// ```
+// vcs3osc2(f,s,sl,tl) : _,_
+// ```
+//
+// Where
+// f is the frequency between 0.5 and 500 Hz, so is susbstantially a Low Frequeny Oscillator
+// s is the shape between 0 and 10, sinusoidal at 0.5, halfsin at 0, -half at 10
+// sl is the shaped-square amplitude level
+// tl is the triangle amplitude level
+//
+// Where the two outputs are respectively:
+// (SHAPED)SQUARE and TRIANGLE
+//
+//------------------------------------------------------------------------------
+// osc3_g(x) = hgroup("[003]OSCILLATOR 3", x);
+// freq  = osc3_g(vslider("[003]FREQUENCY[style:knob][scale:exp]", 100,0.5,500,0.01) : si.smoo);
+vcs3osc3(f,s,sl,tl) = square+wsquare, triangle
+  with{
+    step = f/ma.SR;
+    phasor(step) = step : (+ : ma.decimal)~_;
     square = (step(f) > 0.5) * 2 - 1;;
     wsquare = sin(phasor(step)*(-1)*ma.PI) : +(0.5) : *(cos(s*(ma.PI)));
-    triangle = phasor(step)-(0.5);
+    triangle = phasor((step)*2)-(0.5);
 };
