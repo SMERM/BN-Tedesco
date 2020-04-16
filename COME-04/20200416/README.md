@@ -2,7 +2,7 @@
 
 - applicativo della spazializzazione binaurale, trasferito in rete per riprodurre bene la spazializzazione iniziale multi-canale
 
-####Strumenti utili per saldatura
+#### Strumenti utili per saldatura
 - saldatura  > fare pratica
 - saldatore
 - stagno
@@ -17,7 +17,7 @@ Entro prossima lezione
 -------------
 Riprendiamo il discorso dell'Ambisonics dalla dispensa 2-11, concetto di codifica e decodifica
 
-####Codifica e decodifica ambisonics di primo ordine per realizzare uno spazializzatore
+#### Codifica e decodifica ambisonics di primo ordine per realizzare uno spazializzatore
 
 ![encoder_ambisonic_in_faust]()
 
@@ -63,4 +63,4 @@ provare a fare decoder > e codificare disco stereo > ambisonic planare > spostam
 
 seconda situazione > effetto precedenza molto minore su ambisonic
 
-passare da codifica a decodifica & transcodifica > codifica ad esempio da 5.1 a 8.2
+passare da codifica a decodifica & _transcodifica_ > codifica ad esempio da 5.1 a 8.2
