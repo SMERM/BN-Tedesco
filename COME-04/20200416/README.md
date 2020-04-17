@@ -19,7 +19,7 @@ Riprendiamo il discorso dell'Ambisonics dalla dispensa 2-11, concetto di codific
 
 #### Codifica e decodifica ambisonics di primo ordine per realizzare uno spazializzatore
 
-![encoder_ambisonic_in_faust]()
+![encoder_ambisonic_in_faust](https://github.com/SMERM/BN-Tedesco/blob/master/COME-04/20200416/encoder_ambisonic_in_faust.png)
 
 abbiamo fatto la codifica di un segnale con Ambisonics di primo ordine
 
