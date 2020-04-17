@@ -60,4 +60,3 @@ provare a fare decoder > e codificare disco stereo > ambisonic planare > spostam
 seconda situazione > effetto precedenza molto minore su ambisonic
 
 passare da codifica a decodifica & _transcodifica_ > codifica ad esempio da 5.1 a 8.2!
-![seno di -pi greco quarti](https://github.com/SMERM/BN-Tedesco/blob/master/COME-04/20200416/sen(-%CF%80:4).png)
