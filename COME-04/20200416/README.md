@@ -27,7 +27,7 @@ Adesso vediamo la decodifica
 
 facciamo una codifica planare, angolo iniziale è sempre 0
 
-![panner_lineare_equipotenziale]()
+![panner_lineare_equipotenziale](https://github.com/SMERM/BN-Tedesco/blob/master/COME-04/20200416/panner_lineare_equipotenziale.png)
 
 al centro attenuazione di -3db poichè il nostro sistema di ascolto funziona in maniera logaritmica
 
