@@ -25,15 +25,11 @@ abbiamo fatto la codifica di un segnale con Ambisonics di primo ordine
 
 Adesso vediamo la decodifica
 
-![decoder_ambisonic_in_faust]()
-
 facciamo una codifica planare, angolo iniziale è sempre 0
 
-![panner_lineare]()
+![panner_lineare_equipotenziale]()
 
 al centro attenuazione di -3db poichè il nostro sistema di ascolto funziona in maniera logaritmica
-
-![panning_equipotenziale]()
 
 panning equipotenziale > se abbiamo una curva logaritmica come curva di attenuazione
 
