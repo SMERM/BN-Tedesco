@@ -9,6 +9,8 @@ Esecuzione e interpretazione della musica elettroacustica. Ambienti esecutivi e 
 #### Giorgio Nottoli - Incontro
 - realizzazione del VCS3 in Faust
 
+#### Luigi Nono - Post-prae-ludium n. 1 per Donau
+- 
 ## [COME-02](https://github.com/SMERM/BN-Tedesco/tree/master/COME-02)
 Composizione musicale elettroacustica.
 ### Primo Progetto: Chitarra Classica
