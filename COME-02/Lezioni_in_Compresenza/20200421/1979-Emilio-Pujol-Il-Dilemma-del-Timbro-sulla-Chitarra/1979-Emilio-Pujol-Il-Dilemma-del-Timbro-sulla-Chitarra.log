@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.16)  16 APR 2020 13:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.16)  21 APR 2020 16:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1092,117 +1092,26 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `T1/iwona/bx/n' in size <12> not available
 (Font)              Font shape `T1/iwona/b/n' tried instead on input line 66.
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/iwona/m/sc/14.4'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/pplj/m/sc/10.95'.
-(microtype)             Ignoring protrusion settings for this character.
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--131
+./1979-Emilio-Pujol-Il-Dilemma-del-Timbro-sulla-Chitarra.tex:70: Undefined cont
+rol sequence.
+l.70 \tab
+         
+? 
+./1979-Emilio-Pujol-Il-Dilemma-del-Timbro-sulla-Chitarra.tex:70: Emergency stop
+.
+l.70 \tab
+         
+End of file on the terminal!
 
- []
-
-LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 131.
-LaTeX Font Info:    Font shape `T1/pplj/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/pplj/b/it' tried instead on input line 131.
-
-Underfull \hbox (badness 10000) in paragraph at lines 131--133
-
- []
-
-[1
-
-
-{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 133--135
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--137
-
- []
-
-
-Overfull \hbox (5.43112pt too wide) in paragraph at lines 137--144
-\T1/pplj/m/n/10.95 ues-tas.Durante la civ-i-lización gr-iega, las pref-er-en-ci
-as os-cil-a-ban en-tre el sonido
- []
-
-
-Overfull \hbox (8.12483pt too wide) in paragraph at lines 137--144
-\T1/pplj/m/n/10.95 PLUTARCO-producen un sonido bas-tante más del-i-cado y agrad
--able.ATENEO,
- []
-
-
-Overfull \hbox (21.77222pt too wide) in paragraph at lines 137--144
-\T1/pplj/m/n/10.95 stros de la música; pulsaba as cuer-das con los de-dos, sin 
-plec-tro^^Q.ANACREONTE
- []
-
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/iwona/m/sc/10.95'.
-(microtype)             Ignoring protrusion settings for this character.
-[2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12]
-Underfull \hbox (badness 10000) in paragraph at lines 191--193
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 193--195
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--197
-
- []
-
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 197--199
-
- []
-
-[14]
-No file 1979-Emilio-Pujol-Il-Dilemma-del-Timbro-sulla-Chitarra.bbl.
-[15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 278.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 278.
- (./1979-Emilio-Pujol-Il-Dilemma-del-Timbro-sulla-Chitarra.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 278.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 278.
-Package rerunfilecheck Info: File `1979-Emilio-Pujol-Il-Dilemma-del-Timbro-sull
-a-Chitarra.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 278.
- ) 
+ 
 Here is how much of TeX's memory you used:
- 24685 strings out of 492616
- 467721 string characters out of 6129481
- 888035 words of memory out of 5000000
- 28291 multiletter control sequences out of 15000+600000
- 630514 words of font info for 128 fonts, out of 8000000 for 9000
+ 24539 strings out of 492616
+ 464586 string characters out of 6129481
+ 821035 words of memory out of 5000000
+ 28198 multiletter control sequences out of 15000+600000
+ 589130 words of font info for 78 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 63i,22n,88p,16139b,538s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
-exlive/2019/texmf-dist/fonts/enc/dvips/iwona/ec-iwona-sc.enc}{/usr/local/texliv
-e/2019/texmf-dist/fonts/enc/dvips/iwona/ec-iwona.enc}</usr/local/texlive/2019/t
-exmf-dist/fonts/type1/public/fpl/fplbij8a.pfb></usr/local/texlive/2019/texmf-di
-st/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2019/texmf-dist/fonts
-/type1/public/fpl/fplrij8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/
-nowacki/iwona/iwonab.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/nowack
-i/iwona/iwonar.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/palatino
-/uplb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplbi8
-a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><
-/usr/local/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on 1979-Emilio-Pujol-Il-Dilemma-del-Timbro-sulla-Chitarra.pdf (1
-5 pages, 200350 bytes).
-PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 98 compressed objects within 1 object stream
- 18 named destinations out of 1000 (max. 500000)
- 19985 words of extra memory for PDF output out of 20736 (max. 10000000)
-
+ 52i,10n,71p,9133b,390s stack positions out of 5000i,500n,10000p,200000b,80000s
+./1979-Emilio-Pujol-Il-Dilemma-del-Timbro-sulla-Chitarra.tex:70:  ==> Fatal err
+or occurred, no output PDF file produced!
