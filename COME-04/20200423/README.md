@@ -19,7 +19,7 @@ in decodifica > angoli phi e tetha > angoli dove posizioniamo gli altoparlanti
 Costante _k_ > peso alle componenti direzionali
 
 Codifica sempre la stessa > decodifica cambia in base al posizionamento degli altoparlanti > inserendo gli angoli > calcoli in base alla seguente equazione
-![equazione_decodifica_Ambisonics]()
+![equazione_decodifica_Ambisonics](https://github.com/SMERM/BN-Tedesco/blob/master/COME-04/20200423/equazione_decodifica_Ambisonics.png)
 
 Se i cd avessero avuto codifica Ambisonics > avremmo potuto avere un sistema piú flessibile
 
