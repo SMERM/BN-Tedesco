@@ -96,6 +96,9 @@ vcs3osc1(f,s,sl,pl) = shaped, saw
 // ```
 //
 //import ("stdfaust.lib");
+//import ("maths.lib");
+//import ("filters.lib");
+//
 //osc2_g(x) = hgroup("[001]OSCILLATOR 2", x);
 //freq  = osc2_g(vslider("[001]FREQUENCY[style:knob][scale:exp]", 100,1,10000,0.01) : si.smoo);
 //shape = osc2_g(vslider("[002]SHAPE[style:knob]", 5,0,10,0.1)/10 : si.smoo);
@@ -117,10 +120,43 @@ vcs3osc1(f,s,sl,pl) = shaped, saw
 //------------------------------------------------------------------------------
 vcs3osc2(f,s,ss,tl) = shaped, triangle
   with{
-    step = f/ma.SR;
-    phasor(step) = step : (+ : ma.decimal)~_;
-  /  square = sin(phasor(step)*2*ma.PI) : *(0.5*sin(s*(ma.PI)));
-  /  dsquare = sin(phasor(step)*(-1)*ma.PI) : +(0.5) : *(cos(s*(ma.PI))); //square with different duty cycle
-    shaped = (square+dssquare)*sl;
-  /  triangle = (phasor(step)-(0.5))*pl;
+    lf_sawpos(f) = ma.frac ~ +(f/ma.SR);
+
+    MAX_SAW_ORDER = 4; MAX_SAW_ORDER_NEXTPOW2 = 8; // par cannot handle the case of 0 elements
+    saw(1,f) = saw1l : poly(1)
+    with {
+      Nc = max(1,min(1,MAX_SAW_ORDER));
+      clippedFreq = max(20.0,abs(f)); // use lf_sawpos(freq) for LFOs (freq < 20 Hz)
+      saw1l = 2*lf_sawpos(clippedFreq) - 1; // zero-mean, amplitude +/- 1
+      // Also note the availability of lf_sawpos_phase above.
+      poly(1,x) = x;
+      p0n = float(ma.SR)/clippedFreq; // period in samples
+      diff1(x) = (x - x')/(2.0/p0n);
+      diff(1) = seq(n,1,diff1); // N diff1s in series
+      factorial(0) = 1;
+      factorial(i) = i * factorial(i-1);
+    };
+
+    pulsetrain(1,f,ss) = diffdel(saw(1,freqC),del) with {
+     // non-interpolated-delay version: diffdel(x,del) = x - x@int(del+0.5);
+     // linearly interpolated delay version (sounds good to me):
+     diffdel(x,del) = x-x@int(del)*(1-ma.frac(del))-x@(int(del)+1)*ma.frac(del);
+     // Third-order Lagrange interpolated-delay version (see filters.lib):
+     // diffdel(x,del) = x - fdelay3(DELPWR2,max(1,min(DELPWR2-2,ddel)));
+     DELPWR2 = 2048; // Needs to be a power of 2 when fdelay*() used above.
+     delmax = DELPWR2-1; // arbitrary upper limit on diff delay (duty=0.5)
+     SRmax = 96000.0; // assumed upper limit on sampling rate
+     fmin = SRmax / float(2.0*delmax); // 23.4 Hz (audio freqs only)
+     freqC = max(f,fmin); // clip frequency at lower limit
+     period = (float(ma.SR) / freqC); // actual period
+     ddel = ss * period; // desired delay
+     del = max(0,min(delmax,ddel));
+   };
+    square = pulsetrain(f,0.5);
+    dsquare = pulsetrain(f,ss); //square with different duty cycle
+    shaped = (square+dsquare)*ss;
+    triangle(f) = square(f) : fi.pole(p) : *(gain) with {
+      gain = 4.0*f/ma.SR;
+      p = 0.999;
+    };
 };
