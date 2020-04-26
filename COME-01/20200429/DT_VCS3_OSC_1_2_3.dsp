@@ -137,7 +137,7 @@ vcs3osc2(f,s,ss,tl) = square, triangle
       factorial(i) = i * factorial(i-1);
     };
 
-    pulsetrain(1,f,ss) = diffdel(saw(1,freqC),del) with {
+    pulsetrain(1,f,s) = diffdel(saw(1,freqC),del) with {
      // non-interpolated-delay version: diffdel(x,del) = x - x@int(del+0.5);
      // linearly interpolated delay version (sounds good to me):
      diffdel(x,del) = x-x@int(del)*(1-ma.frac(del))-x@(int(del)+1)*ma.frac(del);
@@ -152,7 +152,7 @@ vcs3osc2(f,s,ss,tl) = square, triangle
      ddel = ss * period; // desired delay
      del = max(0,min(delmax,ddel));
    };
-    square(f) = pulsetrain(f,ss); //variable duty cycle square wave
+    square(f) = ss*pulsetrain(f,s); //variable duty cycle square wave
     triangle(f) = square(f) : fi.pole(p) : *(gain) with {
       gain = (tl*4)*f/ma.SR;
       p = 0.999;
