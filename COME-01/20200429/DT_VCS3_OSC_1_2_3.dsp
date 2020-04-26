@@ -152,9 +152,9 @@ vcs3osc2(f,s,ss,tl) = square, triangle
      ddel = ss * period; // desired delay
      del = max(0,min(delmax,ddel));
    };
-    square = pulsetrain(f,ss); //variable duty cycle square wave
+    square(f) = pulsetrain(f,ss); //variable duty cycle square wave
     triangle(f) = square(f) : fi.pole(p) : *(gain) with {
-      gain = 4.0*f/ma.SR;
+      gain = (tl*4)*f/ma.SR;
       p = 0.999;
     };
 };
