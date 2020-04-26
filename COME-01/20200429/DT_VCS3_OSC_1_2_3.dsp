@@ -118,7 +118,7 @@ vcs3osc1(f,s,sl,pl) = shaped, saw
 // (SHAPED)SQUARE and TRIANGULAR
 //
 //------------------------------------------------------------------------------
-vcs3osc2(f,s,ss,tl) = shaped, triangle
+vcs3osc2(f,s,ss,tl) = square, triangle
   with{
     lf_sawpos(f) = ma.frac ~ +(f/ma.SR);
 
@@ -152,9 +152,7 @@ vcs3osc2(f,s,ss,tl) = shaped, triangle
      ddel = ss * period; // desired delay
      del = max(0,min(delmax,ddel));
    };
-    square = pulsetrain(f,0.5);
-    dsquare = pulsetrain(f,ss); //square with different duty cycle
-    shaped = (square+dsquare)*ss;
+    square = pulsetrain(f,ss); //variable duty cycle square wave
     triangle(f) = square(f) : fi.pole(p) : *(gain) with {
       gain = 4.0*f/ma.SR;
       p = 0.999;
