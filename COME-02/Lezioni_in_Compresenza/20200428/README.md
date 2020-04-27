@@ -6,3 +6,4 @@
 - riflessione sul materiale già elaborato
 - metodi di elaborazione del rumore 
 - approfondimento sul Karplus-Strong
+- articolo Pujol
