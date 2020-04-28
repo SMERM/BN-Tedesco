@@ -137,7 +137,7 @@ vcs3osc2(f,s,ss,tl) = square, triangle
       factorial(i) = i * factorial(i-1);
     };
 
-    pulsetrain(1,f,s) = diffdel(saw(1,freqC),del) with {
+    pulsetrain(f,s) = diffdel(saw(1,freqC),del) with {
      // non-interpolated-delay version: diffdel(x,del) = x - x@int(del+0.5);
      // linearly interpolated delay version (sounds good to me):
      diffdel(x,del) = x-x@int(del)*(1-ma.frac(del))-x@(int(del)+1)*ma.frac(del);
@@ -149,12 +149,14 @@ vcs3osc2(f,s,ss,tl) = square, triangle
      fmin = SRmax / float(2.0*delmax); // 23.4 Hz (audio freqs only)
      freqC = max(f,fmin); // clip frequency at lower limit
      period = (float(ma.SR) / freqC); // actual period
-     ddel = ss * period; // desired delay
+     ddel = s * period; // desired delay
      del = max(0,min(delmax,ddel));
    };
-    square(f) = ss*pulsetrain(f,s); //variable duty cycle square wave
-    triangle(f) = square(f) : fi.pole(p) : *(gain) with {
-      gain = (tl*4)*f/ma.SR;
+
+   square(f,s) = (pulsetrain(f,s))*ss; //variable duty cycle square wave
+
+    triangle(f) = square(f,0.5) : fi.pole(p) : *(gain)*tl with {
+      gain = 4.0*f/ma.SR;
       p = 0.999;
     };
 };
