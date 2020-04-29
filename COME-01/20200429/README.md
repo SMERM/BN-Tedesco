@@ -32,3 +32,12 @@ priorità > decisioni logiche:
 Dopo esse vengono funzioni matematiche
 
 pi greco in double _PI = 3.1415926535897932385_
+
+nel momento in cui sintetizzi un suono in digitale > devi stare attento a non pizzicare lo zero> diversità da mondo analogico
+
+VCS3 > forti distorsioni
+synth monfonico con 3 oscillatori > con 3 componenti > ampiezza 6
+
+non abbiamo limitato il duty cycle
+
+pomello shape  > ciccio = s-(0.5)
