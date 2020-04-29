@@ -27,7 +27,7 @@ priorità > decisioni logiche:
 #### Priorità logica degli operatori in Faust:
 (descrizione logica e descrizione di un flusso, sintassi deve tener conto che genera, prima di fare processo genera un tragitto, un percorso logico, esso ha la priorità sul calcolo vero e proprio, come ad esempio FPGA>come RME somme, operazioni )
 
-![Priorità_logica_degli_operatori_in_Faust](Priorità_logica_degli_operatori_in_Faust.png)
+![Priorità_logica_degli_operatori_in_Faust](COME-01/20200429Priorità_logica_degli_operatori_in_Faust.png)
 
 Dopo esse vengono funzioni matematiche
 
