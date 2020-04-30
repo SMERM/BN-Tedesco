@@ -47,3 +47,4 @@ Elettroacustica
 - Audio multi-canale
 - Ambiphonic
 - Ambisonics
+- Inizio di saldatura di componenti hardware per l'audio
