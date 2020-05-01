@@ -1,0 +1,31 @@
+#N canvas 94 8 599 402 10;
+#X obj 74 94 inlet~;
+#X obj 224 27 inlet;
+#X obj 277 28 loadbang;
+#X obj 277 54 f \$1;
+#X floatatom 277 75 5 0 0 0 - - -;
+#X obj 216 103 * 0.258819;
+#X obj 214 134 * 0.707106;
+#X obj 215 162 * 0.965926;
+#X obj 74 142 bp~ 0 0.267948;
+#X obj 75 169 bp~ 0 1;
+#X obj 75 205 bp~ 0 3.73203;
+#X obj 75 267 outlet~;
+#X obj 75 232 *~ 0.34;
+#X text 114 311 frequencies are (cutoff) times sin(pi/12) \, sin(3pi/12)
+\, and sin(5pi/12) \, and the Q values are tan(pi/12) \, etc. Multiplier
+at the end is a fudge factor.;
+#X connect 0 0 8 0;
+#X connect 1 0 3 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;
+#X connect 4 0 6 0;
+#X connect 4 0 7 0;
+#X connect 5 0 8 1;
+#X connect 6 0 9 1;
+#X connect 7 0 10 1;
+#X connect 8 0 9 0;
+#X connect 9 0 10 0;
+#X connect 10 0 12 0;
+#X connect 12 0 11 0;

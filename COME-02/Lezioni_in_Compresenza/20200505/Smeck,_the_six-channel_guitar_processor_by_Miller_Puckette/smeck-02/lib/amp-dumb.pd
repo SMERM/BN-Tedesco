@@ -1,0 +1,25 @@
+#N canvas 403 167 412 392 10;
+#X obj 99 275 dbtorms;
+#X obj 112 197 r \$1;
+#X text 22 31 \$1 is the name of the receive symbol.;
+#X text 22 31 \$1 is the name of the receive symbol.;
+#X text 20 49 \$2 is output level for an input of 100 (default is 1).
+;
+#X obj 267 253 f \$2;
+#X obj 267 280 sel 0;
+#X msg 267 303 1;
+#X obj 99 298 *;
+#X text 17 9 control an amplitude in dB with no smoothing.;
+#X obj 112 220 t f;
+#X obj 98 323 outlet;
+#X text 19 77 outlet is the level as a message.;
+#X obj 264 224 loadbang;
+#X connect 0 0 8 0;
+#X connect 1 0 10 0;
+#X connect 5 0 6 0;
+#X connect 6 0 7 0;
+#X connect 6 1 8 1;
+#X connect 7 0 8 1;
+#X connect 8 0 11 0;
+#X connect 10 0 0 0;
+#X connect 13 0 5 0;

@@ -1,0 +1,44 @@
+;
+# skeeter;
+qlist-recall 33;
+octsplit2 bang;
+1;
+
+# random;
+qlist-recall 38;
+nutso 1;
+t-level 90;
+2;
+
+# scat-singer;
+nutso 0;
+qlist-recall 49;
+scatsinger 1;
+3;
+
+# barf;
+scatsinger 0;
+qlist-recall 59;
+4;
+
+# pvoc;
+qlist-recall 39;
+t-pvocdist 300;
+5;
+
+# mutron;
+qlist-recall 6;
+6;
+
+# f-ff;
+qlist-recall 50;
+7;
+
+
+# 3rd;
+qlist-recall 16;
+octsplit3 bang;
+8;
+
+step-seq-on 0;
+0;

@@ -1,0 +1,50 @@
+100 label 1; # trevor;
+qlist-recall 30;
+t-pvocsamp 1;
+t-level 90;
+
+60000 label 2; # dog;
+t-pvocsamp 3;
+
+60000 label 3; # radio;
+t-pvocsamp 2;
+
+100000 label 4;
+nutso 1;
+15000 label 5;
+nutso 0;
+qlist-recall 1;
+15000 label 6;
+nutso 1;
+15000 label 7;
+nutso 0;
+qlist-recall 30;
+15000  label 8; # skeeter;
+qlist-recall 33; 
+octsplit2 bang;
+60000  label 10; # foobar;
+qlist-recall 8;
+60000  label 11; # dirt;
+qlist-recall 21;
+60000  label 12; # zorba;
+qlist-recall 46;
+60000  label 13; # pvoc again;
+qlist-recall 30;
+
+
+#
+straight
+fade--> dirt
+randomness
+fade-->angel
+radio
+fade-->2fmt
+fade-->skeeter
+
+
+
+
+# 100 qlist-recall 0;
+# random-list 60 0 30 9 10 -1;
+# 30000 random-list -1;
+# qlist-recall 0;

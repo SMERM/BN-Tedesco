@@ -1,0 +1,22 @@
+#N canvas 47 87 456 351 12;
+#X obj 320 242 sel 0;
+#X msg 320 275 1;
+#X obj 267 148 loadbang;
+#X obj 37 276 expr $f1*$f1*$f1*$f1*0.0004*0.0004*$f2;
+#X text 21 11 control an amplitude in quartic scale with no smoothing.
+;
+#X text 46 89 outlet is the level as a message.;
+#X obj 40 304 outlet;
+#X obj 31 210 fparam \$1 \$2;
+#X obj 320 215 f \$3;
+#X text 22 31 \$1 is the string number;
+#X text 19 69 \$3 is output level for an input of 50 (default is 1).
+;
+#X text 19 51 \$2 is the name of the receive symbol.;
+#X connect 0 0 1 0;
+#X connect 0 1 3 1;
+#X connect 1 0 3 1;
+#X connect 2 0 8 0;
+#X connect 3 0 6 0;
+#X connect 7 0 3 0;
+#X connect 8 0 0 0;

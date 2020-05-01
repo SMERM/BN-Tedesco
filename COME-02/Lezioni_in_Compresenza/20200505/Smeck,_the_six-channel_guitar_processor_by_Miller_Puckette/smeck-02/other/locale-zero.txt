@@ -1,0 +1,16 @@
+# StringPort 
+chnl-string1 6
+chnl-string2 5
+chnl-string3 4
+chnl-string4 3
+chnl-string5 2
+chnl-string6 1
+trim-string1 -100
+trim-string2 -100
+trim-string3 -100
+trim-string4 -100
+trim-string5 -100
+trim-string6 -100
+chnl-mic 7
+trim-mic -100
+

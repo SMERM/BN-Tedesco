@@ -1,0 +1,530 @@
+<HTML>
+<P>  This is very informal documentation for the Smeck guitar processing
+patch described in the paper,  "Patch for guitar"
+(available as <A HREF="http://crca.ucsd.edu/~msp/Publications/pd07-reprint.dir/">
+HTML </A> or
+<A HREF="http://crca.ucsd.edu/~msp/Publications/pd07-reprint.pdf">
+PDF </A>) presented at the second Pd convention in Montreal, 2007.
+
+<P> The patch works for guitars having a separated (6-channel) pickup and audio
+interface so that the computer receives six channels of audio from the guitar.
+One such interface is the StringPort from Keith McMillen Instruments; this
+works fine with macintosh computer, and on Linux with a patch to the alsa driver
+code (write me for that).  More do-it-yourself-ish people might want to build
+their own pre-amp, as I did before the StringPort came out.
+
+The patch has two audio outputs.
+
+<H2> GETTING AND RUNNING THE PATCH </H2>
+
+<P> The patch runs in Pd and should work on linux, macintosh, or windows
+machines.  You can download both Pd and Smeck from
+<A HREF="http://crca.ucsd.edu/~msp/software.html">
+http://crca.ucsd.edu/~msp/software.html</A>.
+
+<P> When you download and unpack it, Smeck should appear as
+two directories, "smeck" and "lib".  The "smeck" directory contains the actual
+patch, "smeck.pd" and supporting files; "lib" is a library of patches and
+externs used both by Smeck and by the Pd Repertory Project (PDRP),
+distributed separately.  The main patch ("smeck.pd") expects that the "guitar"
+and "lib" directories should be in the same common directory as they are when
+first unpacked; if you move "smeck", move "lib" in parallel.  (On my machine,
+the Pd repertory patches are aligned with these; "lib" is included in
+both distributions.  If you have up-to-date copies of both, you can rearrange
+them that way on your machine too.)
+
+<P> To run the patch you will need to make sure it has the right channel
+assigments for the 6 guitar strings; this is specified in the file, "locale.txt".
+The one that's distributed should correspond to the StringPort.  The variables,
+chnl-string1, etc, specify which audio channel corresponds to the six guitar
+strings.  For example, "chnl-string1" specifies the ADC channel corresponding
+to string 1, and so on (Smeck numbers the strings as E=1 A=2 D=3 G=4 B=5 E=6.)
+
+<P> After seeing to that and plugging your guitar in, start "smeck.pd" and reach
+for the master volume.  This is in dB; I usually set it to 80 or 90. You should
+then hear a "clean" mixdown of the 6 guitar strings.  You can  turn on the "tune"
+toggle to hear tuning tones that correspond to the 6 strings; while tuning up you
+can verify that the string assignments are right.  (If they aren't the patch
+will still make sound but all the effects will be out of whack, since they're
+individualy tuned to the "natural" ranges of the strings!)
+
+<P> Then start recalling presets (the 70 buttons that dominate the patch).  You
+can adjust individual parameters by opening "panel t" and mousing around, although
+you'll have to read the rest of this documentation to understand what they mean.
+
+<P> Various controls on the front panel control the global behavior of the patch.
+The "spread" control (0-100) controls stereo spread; if 0, both channels get the
+same signal; if 100, they are maximally different.  The strings are each
+individually spatialized so that some frequency bands are panned left and others
+right.
+
+<P> The "octave" control (-200 to 100) puts the entire sound between two octaves
+down, and one up, from the original pitch of the guitar.  Three buttons,
+"octsplit" through  "octsplit3", arrange the octaves individually by string in
+useful ways, either spreading them out or compacting them together.
+
+<P> The "nutso" toggle fixes it so that, each time you pluck a string,
+its preset changes at random.  This is surprisingly interesting to play through.
+
+<P> The "scatsinger" toggle works in tandem with preset 49, "voco".  Voco uses
+a wavetable to make vocal sounds; if scatsinger is turned on this wavetable
+changes at random on each note. 
+
+<P>  That should be enough info so that you can play the patch in "music store"
+mode.  What follows is an explanation of how the patch works, which you will need
+in order to develop your own sounds or extend the patch to do new stuff.
+
+<H2> OVERVIEW OF THE PATCH </H2>
+
+>P> <strong> NOTE: some details have changed from version 1 to version 2 of
+smeck that are not reflected in this documentation. </strong>
+
+<P> Following the principles described in the "patch for guitar" paper
+mentioned above, each string is processed separately according to the block
+diagram shown here:
+
+<P>
+<CENTER>
+<IMG SRC="fig0.jpg" width=500>
+</CENTER>
+
+<P> The overall block diagram is at left, and the two boxes at right are details
+of the "MODULATION" and "FILTERS" stages.  For each string, either the "phase
+vocoder" OR the rest of the patch is turned on (they take roughly equivalent
+amounts of computation time, and it's not clear anyone would want to use them
+in tandem anyway).  The phase vocoder is used only in two presets, and uses only
+the four parameters at bottom right in the parameter panels (the "panel"
+abstractions), ignoring everything
+else.
+
+<P> When the phase vocoder is turned off, everything else is running.  The
+"reset" values of the parameters set the OCTAVE, FILTER, and PITCHSHIFT modules
+to pass their inputs through unaltered, and bypasses the LOPASS and MODULATION
+stages using the bypass gain control, named "thru", that appears at top left in
+the parameter panels.
+
+<P> What follows is a block-by-block description of what the various stages
+of the patch are supposed to do.
+
+<H3> LOPASS </H3>
+
+In this stage, the string signals are low-pass filtered so that, in theory at
+least, the first harmonic contains most of the energy of the signal; this is
+so that the modulation step will act according to plan.  The filter is fifth-order
+Butterworth, so there's a 30-dB-per-octave rolloff above the cutoff frequency.
+
+Because each string has a different range, the filters' cutoff frequencies are
+specified relative to the open string's fundamental, in half tones.  So if the
+value is given as 0, each string gets a cutoff at its own open frequency; if
+set to 12, the cutoff is 12 half-tones higher, so each string's cutoff frequency
+is set to its own twelveth fret (an octave up).  Usually this ranges from about 7
+to 19.  This parameter is named "bias".
+
+<H3> HARMONICS H1-H4 </H3>
+
+The filtered string sound could theoretically be converted to any wavetable.
+Here, the four waveshapes are simply sinusoids at the first four harmonics.
+The first harmonic, in particular, passes the filtered string sound unchanged.
+The results aren't pure harmonics in reality because the incoming sould isn't
+sinusoidal, although the string can be filtered to get fairly close to pure
+harmonics if desired.
+
+<H3> TRIANGLE (AKA CLASSIC WAVEFORMS) </H3>
+
+Here the phase of the filtered string is used to drive a phased pair of triangle
+wave generators.  There are controls over the relative phase of the two waveforms
+(called the "duty cycle"), the relative strength of the second generator (between
+-100% and 100% of the first, called the "symmetry") and the slope of the rising
+segment of the triangles (called "partials"):
+<P>
+<CENTER>
+<IMG SRC="fig1.jpg" width=500>
+</CENTER>
+
+<H3> FORMANTS </H3>
+
+<P> There are two formant generators.  Each one
+makes a packet of harmonics, whose center frequency,
+amplitude, and bandwidth all are controlled by envelope generators (triggered
+by string attacks):
+
+<P>
+<CENTER>
+<IMG SRC="fig2.jpg" width=500>
+</CENTER>
+
+<P> The spectrum of the formant (packet of harmonics) is as shown at bottom right in
+the diagram.  The center frequency is controlled by a six-parameter envelope
+generator as shown top left.  The output of this envelope is in half tones, like
+the LOPASS cutoff frequency, except that here the half tones are measured from a
+base frequency that depends on the "cfbias" control.  If this is zero, each
+center frequency is indeed specified relative to the open string.  If 20%, the
+low (fat) 'E' string's formant is specified relative to the 'A' string instead of
+itself, but the other 5 strings are as before.  If 40%, the 'E', 'A', and 'D' are
+all specified relative to the 'D' string and the rest normally, and so on, until
+at 100% all six strings' formants are relative to the high (thin) 'E'.
+
+<P> The amplitude is specified in dB (100 being unit gain).  The bandwidth is
+controlled linearly, relative to the string pitch.  By the nature of this
+algorithm, the center frequency and bandwidth rise in parallel as the string
+is fretted higher up the neck of the guitar.
+
+<H3> WAVETABLES </H3>
+
+<P> The fourth waveform modification technique works by lookup into wavetables
+that are generated using the phase bashing technique
+(the ICMC paper is reprinted as
+<A HREF="http://crca.ucsd.edu/~msp/Publications/icmc06-reprint.dir/">
+HTML </A> or
+<A HREF="http://crca.ucsd.edu/~msp/Publications/icmc06-reprint.pdf">
+PDF </A>.)  A loose collection of pre-made wavetables is assigned numbers from
+10 to 85, inclusive (this is the "vsamp" parameter).  In particular, 30-85 is
+a set of 56 nonsense syllables with 7 leading consonants and 8 following
+vowels.  The "vframes" parameter controls how far into the wavetable to precess
+over the life of a note, and "vspeed" controls the speed of precession.  Finally,
+since as with formants the spectrum transposes ("chipmunks") up and down with
+the frequency of the string, a "vfret" parameter selects which fret should correspond
+to no transposition.  If this is at 0, the open string is natural and the 12th
+fret chipmunks up 2-to-1; if it's 12, the 12th fret is normal but the open
+string gets a timbre that's transposed down by 2-to-1 instead.  
+
+<H3> PULSE MODULATION </H3>
+
+<P> All the above "modulation" (waveform modification) techniques' outputs are
+summed and the result is multiplies (amplitude modulated) by a pulse train.
+The pulse train is controlled by the phase of the string, but a multiplier
+("pharm") allows selcting a harmonic above the fundamental frequency.  The
+depth of puls modulation (the thinness of the pulse) is controlled statically
+by the "pmod" parameter, but further, is controlled by the instantaneous string
+amplitude multiplied by "penv"; if this parameter is nonzero the modulation
+depth increases with amplitude.
+
+<H3> OCTAVES </H3>
+
+<P> All the above "modulation" (waveform modification) techniques' outputs, and
+the bypass signal, are summed, and this sum goes through the octave-changer, a
+chain of filters, and a pitch shifter bank.  Octave changing is done by
+cross-fading between four different octaves, from two down to one up.  The
+downward octaves are made by ring modulation, and the upward one with a
+variable-delay comb filter.  If the "octave" parameter is -200, the sound is two
+octaves down; if -150 the result os a 50-50 mix between two and one octaves down;
+if -100% it's the pure one-octave-down sound, if -50 a mix between that and the
+original; if 0 it's the pure original, if 50 a mix between that and the octave-up
+sound, and if 100 the pure octave-up sound. 
+
+<H3> FILTERS </H3>
+
+<P> The filter stage consists of three filters and a "VCA" (amplitude control unit)
+in series.  The first filter is a two-pole resonant powpass filter whose center
+frequency, in halftones, is controlled by an envelope generator.  As with the
+formant center frequency, the filter center frequency is given in half tones
+relative to each string, except that the "vcfbias" control lifts the nominal
+frequencies of the lower strings progressively toward the higher ones, until at
+100% all frequencies are in half tones relative to the high (thin) 'E' string. If
+"q" is zero the filter has a flat frequency response; at 10-ish one gets a fairly
+neutral lowpass filter, and at higher values the resonant frequency becomes
+audible.
+
+<P> The next two are EQ-style "peaking" filters with frequency responses
+as shown:
+
+<P>
+<CENTER>
+<IMG SRC="fig3.jpg" width=300>
+</CENTER>
+
+Each filter gets a gain (in dB, positive or negative); a bandwidth, and a center
+frequency.  The gain and center frequency are controlled by envelope generators.
+the center frequency is in half-tomes above the open string, subject to another
+bias control ("eqbias") which applies to both filters.
+
+<H3> PITCHSHIFT </H3>
+
+Pitch-shifting is done by cross-fading between variable delay lines.  There are
+two pitch shifters with controllable gains ("amp1" and "amp2"), delays ("delay1",
+"delay2"), and transpositions ("trans1", "trans2"), and a bypass gain ("amp0").
+In the parameter control panels, there are four buttons for calling up reasonable
+chorus-style settings.
+
+<H2> CONTROLLING THE PARAMETERS </H2>
+
+<P> There are about 100 parameters, each of which may be specified on a
+per-string basis.  About 60 presets exist which may be called up for invididual
+strings or all 6 at once; the buttons on the front panel recall presets for
+all 6.  There are 6 parameter control panels (one for each string) and on
+called "t" (for "tutti") which sets parameters fro all 6 strings smultaneously;
+this is what you'll want to use most of the time.
+
+<P> To save to a preset, specify the number of the preset to save to and then
+hit the "save" button; there's no undo or backup function provided.
+
+<P> To recall a preset to a specific string, send a message to 
+"qlist-recall-string" with the string and preset numbers as arguments, e.g.,
+"qlist-recall-string 2 40" sets the A string to preset 40.
+
+<P> The following is a list of all the parameters and their units:
+
+<PRE>
+------------------- FREQUENTLY USED UNITS -------------------
+
+The following units have habitual ranges, unless otherwise noted in the
+descriptions of the individual parameters:
+
+DB100: decibels, with 100 as unity gain.  '0' is 'off', '100' is full blast.
+Range is 0-100.
+
+DB0: relative decibels, with 0 as unity gain.  Range is -30 - +30
+
+HZ: frequency in Hertz.  Range is (-infinity) to infinity.  Don't try infinity
+though.
+
+HALFSTEPS: a frequency expressed in half steps, either above the open string
+(in the case of filter settings) or above the fretted string (for cf1, etc).
+
+MSEC: time in milliseconds.  Range is 0-infinity.
+
+MIDI: regular MIDI pitch.  Range is-127.
+
+CENTS: musical intervals expressed in one-hundredths of a half-tone
+
+OPENHALFTONES: half-tones above the open string.  For instance a value of
+5 for the G string means middle C (since the G string is 5 halftones below
+middle C.)  Range is 0-100.
+
+FRETHALFTONES: half-tones above whatever pitch the string is played at.
+Range is 0-100.
+
+PERCENTAGE: any fraction expressed as a percentage.  Range is (-infinity) to
+infinity.
+
+----------------------- PARAMETERS (UNITS) -------------------------
+
+thru (DB100).  gain for the signal to bypass the waveshaping network.
+
+filter bias (OPENHALFTONES): cutoff frequency of the low-pass filter that
+precedes the waveshaping network.  (Doesn't affect the 'thru' signal).
+
+Phase Modulation:
+
+fshz (HZ) Hertz by which the sound is aliased downward or upward.
+
+fs percent (PERCENTAGE): additional frequency by which the sound is aliased
+up or down, expressed as a percentage of the measured frequency of the string.
+
+inter1, inter2 (DB100) -- gain of imtermodulation distortion in the waveshaping
+chain from the next string down and up, respectively.
+
+Harmonics:
+
+h1 (DB100).  Gain of the first-harmonic waveshaping output.  If the input is a
+pure sinusoid, this is the gain at which the sinusoid is output.
+
+h2, h3, h4 (DB100).  Gains of the 2-4 harmonics of waveshaping.  If the input is
+a pure sinusoid, this will be heard as gains of the 2-4 harmonics.  More
+complicated signal inputs result in progressively brighter sounds.
+
+Classic synthesizer waveforms:
+
+tri (DB100). triangle waveshaping gain.  The next 3 parameters apply (see fig.
+1):
+
+partials (1-100). The bandwidth, in partials, of the triangle wave, implemented
+as the rising slope of the wave.
+
+duty (PERCENTAGE, 0-100): the relative phase of a second triangle wave that is mixed in
+with the primary one.
+
+symmetry (PERCENTAGE, -100 to 100): the multiple of the second triangle wave that
+is added to the first.
+
+examples:
+triangle wave: partials=1, duty=anything, symmetry=0
+sawtooth: partials=100, duty=anything, symmetry=0
+square wave: partials=100, duty=50, symmetry=-100
+
+Formant generators:
+
+A formant is a spectral bump that has a specifiable gain, center frequency, and
+bandwidth (fig. 2).  The bandwitch is shared between the two formant generators
+but the gains and center frequencies are specified separately.
+
+First formant generator:
+
+a1 (DB100) gain of the first formant when envelope generator is at rest.
+
+a1p (DB100) peak gain of the formant
+
+a1a (MSEC) attack time of the formant
+
+a1d (MSEC) decay time of the formant
+
+cf1 (HALFSTEPS) center frequency of the formant, as a multiple of fundamental
+frequency, when envelope generator is at rest.
+
+cf1p (HALFSTEPS) peak value for center frequency
+
+cf1q (HALFSTEPS) second target value for center frequency
+
+cf1a (MSEC) attack time for envelope generator to reach value of cf1p
+
+cf1b (MSEC) second attack time for envelope generator to reach value of cf1q
+after having reached cf1p
+
+cf1d (MSEC) decay time to return to value cf1 after having reached cf1q.
+
+cf1bias (PERCENT): if nonzero, raises center frequencies for lower strings so
+that, instead of being measured in halfsteps above the played string, they
+match the corresponding fret on a higher string.  This increases the brilliance
+of the lower strings without changing that of the higer ones.  For example, if
+set at 60%, the low E, A, and D strings formants are moved up to match the G
+string; if 80%, they and the G all move up to match the B string.
+
+bw (PARTIAL) bandwidth, as a multiple of fundamental
+frequency, when envelope generator is at rest.
+
+bwp (PARTIAL) peak value for bandwidth
+
+bwa (MSEC) attack time for envelope generator to reach value of bwp
+
+bwd (MSEC) decay time to return to value bw after having reached bwp.
+
+a2, a2p, a2a, a2d, cf2, cf2p, cf2q, cf2a, cf2b, cf2d: corresponding values
+for second formant generator; "bw" parameters are shared between the two.
+
+clip (PERCENT, 0-100):  Acts only on the first of the two formant generators.
+percentage by which the formant signal is clipped.  100 percent clipping removes
+the formant entirely; intermediate values cause distortion.
+
+clip-even (PERCENT, 0-100):  Acts only on the first of the two formant
+generators.Alters clipping to act progressively less on the negative half of the
+waveform and more on the positive half.  If zero, clipping tends to generate odd
+harmonics; increaseing this value increases the even haronics in the mix.
+
+Waveform grabber:
+
+Using a set of short, pre-recorded soundfiles, this replaces the guitar waveform
+with waveforms grabbed from a soundfile.
+
+voz (DB100): gain of the waveform grabber.
+
+vsamp (0-99): the number of the soundfile to use.  The available soundfiles are:
+(10-29) twenty miscellaneous syllables of speech;  (30-85) a series of
+56 nonsense syllables as follows: (bah, dah, gah, nah, wah, lah, yah), followed
+by the same starting consonants but vowels replaced by "aa", "eh", "oo", "ow",
+"uh", "ee", and "ing".  Usful for artificial scat singing.
+
+vfret (FRET LOCATION): the fret location at which the timbre comes out "natural";
+playing on higher frets gives chipmunk effect.
+
+vframes (0-99): The number of 11-millisecond frames in the soundfile to sweep
+over during a guitar note.  (Each note starts a new sweep from the beginning of
+the soundfile.)
+
+vspeed (1-300): relative time over which sweep takes place.  25 means original
+speed; 50 means half speed; 1 means 25x normal speed.
+
+Pulse modulation:
+
+pmod (0-100) - depth of pulse modulation.  Units are artificial; 100 is LOTS
+of modulation.
+
+penv (0-100) - envelope sensitivity of pulse modulation depth to the string's
+momentary amplitude.  Units are artificial.
+
+pharm (1-100) - harmonic multiplier for pulse modulation.
+
+Octave changer:
+
+octave (PERCENT, -200 to +100) Octave dividing or raising.  -200 means two
+octaves down, 0 means original pitch, +100 means one octave up.
+
+VCF:
+
+This is a resonant, lowpass filter, as in a wahwah pedal.  The center (resonant)
+frequency is controlled by an envelope generator, whose parameters are vcf,
+vcfp, vcfq, vcfa, vcfb, vcfd, and vcfbias:
+
+vcf (HALFSTEPS): value for resonant frequency, in halfsteps above the open
+string, when envelope generator is at rest.
+
+vcfp (HALFSTEPS): peak value for resonant frequency.
+
+vcfq (HALFSTEPS) second target value for resonant frequency
+
+vcfa (MSEC):  attack time for envelope generator to reach value of vcfa
+
+vcfa (MSEC):  time for envelope generator to reach value of vcfb
+
+vcfd (MSEC):  decay time to return to value vcf after having reached vcfq
+after having reached vcfp
+
+vcfbias (PERCENT):  as for cf1bias, this raises the resonant frequencies for the
+lower strings to values calculated for upper ones. 
+
+q;  the resonance of the filter.  0 is a flat response (as if there were no
+filter), 10 is a gentle lowpass, 30 is a distinct wahwah, and 100 s an outright
+resonance.
+
+equalizing (peaking) filters :  each one gets a boost in decibels (positive
+or negative; 0 means flat response) at its own center frequency and bandwidth.
+The boost gets a 2-segment emvelope generator and the center frequncy gets a
+3-segment one.
+
+eq1 (DB, -30 - +30) decibel gain (positive or negative) at the center frequency.
+Gain is unity at both DC and 20K.
+
+eq1p (DB, -30 - +30)  - peak value for decibel gain.
+
+eq1a (MSEC) - attack time for envelope generator to reach value eq1p.
+
+eq1d  (MSEC) - decay time for envelope generator to return to value eq1.
+
+ef1 (MIDI) decibel gain (positive or negative) at the center frequency.
+Gain is unity at both DC and 20K.
+
+ef1p (DB, -30 - +30)  - peak value for decibel gain.
+
+ef1q (DB, -30 - +30)  - second peak value for decibel gain.
+
+efq1a (MSEC) - attack time for envelope generator to reach value eq1p.
+
+ef1b (MSEC) - second attack time for envelope generator to reach value eq1q
+after eq1p.
+
+ef1d  (MSEC) - decay time for envelope generator to return to value eq1.
+
+bw1 (MIDI) - bandwidth of the filter, in MIDI units
+
+envelope:
+
+Next there's an envelope generator (VCA) to control gain.
+
+amp (DB100) - gain at rest
+
+ampp (DB100) - peak gain
+
+ampa (MSEC) - atack time to reach peak gain
+
+ampd (MSEC) - release time to reach rest gain
+
+Pitchshift:  
+
+There are two pitch shifters with parameters as follows:
+
+amp0 (DB100) bpass gain
+
+delay0 (MSEC) delay of bypass signal
+
+window (MSEC) - window size for the pitch shifters
+
+amp1 (DB100) gain of the first pitch shifter
+
+delay1 (MSEC) first delay
+
+transp1 - (CENTS) - transposition of first pitch shifter
+
+amp2, delay2, transp2, corresponding parameters for second pitch shifter
+
+</PRE>
+</HTML>
+

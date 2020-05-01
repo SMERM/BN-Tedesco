@@ -1,0 +1,51 @@
+#N canvas 0 0 402 382 12;
+#X obj 99 325 line~;
+#X obj 93 240 unpack;
+#X obj 99 350 outlet~;
+#X text 23 129 outlet is the level as a signal.;
+#X obj 113 214 t l b;
+#X msg 170 223 20;
+#X obj 170 200 sel 0;
+#X obj 205 223 moses 0;
+#X msg 205 246 0;
+#X obj 142 326 f;
+#X obj 343 239 sel 0;
+#X msg 343 272 1;
+#X obj 267 148 loadbang;
+#X text 21 11 control an amplitude in quartic scale using linear segments.
+;
+#X text 43 110 (default is 20 - to specify zero \, set \$3 negative.)
+;
+#X obj 68 272 expr $f1*$f1*$f1*$f1*0.0004*0.0004*$f2;
+#X text 23 51 \$2 is the name of the receive symbol.;
+#X text 20 70 \$3 is output level for an input of 50 (default is 1).
+;
+#X text 22 91 \$4 is ramp time when not specified by received message.
+;
+#X obj 45 177 r \$1-\$2;
+#X obj 102 177 r \$2;
+#X obj 170 176 f \$4;
+#X obj 343 212 f \$3;
+#X text 23 32 \$1 is the string number;
+#X connect 0 0 2 0;
+#X connect 1 0 15 0;
+#X connect 1 1 0 1;
+#X connect 4 0 1 0;
+#X connect 4 1 9 0;
+#X connect 5 0 9 1;
+#X connect 6 0 5 0;
+#X connect 6 1 7 0;
+#X connect 7 0 8 0;
+#X connect 7 1 9 1;
+#X connect 8 0 9 1;
+#X connect 9 0 0 1;
+#X connect 10 0 11 0;
+#X connect 10 1 15 1;
+#X connect 11 0 15 1;
+#X connect 12 0 21 0;
+#X connect 12 0 22 0;
+#X connect 15 0 0 0;
+#X connect 19 0 4 0;
+#X connect 20 0 4 0;
+#X connect 21 0 6 0;
+#X connect 22 0 10 0;

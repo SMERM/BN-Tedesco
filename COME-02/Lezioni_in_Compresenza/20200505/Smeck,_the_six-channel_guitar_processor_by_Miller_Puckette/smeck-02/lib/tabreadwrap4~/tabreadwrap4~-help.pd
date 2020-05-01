@@ -1,0 +1,18 @@
+#N canvas 64 16 812 401 16;
+#X obj 52 135 tabreadwrap4~ poodle 8;
+#X floatatom 57 107 5 0 0 0 - - -;
+#X floatatom 158 107 5 0 0 0 - - -;
+#X obj 246 58 table poodle 24;
+#X msg 216 227 \; poodle 0 0 1 2 3 4 5 6 7 0 0 0 0 0 0 0 0 1 1 1 1
+1 1 1 1;
+#X obj 51 265 snapshot~;
+#X obj 95 231 metro 250;
+#X obj 96 172 loadbang;
+#X floatatom 59 297 7 0 0 0 - - -;
+#X connect 0 0 5 0;
+#X connect 1 0 0 0;
+#X connect 2 0 0 1;
+#X connect 5 0 8 0;
+#X connect 6 0 5 0;
+#X connect 7 0 6 0;
+#X connect 7 0 4 0;

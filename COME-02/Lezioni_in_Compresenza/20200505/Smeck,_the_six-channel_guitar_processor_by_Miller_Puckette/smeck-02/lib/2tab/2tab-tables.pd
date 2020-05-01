@@ -1,0 +1,6 @@
+#N canvas 634 548 450 300 10;
+#X msg 66 187 \; noise21 read hat21.txt \; noise22 read hat22.txt;
+#X obj 110 82 table noise21 8195;
+#X obj 108 109 table noise22 8195;
+#X obj 65 162 loadbang;
+#X connect 3 0 0 0;

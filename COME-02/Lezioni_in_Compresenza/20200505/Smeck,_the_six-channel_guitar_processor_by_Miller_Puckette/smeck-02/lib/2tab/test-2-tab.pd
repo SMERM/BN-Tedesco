@@ -1,0 +1,10 @@
+#N canvas 224 383 463 390 10;
+#X obj 59 220 output~;
+#X obj 67 25 osc~ 440;
+#X floatatom 166 63 5 0 0 0 - - -;
+#X obj 67 47 2tab;
+#X obj 229 153 2tab-tables;
+#X connect 1 0 3 0;
+#X connect 2 0 3 1;
+#X connect 3 0 0 0;
+#X connect 3 0 0 1;

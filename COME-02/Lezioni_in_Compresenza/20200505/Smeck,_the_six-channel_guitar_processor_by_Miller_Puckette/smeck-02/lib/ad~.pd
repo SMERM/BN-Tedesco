@@ -1,0 +1,45 @@
+#N canvas 151 38 491 403 10;
+#X obj 64 141 inlet;
+#X obj 148 148 inlet;
+#X text 60 116 trigger;
+#X obj 222 145 inlet;
+#X obj 209 332 line~;
+#X obj 123 300 pack 0 \$3;
+#X obj 268 144 inlet;
+#X obj 407 150 inlet;
+#X obj 209 357 outlet~;
+#X text 269 121 attack;
+#X text 413 126 decay;
+#X obj 64 169 t b;
+#X text 227 122 peak;
+#X obj 277 226 del \$3;
+#X obj 209 296 pack 0 \$4;
+#X text 150 128 state;
+#X text 147 114 steady;
+#X msg 257 196 stop;
+#X text 56 29 Arguments: steady state level \, peak level \, attack
+time \, decay time. Times are in msec and peak is a percentage of level.
+;
+#X text 57 78 When steady state level is changed the envelope transitions
+to the steady state value.;
+#X obj 123 276 f \$2;
+#X obj 209 270 f \$1;
+#X obj 300 295 t f;
+#X connect 0 0 11 0;
+#X connect 1 0 17 0;
+#X connect 1 0 21 1;
+#X connect 1 0 22 0;
+#X connect 3 0 20 1;
+#X connect 4 0 8 0;
+#X connect 5 0 4 0;
+#X connect 6 0 13 1;
+#X connect 6 0 5 1;
+#X connect 7 0 14 1;
+#X connect 11 0 13 0;
+#X connect 11 0 20 0;
+#X connect 13 0 21 0;
+#X connect 14 0 4 0;
+#X connect 17 0 13 0;
+#X connect 20 0 5 0;
+#X connect 21 0 14 0;
+#X connect 22 0 4 0;

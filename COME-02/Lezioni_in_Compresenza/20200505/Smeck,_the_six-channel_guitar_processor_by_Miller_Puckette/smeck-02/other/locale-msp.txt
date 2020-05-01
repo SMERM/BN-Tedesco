@@ -1,0 +1,16 @@
+# msp homemade interface
+chnl-string1 3
+chnl-string2 4
+chnl-string3 5
+chnl-string4 6
+chnl-string5 7
+chnl-string6 8
+trim-string1 10
+trim-string2 3
+trim-string3 3
+trim-string4 3
+trim-string5 3
+trim-string6 -10
+chnl-mic 1
+trim-mic 0
+
