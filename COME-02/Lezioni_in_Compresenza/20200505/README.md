@@ -2,4 +2,4 @@
 
 #### Argomenti
 - presentazione delle _Intenzioni compositive dello Studio n.x_
-- 
+- smeck
