@@ -1,7 +1,7 @@
 # Repository del ciclo di Biennio di Davide Tedesco
 
 ## [COME-01](https://github.com/SMERM/BN-Tedesco/tree/master/COME-01)
-Esecuzione e interpretazione della musica elettroacustica. Ambienti esecutivi e di controllo per il live electronics.
+_Esecuzione e interpretazione della musica elettroacustica. Ambienti esecutivi e di controllo per il live electronics._
 ### Brani trattati durante il corso:
 - Luigi Nono - Post-prae-ludium n. 1 per Donau
 - Giorgio Nottoli - Incontro
@@ -12,7 +12,7 @@ Esecuzione e interpretazione della musica elettroacustica. Ambienti esecutivi e 
 #### Luigi Nono - Post-prae-ludium n. 1 per Donau
 - 
 ## [COME-02](https://github.com/SMERM/BN-Tedesco/tree/master/COME-02)
-Composizione musicale elettroacustica.
+_Composizione musicale elettroacustica._
 ### Primo Progetto: Chitarra Classica
 
 ![Guitar](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Bernardini/20200114/Schemi_chitarra_classica/ebguitars_plan_complete_large.png)
@@ -42,7 +42,7 @@ Ricerca sulla chitarra classica(acustica con corde in nylon) e primo approccio a
 - Studio n.2:[Intenzioni compositive dello Studio n.1](), [Draft_1 Studio n.2 Partitura](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200407/Draft_1%20Studio%20n.2%20Partitura.pdf), [Draft_2 Studio n.2 Partitura](), [Draft_2 Studio n.2 Audio]()
 
 ## [COME-04](https://github.com/SMERM/BN-Tedesco/tree/master/COME-04)
-Elettroacustica
+_Elettroacustica_
 ### Argomenti trattati:
 - Audio multi-canale
 - Ambiphonic
