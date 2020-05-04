@@ -7,6 +7,7 @@
 - Tellur di Tristan Murail: [brano](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200505/1977_Tristan_Murail_Tellur_Rafael_Andia.flac), [partitura](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200505/1977_Tristan_Murail_Tellur.pdf)
 - [Scritto Rafael Andia su Tellur](http://www.rafaelandia.com/en/tellur.html)
 - [Lezione Rafael Andia su Tellur](https://www.youtube.com/watch?v=eVJjQ48sO9o)
+- [video test distorsione]()
 
 ___
 ### Appunti
