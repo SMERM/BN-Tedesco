@@ -44,8 +44,8 @@ Ricerca sulla chitarra classica(acustica con corde in nylon) e primo approccio a
 
 ## [COME-04](https://github.com/SMERM/BN-Tedesco/tree/master/COME-04)
 _Elettroacustica_
-### Argomenti trattati:
 ![farfallone](https://github.com/SMERM/BN-Tedesco/blob/master/COME-04/Spherical_Harmonics_deg3.png)
+### Argomenti trattati:
 - Audio multi-canale
 - Ambiophonics
 - Ambisonics
