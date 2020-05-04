@@ -4,4 +4,5 @@
 - presentazione delle _Intenzioni compositive dello Studio n.x_
 - smeck
 - la chitarra elettrica contemporanea, Tellur, Trash TV Trance e Vampyr!
-http://www.rafaelandia.com/en/tellur.html
+- [Scritto Rafael Andia su Tellur](http://www.rafaelandia.com/en/tellur.html)
+- [Lezione Rafael Andia su Tellur](https://www.youtube.com/watch?v=eVJjQ48sO9o)
