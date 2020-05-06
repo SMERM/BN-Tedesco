@@ -78,3 +78,32 @@ mettere appunto il coefficente da poter ricavare dal 2/π con cui rompiamo l'ond
 - cercare documentazione > filtri anti aliasing
 
 non ha molto senso > sbatterci con i controlli in banda
+
+____________________________
+Lezione pomeridiana
+
+calcolo funzione quadruple precision π >> ``quadPI = 3.141592653589793238462643383279502797479068098137295573004504331874296718662975536062731407582759857177734375``
+
+filtri piú utilizzati sono i filtri ellittici
+
+filtri ellettici > è un filtro realizzato su modello analogico
+
+```
+/*PITCH DETECTOR CON ZERO CROSSING*/
+import("stdfaust.lib");
+
+t = hslider("Tuning[style:knob]",1,1,100,1); //passa un numero in campioni per contare un tot di campioni per volta
+pitchtracker(t,x) = tng(x)
+with{
+xcr =  (x'<0)&(x>=0); //zero crossing
+xcnt = +(xcr)~ %(int(t));//conteggio passaggi per xcr
+wdn = xcr & (xcnt==t);//quantità di tempo in campioni, true quando xcnt==t
+counter = (+(1) : *(1-wdn))~_;//contatore finale
+sah(trig,x) = (*(1-trig)+x*trig)~_;//sample and hold, bottone di rilevazione e segnale da analizzare
+val = sah(counter==0,counter'+1);//valore in uscita da sah
+tng(x) = t*ma.SR/max(val,1)-t*ma.SR*(val==0) ;//
+};
+fpitchtrack(t) = fi.dcblocker : (fi.lowpass(1):pitchtracker(t))~max(100);
+
+process = os.lf_saw(440) : fpitchtrack(t) : vbargraph("[style:numerical]",1,20000);
+```
