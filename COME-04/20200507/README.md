@@ -30,6 +30,8 @@ _Ch = 10^((((1/2)*cos(angstep*Nch-ang)-0.5)*sep*0.2)/2)_
 
 SDK di Max > realizzazione in Max
 
+https://cycling74.com/sdk/max-sdk-8.0.3/html/index.html
+
 _______________
 visione spanner
 
