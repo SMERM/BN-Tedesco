@@ -34,7 +34,7 @@ Ricerca sulla chitarra classica(acustica con corde in nylon) e primo approccio a
 - lettura del [testo di Emilio Pujol "The dilemma of Timbre on the Guitar"](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/1979-Emilio-Pujol-Il-Dilemma-del-Timbro-sulla-Chitarra/1979-emilio-pujol-el-dilema-del-sonido-en-la-guitarra.pdf), [traduzione in italiano del testo di Emilio Pujol "The dilemma of Timbre on the Guitar"](https://github.com/SMERM/BN-Tedesco/tree/master/COME-02/Lezioni_in_Compresenza/1979-Emilio-Pujol-Il-Dilemma-del-Timbro-sulla-Chitarra/1979-Emilio-Pujol-Il-Dilemma-del-Timbro-sulla-Chitarra-Traduzione)
 - analisi dei brani di [chitarra elettrica contemporanea](https://github.com/SMERM/BN-Tedesco/tree/master/COME-02/Lezioni_in_Compresenza/Chitarra_Elettrica_Contemporanea)
 - [esempio chitarra classica distorta](https://youtu.be/K3yqyxcJStg)
-- [esempio feedback strutturale(piezo-attuatore) su chitarra classica][]
+- [esempio feedback strutturale(piezo-attuatore) su chitarra classica]()
 
 
 ### Lavori 
