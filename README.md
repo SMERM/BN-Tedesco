@@ -34,6 +34,7 @@ Ricerca sulla chitarra classica(acustica con corde in nylon) e primo approccio a
 - lettura del [testo di Emilio Pujol "The dilemma of Timbre on the Guitar"](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/1979-Emilio-Pujol-Il-Dilemma-del-Timbro-sulla-Chitarra/1979-emilio-pujol-el-dilema-del-sonido-en-la-guitarra.pdf), [traduzione in italiano del testo di Emilio Pujol "The dilemma of Timbre on the Guitar"](https://github.com/SMERM/BN-Tedesco/tree/master/COME-02/Lezioni_in_Compresenza/1979-Emilio-Pujol-Il-Dilemma-del-Timbro-sulla-Chitarra/1979-Emilio-Pujol-Il-Dilemma-del-Timbro-sulla-Chitarra-Traduzione)
 - analisi dei brani di [chitarra elettrica contemporanea](https://github.com/SMERM/BN-Tedesco/tree/master/COME-02/Lezioni_in_Compresenza/Chitarra_Elettrica_Contemporanea)
 - [esempio chitarra classica distorta](https://youtu.be/K3yqyxcJStg)
+- [esempio feedback strutturale(piezo-attuatore) su chitarra classica][]
 
 
 ### Lavori 
@@ -42,6 +43,7 @@ Ricerca sulla chitarra classica(acustica con corde in nylon) e primo approccio a
 - Legenda: [Draft_1_Legenda](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200407/Legenda_Part_Perc.jpg)
 - Studio n.1 : [Intenzioni compositive dello Studio n.1](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200505/Intenzioni_compositive_dello_Studio_n.1.md),[Draft_1 Studio n.1 Partitura](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200331/Draft_1_Studio_n.1_Partitura.pdf), [Draft_1 Studio n.1 Audio](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200331/Draft_1_Studio_n.1_Audio.wav), [Draft_2 Studio n.1 Partitura]()
 - Studio n.2:[Intenzioni compositive dello Studio n.2](), [Draft_1 Studio n.2 Partitura](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200407/Draft_1%20Studio%20n.2%20Partitura.pdf), [Draft_2 Studio n.2 Partitura](), [Draft_2 Studio n.2 Audio]()
+- Studio n.3 :
 
 ## [COME-04](https://github.com/SMERM/BN-Tedesco/tree/master/COME-04)
 _Elettroacustica_
