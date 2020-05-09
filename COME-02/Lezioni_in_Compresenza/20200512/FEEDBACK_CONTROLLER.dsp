@@ -1,7 +1,7 @@
 /*FEEDBACK CONTROLLER*/
 import("stdfaust.lib");
 
-//Pithc Guessing function
+//Pitch Guessing function
 //pitchguess= ; 
 
 /*PANIC BUTTONS SECTION*/
