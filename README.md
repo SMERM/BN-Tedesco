@@ -35,7 +35,7 @@ Ricerca sulla chitarra classica(acustica con corde in nylon) e primo approccio a
 - analisi dei brani di [chitarra elettrica contemporanea](https://github.com/SMERM/BN-Tedesco/tree/master/COME-02/Lezioni_in_Compresenza/Chitarra_Elettrica_Contemporanea)
 - [esempio chitarra classica distorta](https://youtu.be/K3yqyxcJStg)
 - [esempio feedback strutturale(piezo-attuatore) su chitarra classica](https://www.youtube.com/watch?v=TraqAMf5Exo)-> nella descrizione del video, minutaggio segnato di alcuni primi esempi di feedback
-- [algoritmo per la gestione del feedback realizzato in Faust(FEEDBACK_CONTROLLER)](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200512/FEEDBACK_CONTROLLER.dsp)
+- [algoritmo per la gestione del feedback realizzato in Faust(FEEDBACK_CONTROLLER v.0.1)](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200512/FEEDBACK_CONTROLLER.dsp)
 ![FEEDBACK_CONTROLLER v.0.1](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200512/FEEDBACK_CONTROLLER%20v.0.1.png)
 
 
