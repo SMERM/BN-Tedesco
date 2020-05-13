@@ -1,5 +1,10 @@
 # Repository del ciclo di Biennio di Davide Tedesco
 
+## [COME](https://github.com/SMERM/BN-Tedesco/tree/master/CODM-05)
+_Storia della musica elettroacustica_
+
+- Seminario software per l'analisi
+
 ## [COME-01](https://github.com/SMERM/BN-Tedesco/tree/master/COME-01)
 _Esecuzione e interpretazione della musica elettroacustica. Ambienti esecutivi e di controllo per il live electronics._
 ### Brani trattati durante il corso:
