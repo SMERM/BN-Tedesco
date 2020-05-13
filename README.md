@@ -1,6 +1,6 @@
 # Repository del ciclo di Biennio di Davide Tedesco
 
-## [COME](https://github.com/SMERM/BN-Tedesco/tree/master/CODM-05)
+## [CODM-05](https://github.com/SMERM/BN-Tedesco/tree/master/CODM-05)
 _Storia della musica elettroacustica_
 
 - Seminario software per l'analisi
