@@ -92,3 +92,5 @@ non scrittura di Nono > idea di scrivere la propria musica ispirata a Monteverdi
 differenza da edizioni Ricordi dopo la morte di Nono > percorso di evoluzione dopo la morte di Nono
 
 Libro di Nono > Nulla è oscuro tra di noi > corrispondenze con Massimo Mila
+
+[studio di Friburgo virtuale](http://projects.aec.at/experimentalstudio/index.html)
