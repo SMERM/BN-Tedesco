@@ -94,6 +94,8 @@ pannelli ancorati o indipendenti
 
 ``+ & -`` >> aggiunta pannelli > vari tipi di rappresentazione
 
+![+-](https://github.com/SMERM/BN-Tedesco/blob/master/CODM-05/20200514/piuemeno.png)
+
 ### aggiunta di eventi
 
 - elementi grafici
@@ -142,6 +144,7 @@ interesse è nel fatto che posso aggiungere vari tipi di pannello
 Gesang > formato da 6 pannelli
 
 - strutture lineari
+![strutture lineari](https://github.com/SMERM/BN-Tedesco/blob/master/CODM-05/20200514/struttura%20lineare.png)
 - diagramma ad armonico
 - matrice di similarità(qualcosa di simile fisicamente) > matrice di similarità tra gli elementi e se stessi che riguarda anche la statistica
 
