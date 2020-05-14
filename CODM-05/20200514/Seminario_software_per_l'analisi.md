@@ -192,3 +192,83 @@ inseguire questa tipologia di rappresentazione fedele > non mi permette in nessu
 Schaeffer > questa musica non ha livello consolidato e stratificato di elementi astratti
 
 Inseguiamo il suono > ad esempio con le teoria spettromorfologiche che cercano di stabilire delle unità di comportamenti
+
+posso trovare in procedure consolidate > in un sottolinguaggio elettroacustico > delle indicazioni comuni
+
+ció che non ci serve è la partitura uno a uno con il suono
+
+esecuzione per eseguire qualcosa > gesto da compiere sull'interfaccia sotto mano
+
+esigenza di fondo di una partitura che adoperi un linguaggio universale che manca
+
+progetto Aural Sonology > progetto di graficazione universale > ma non si perde qualcosa facendo cosí?
+
+sistema che fa astrazione di determinati elementi > rischia di farci perdere ciò che elementi non hanno in comune
+
+strumento di analisi > rischia di ritagliare dal pezzo quello che è compatibile con la grafia
+
+### Analisi di Incontri di Fasce Sonore
+
+![Screen_incontri_fasce_sonore]()
+processo che ha prodotto questo brano > puó farci passare dal lato estesico al lato poietico
+
+marker ogni volta che cambia qualcosa > momento in cui altri elementi sonori tacciono e si sente qualcosa che c'era già
+
+elementi che diventano densi ed intensi > compaiono elementi di fattura iterativa(ovali)
+
+evidenza quindi di alcuni fattori particolari
+
+segmentazione basata su 3 livelli:
+- livello formale (1,2,3,4,5,6)
+- struttura (sezioni del discorso)
+- sintagmi > aggregazioni > flussi sonori che corrispondono alle singole misture > vedere le singole componenti in azione
+
+_cifra rapporto sintattico_
+
+_alfabeto > rapporto tra sintagmi_
+
+_Ascolto_ di Incontro di Fasce Sonore
+
+ci fa capire il criterio usato per raggruppare eventi
+
+pezzo che si presta a un'interpretazione grafiche
+
+_Dichiarazione delle tipologie spettrali_ > varie tipologie di masse sonore sono presenti > approccio che ci fa intendere anche come è stato fatto il brano
+
+Esperimento > esportando dati relativi ai marker > ci accorgiamo che in quasi tutto il pezzo distruibuzione molto regolare degli accadimenti nel tempo
+
+Posso associare caratteristiche analitiche ai riquadri > e scoprire che durata media è abbastanza ristretta
+
+Mentalità compositiva è come quella dei punkte stockhasueniani > ascrivibile alla stagione di scrittura tedesca dall'inizio degli anni 50 in poi
+
+confronto con brano _Quattro fattoriale_ > scrittura strumentale fornisce un metodo di scrittura alla scrittura elettronica
+
+_domanda: software utile per analisi di un brano con lo stesso timbro??_
+
+non questione di timbrica ma come si articola il discorso musicale
+
+ciò che contraddistingue un'analisi del genere > è il fatto di distinguere caratteristiche analitiche rispetto a caratteristiche puramente grafiche
+
+Partitura??
+
+partitura è un'esercizio di interpretazione, EAnalysis ci permette di realizzare partiture d'ascolto raffinate > mancando elemento strutturale astratto > senza l'elemento astratto non c'è universalità possibile
+
+Altro aspetto divertente > inserimento immagini > che scorrono insieme alla musica
+
+#### realizzazione di strutture a diagrammi
+utile per metter in evidenza alcuni aspetti
+
+#### introdurre testo e scrittura
+
+importante inserimento scrittura a tempo con quello che ho scritto
+
+#### modalità disegno
+
+#### layer
+intervenire sul dato stato di elementi grafici aggiunti
+
+interessante perchè si puó utilizzare con tavoletta grafica
+
+#### possibilità di usare oggetti
+
+software > di analisi in dismissione
