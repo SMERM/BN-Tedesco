@@ -80,14 +80,15 @@ utile funzione per mettere annotazioni in corsa
 
 `cmd+m` > marker all'interno del brano
 oppure clicco sul file e aggiungo marker con il mouse
-
+![marker](https://github.com/SMERM/BN-Tedesco/blob/master/CODM-05/20200514/marker.png)
 possiamo importare diversi files
 
 importo un secondo file > posso usarli tutti e due
 
 inoltre scelta proporzione di brano
-
+![proporzione](https://github.com/SMERM/BN-Tedesco/blob/master/CODM-05/20200514/proporzioni.png)
 pannelli ancorati o indipendenti
+![pannelli](https://github.com/SMERM/BN-Tedesco/blob/master/CODM-05/20200514/piani.png)
 
 ### aggiunta sonogramma
 
@@ -114,7 +115,7 @@ aggiungo una forma, colori, parole
 
 che differenza c'è tra elemento analitico e grafico?
 
-![elemento analitico]()
+![elemento analitico](https://github.com/SMERM/BN-Tedesco/blob/master/CODM-05/20200514/oggetti%20analitici.png)
 scheda analitica degli oggetti analitici > posso introdurre:
 1. durata
 2. fattura
@@ -153,7 +154,7 @@ grafico della frequenza > non molto intuitivo
 ________________
 
 ### Analisi di Points de Fuite di Dhomont
-![Analisi_Dhomont_screen]()
+![Analisi_Dhomont_screen](https://github.com/SMERM/BN-Tedesco/blob/master/CODM-05/20200514/Screen_Dhomont.png)
 suddivisione strutture ad arco > che sia significativa
 
 Stephane Roy > analisi del livello neutro
@@ -209,7 +210,7 @@ strumento di analisi > rischia di ritagliare dal pezzo quello che è compatibile
 
 ### Analisi di Incontri di Fasce Sonore
 
-![Screen_incontri_fasce_sonore]()
+![Screen_incontri_fasce_sonore](https://github.com/SMERM/BN-Tedesco/blob/master/CODM-05/20200514/Screen_Evangelisti.png)
 processo che ha prodotto questo brano > puó farci passare dal lato estesico al lato poietico
 
 marker ogni volta che cambia qualcosa > momento in cui altri elementi sonori tacciono e si sente qualcosa che c'era già
