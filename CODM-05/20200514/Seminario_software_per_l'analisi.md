@@ -272,3 +272,17 @@ interessante perchè si puó utilizzare con tavoletta grafica
 #### possibilità di usare oggetti
 
 software > di analisi in dismissione
+
+EAnalysis > ausilio alla rappresentazione
+
+pezzo se affrontato con mezzo sbagliato > non si vede neanche nella rappresentazione il pezzo
+
+Acousmographe > dinamiche sempre uguali > ho dubbi se la rappresentazione sia utile
+
+Prossima volta plugin Aural Sonology dell'Acousmographe
+
+Lezioni Biennio I
+
+Filosofia della Musica Contemporanea (Adorno)
+
+Parte Analitica: Stockhausen
