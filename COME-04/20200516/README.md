@@ -90,6 +90,8 @@ circuito di raddrizzamente > prende fase negativa e la porta in positivo
 
 comportamento prende il nome di ripple(disturbo quel ronzio dei 50Hz che rientrano)> residuo dei 50Hz
 
+![ripple](ripple.png)
+
 condensatore tempo di ricarica lento > va a fare integrazione sul segnale > integrare il segnale significa filtrare il segnale
 
 condensatore in base alla sua capacità
