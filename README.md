@@ -1,11 +1,11 @@
 # Repository del ciclo di Biennio di Davide Tedesco
 
-## [CODM-05](https://github.com/SMERM/BN-Tedesco/tree/master/CODM-05)
+## [CODM-05](/CODM-05)
 _Storia della musica elettroacustica._
 
 - Seminario software per l'analisi
 
-## [COME-01](https://github.com/SMERM/BN-Tedesco/tree/master/COME-01)
+## [COME-01](/COME-01)
 _Esecuzione e interpretazione della musica elettroacustica. Ambienti esecutivi e di controllo per il live electronics._
 ### Brani trattati durante il corso:
 - Luigi Nono - Post-prae-ludium n. 1 per Donau
@@ -16,7 +16,7 @@ _Esecuzione e interpretazione della musica elettroacustica. Ambienti esecutivi e
 
 #### Luigi Nono - Post-prae-ludium n. 1 per Donau
 - 
-## [COME-02](https://github.com/SMERM/BN-Tedesco/tree/master/COME-02)
+## [COME-02](/COME-02)
 _Composizione musicale elettroacustica._
 ### Primo Progetto: Chitarra Classica
 
@@ -42,7 +42,7 @@ Ricerca sulla chitarra classica(acustica con corde in nylon) e primo approccio a
 - [VIDEO - esempio feedback strutturale(piezo-attuatore) su chitarra classica](https://www.youtube.com/watch?v=TraqAMf5Exo)-> nella descrizione del video, minutaggio segnato di alcuni primi esempi di feedback
 - [algoritmo per la gestione del feedback realizzato in Faust(FEEDBACK_CONTROLLER v.0.1)](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200512/FEEDBACK_CONTROLLER.dsp)
 ![FEEDBACK_CONTROLLER v.0.1](COME-02/Lezioni_in_Compresenza/20200512/FEEDBACK_CONTROLLER%20v.0.1.png)
-- IR chitarra classica sistema sensore-attuatore [posizione 1]() ![ir chitarra posizione 1](COME-02/Lezioni_in_Compresenza/20200519/Classica_Attuatore_Posizione_1_Cal.jpg)
+- IR chitarra classica sistema sensore-attuatore [posizione 1](COME-02/Lezioni_in_Compresenza/20200519/Sistema_Sensore-Attuatore_Posizione_1) ![ir chitarra posizione 1](COME-02/Lezioni_in_Compresenza/20200519/Classica_Attuatore_Posizione_1_Cal.jpg)
 - IR chitarra classica sistema sensore-attuatore posizione 2(da fare) ![ir chitarra posizione 2]()
 - [VIDEO - implementazione di un LPF e un pedale MIDI(ON/OFF) per controllo del feedback, scordatura durante Feedback](https://youtu.be/7BwwTopM3Ek)
 
@@ -55,11 +55,18 @@ Ricerca sulla chitarra classica(acustica con corde in nylon) e primo approccio a
 - Studio n.2:[Intenzioni compositive dello Studio n.2](), [Draft_1 Studio n.2 Partitura](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200407/Draft_1%20Studio%20n.2%20Partitura.pdf), [Draft_2 Studio n.2 Partitura](), [Draft_2 Studio n.2 Audio]()
 - Studio n.3:[Intenzioni compositive dello Studio n.3](COME-02/Lezioni_in_Compresenza/20200519/Intenzioni_compositive_dello_Studio_n.3.md), [Appunti Studio n.3 (a)](COME-02/Lezioni_in_Compresenza/20200519/Appunti_Studio_n.3_a.jpeg)
 
-## [COME-04](https://github.com/SMERM/BN-Tedesco/tree/master/COME-04)
+## [COME-04](/COME-04)
 _Elettroacustica_
-![farfallone](https://github.com/SMERM/BN-Tedesco/blob/master/COME-04/Spherical_Harmonics_deg3.png)
+![farfallone](/COME-04/Spherical_Harmonics_deg3.png)
 ### Argomenti trattati:
+#### Teoria
 - Audio multi-canale
 - Ambiophonics
 - Ambisonics
+#### Pratica
 - Inizio di saldatura di componenti hardware per l'audio
+- La resistenza
+- Il Condensatore
+- Esempi di primi filtri
+
+
