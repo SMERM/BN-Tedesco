@@ -2,6 +2,7 @@
 
 TO DO LIST
 - IR chitarra classica sistema sensore-attuatore posizione 1 ![ir chitarra posizione 1](Classica_Attuatore_Posizione_1_Cal.jpg)
+- [software utilizzato](https://www.roomeqwizard.com/)
 - implementazione filtri vari feedback
 - primi esempi di sviluppo per feedback(variazioni)
 - esempio bottone panic comandato da esecutore in MIDI
