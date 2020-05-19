@@ -33,6 +33,8 @@ erogazione di potenza > produce una saturazione > compressione necessaria
 
 GNU plot > con dati > ricostruzione impulso
 
+[sito gnuplot](http://www.gnuplot.info/)
+
 Equalizzare la versione rovesciata dello sweep per farla venire rovesciata
 
 - schema catena acustica
