@@ -52,7 +52,8 @@ Ricerca sulla chitarra classica(acustica con corde in nylon) e primo approccio a
 
 ## [COME-03](/COME-03)
 _Acustica_
-[Libri usati](/COME-03/Libri)
+
+[Libri utilizzati](/COME-03/Libri)
 
 ## [COME-04](/COME-04)
 _Elettroacustica_
