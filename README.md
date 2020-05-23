@@ -4,6 +4,7 @@
 _Storia della musica elettroacustica._
 
 - Seminario software per l'analisi
+- [Prima Lezione: Introduzione](/CODM-05/20200521)
 
 ## [COME-01](/COME-01)
 _Esecuzione e interpretazione della musica elettroacustica. Ambienti esecutivi e di controllo per il live electronics._
