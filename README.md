@@ -1,11 +1,5 @@
 # Repository del ciclo di Biennio di Davide Tedesco
 
-## [CODM-05](/CODM-05)
-_Storia della musica elettroacustica._
-
-- Seminario software per l'analisi
-- [Prima Lezione: Introduzione](/CODM-05/20200521)
-
 ## [COME-01](/COME-01)
 _Esecuzione e interpretazione della musica elettroacustica. Ambienti esecutivi e di controllo per il live electronics._
 ### Brani trattati durante il corso:
@@ -70,4 +64,9 @@ _Elettroacustica_
 - Il Condensatore
 - Esempi di primi filtri
 
+## [CODM-05](/CODM-05)
+_Storia della musica elettroacustica._
+
+- Seminario software per l'analisi
+- [Prima Lezione: Introduzione](/CODM-05/20200521)
 
