@@ -1,6 +1,6 @@
 # Stockhausen Paradigma Prima Parte
 
-#### Significato della parola _Paradigma_
+### Significato della parola _Paradigma_
 
 Equiparazione di un autore o di un autore o gruppo di autori che chiamiamo _unità poietica_ cioè singolo autore che gruppo.
 
@@ -14,7 +14,7 @@ Thomas Khun sostiene che: tutte le rivoluzioni scientifiche avvengono secondo un
 
 Quello che interessa riguarda la costituzione del paradigma vigente, riferito alla produzione di Stockhausen (riferito ), paradigma vigente è un insieme stabile di condizioni e convinzioni. È utile questa parificazione del paradigma scientifico perchè ci permette di considerare eventuali fratture storiche, eventuali rotture del paradigma, eventuali anomali sotto questo punto di vista concettuale.
 
-#### Di che cosa è fatto un paradigma?
+### Di che cosa è fatto un paradigma?
 Un paradigma è fatto specialmente di aspetti nascosti, assunti, che sono nella mente di chi pensa, agisce e svolge la ricerca, impliciti sia a livello teorico che a livello pratico. Lo scienziato che si muove all'interno di un paradigma lo fa dando per assodate alcune cose.
 È facile citare il concetto di _pregiudizio_, i paradigmi sono dei pregiudizi, ma non nel senso negativo illuministico. In realtà il pregiudizio è un elemento inevitabile del nostro pensiero ed attività di ricerca artistica ed intellettuale. _Filosofia di Gadamer_ che sostiene che: "il pregiudizio è quell'insieme di nozioni note, nozioni date per assodate a partire dalla quale si va alla ricerca dell'ignoto."
 ```
@@ -108,9 +108,64 @@ Repertorio di metafore prese da altre arti o scienze:
 - Puntillismo -> metafora artistica per certo modo di scrivere la musica
 
 Queste sono tutte metafore e modelli descrittivi.
-
-#### Le generalizzazioni per la Scienza
-#### Le generalizzazioni in Musica
 ![generalizzazioni_esemplari](generalizzazioni_esemplari.png)
+#### Le generalizzazioni per la Scienza
+Sono in genere delle formule molto semplici
+come E = mc^2
+#### Le generalizzazioni in Musica
+in musica è tutto ciò che è codificato nella _teoria musicale_
+- Sintassi armonica -> quando si fa un basso di armonia non si puó passasare da IV a VI grado
+- Risoluzione delle dissonanze-> fatto che le dissonanze devono risolvere
+- in dodecafonia ci sono 12 note che per definizione sono in relazione soltanto fra loro, senza obblighi di comparire in esatto ordine
+- composizione dei modi -> con toni e semitoni
+- gerarchia della scala -> quinte e ottave
+- funzioni tonica, sottotonica
+- classificazione accordi
+- suddivisione gerarchica per 3 o per 2
+
+Semilavorati della musica tradizionale, semilavorati in musica tradizionale che possono essere in continua evoluzione
+
 #### Esemplari per la Scienza
+esempi tipici
+- esempio porta momento angolare
+- pendolo -> per spiegare attrito o moto
+- orbite per spiegare -> attrazione corpi celesti
+- piano inclinato -> meccanismi gravità
 #### Esemplari in Musica
+In musica abbiamo opere esemplari come:
+- Il Clavicembalo ben temperato -> scritto per dimostrare la perfetta organizzazione dello spazio temperato -> si può scrivere per ognuna delle 12 tonalità maggiori e minori
+- il Gradus -> di mementium -> enciclopedia della tecnica pianistica
+- Tristan und Isolde -> inizio di un certo modo di trattare l'armonia che prelude l'atonalita
+- suite op.25 di Schoënberg -> è normativa sulla dodecafonia
+- op 16 n.3 Schoënberg -> liberazione totale da qualsiasi vincolo teorico -> scrittura coloristica -> melodia di timbri
+Phitoprakta e Concrete PH di Xenakis -> applicazione di una concezione statistica per la distribuzione del materiale e non deterministica
+
+### Paradigma
+
+![Paradigma_inside](Paradigma_inside.png)
+
+Riassumendo chiamiamo il compositore(o gruppo di compositori ovvero corrente tipo gli Spettralisti, seconda scuola di Vienna o gruppo Darmstasdt): **unità poietica**
+
+Questi valori, modelli, generalizzazioni ed esemplari del paradigma  diventano:
+1. valori = assunti di base sulla musica
+2. modelli = Immagini e metafore di base
+3. generalizzazioni = metodi compositivi
+4. esemplari = si suddividono in
+- 4a. composizioni esistenti -> alla base di determinato nuovo paradigma
+- 4b. composizioni nuove -> ciò che un'unità poietica produce una volta che il paradigma è stabilizzato
+
+associamo a queste composizioni la domanda analitica l'_ubi consistam_ ovvero la ragione d'essere, e dunque:
+- perchè causale e finale per quanto riguarda gli assunti di base
+- come(l'U.P. immagina e descrive) -> per immagini e modelli
+- come(l'U.P. lavora) -> come lavora, metodi compositivi
+- cosa (l'U.P. considera normante)
+- cosa (l'U.P. descrive)
+
+
+Scienza|Composizione|Ubi consistam (Domanda analitica)
+-------|------------|-------------
+valori | assunti di base sulla musica|perchè (causale e finale)
+modelli|Immagini e metafore di base|come(l'U.P. immagina e descrive)
+generalizzazioni|metodi compositivi|come(l'U.P. lavora)
+esemplari a|composizioni esistenti|cosa (l'U.P. considera normante)
+|composizioni nuove|cosa (l'U.P. descrive)
