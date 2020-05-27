@@ -171,3 +171,33 @@ Dialogo con Pizzaleo, Zattra e SEAM
 livello con I am sitting in a room -> da raggiungere con altri brani
 
 Comunità è filtro molto stretto di ciò
+
+Organizzazione gita a CRM > catalogazione materiale
+
+Per cambiare la situazione ci deve essere un atteggiamento comunitario
+
+Obiettivo: vedere il biquad di Max e articolo Pellecchia
+
+![biquad](biquad.png)
+
+rifare biquad con Faust
+
+campione di ritardo con `@1`history 1
+
+`@2`history 2
+
+modulo di 3 moltiplicazioni, segnale diretto, ritardato, e ritardato di 2 campioni
+
+parte FIR biquad
+
+parte IIR biquad
+
+su Slack -> fare biquad
+
+per l'esame -> si pretende un minimo di lavoro di documentazione -> lavoro da esame è la documentazione
+
+documentazione è necessaria ->importante esser giudicati su quello
+
+Assegnamo i compiti -> documentazione per qualcosa che abbiamo fatto
+
+Lezione sulla documentazione
