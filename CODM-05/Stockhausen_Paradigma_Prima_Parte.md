@@ -1,1 +1,0 @@
-# Stockhausen Paradigma - Prima parte
