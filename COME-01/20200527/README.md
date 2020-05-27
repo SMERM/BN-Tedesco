@@ -38,7 +38,7 @@ A diverse freq il filtro si comporterebbe in modo diverso
 
 **FREQUENCY**
 
-[Manuale VCS3](http://dl.lojinx.com/analoghell/EMSVCS3-UserManual.pdf)
+#### FILTER/OSCILLATOR dal [Manuale VCS3](http://dl.lojinx.com/analoghell/EMSVCS3-UserManual.pdf)
 
 ![FilterOscillator](FilterOscillator.png)
 
