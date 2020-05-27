@@ -169,3 +169,13 @@ modelli|Immagini e metafore di base|come(l'U.P. immagina e descrive)
 generalizzazioni|metodi compositivi|come(l'U.P. lavora)
 esemplari (1)|composizioni esistenti|cosa (l'U.P. considera normante)
 esemplari (2)|composizioni nuove|cosa (l'U.P. descrive)
+
+Alcuni dei testi alla base di quanto sappiamo della musica di Stockhausen
+
+![fonti](fonti.png)
+- _Texte zur elektroni..._ -> 6 volumi
+- testo del 1982 -> Stockhausen all'Aia -> esperimenti al Conservatorio dell'Aia
+
+Non ci sono musicisti paragonabili per importanza, estensione del pensiero, profondità e coerenza a quello di Stockhausen
+
+### Esemplari
