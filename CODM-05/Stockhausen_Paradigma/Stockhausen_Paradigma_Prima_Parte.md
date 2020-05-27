@@ -1,5 +1,6 @@
 # Stockhausen Paradigma Prima Parte
 
+[Link alla lezione](https://www.youtube.com/watch?v=6vSyKo_mum4&feature=youtu.be)
 ### Significato della parola _Paradigma_
 
 Equiparazione di un autore o di un autore o gruppo di autori che chiamiamo _unità poietica_ cioè singolo autore che gruppo.
@@ -176,6 +177,54 @@ Alcuni dei testi alla base di quanto sappiamo della musica di Stockhausen
 - _Texte zur elektroni..._ -> 6 volumi
 - testo del 1982 -> Stockhausen all'Aia -> esperimenti al Conservatorio dell'Aia
 
+Non Conoscere il tedesco è uno dei limiti piú grandi della comprensione del pianeta Stockhausen
 Non ci sono musicisti paragonabili per importanza, estensione del pensiero, profondità e coerenza a quello di Stockhausen
 
+
+
 ### Esemplari
+
+Gli esemplari ovvero ciò che Stockhausen considera normanti, anche se puó sembrar strano, sono quelle composizioni che Stockhausen ha analizzato nei suoi scritti, esse sono paradigmatiche, sono fondamentali per stabilire il suo magistero compositivo
+
+- Op. 24 Webern -> concerto
+- Op. 28 Webern -> uno dei quartetti
+- _Sonata per due pianoforti e percussioni_ di Bartók
+- _Jeux_ di Debussy
+- _Le marteau sans maître_ di Boulez
+- _Canto sospeso_ di Luigi Nono
+
+Ultime due composizioni sono quelle che costituiscono quello precedentemente definito l'ambiente di Darmstastd, anche se Luigi Nono se ne distacca presto, matrice post-seriale
+
+### Valori del paradigma Stockhausen
+
+Assunti di base del paradigma Stockhausen
+![principi](principi.png)
+1. idea che la musica abbia uno **sviluppo continuo ed orientato** -> esiste la musica del passato, del presente e del futuro, e il compositore si deve muovere verso la musica del futuro, lasciandosi alle spalle un certo stadio della musica, sia a livello di comunità musicale, di collettività, di individuo, c'è una certa rete di relazioni che si evolve e da luogo  a una nuova rete di relazioni "x+1"
+Il paradigma musicale porta da uno stadio precedente ad uno stadio successivo. Ciò legato al post-modernismo, dunquq una totale presenza del passato ed un'assenza del futuro, ci fa capire ed intendere quanto Stockhausen sia distante da noi e quanto sia oggi importante capire il suo punto di vista
+2. **Principio dell'universalità della vibrazione** entriamo in un piano poetico e immaginifico, vibriazione nell'universo, che si basa sul fatto che tutto nell'universo vibri. Ogni entità dell'universo vibra con qualsiasi ordine di grandezza, ogni vibrazione può esser considerata come una vibrazione acustica, ed ogni vibrazione acustica produce musica.
+_La musica è un riflesso dell'universo._
+
+### Alcuni assunti o basi del pensiero di Stockhausen
+
+![etica_estetica_spiritualita_arte](etica_estetica_spiritualita_arte.png)
+
+Sincretismo religioso e filosofico di cui Stimmung è un pezzo simbolo.
+
+Sincretismo vuol dire: l'assunzione, fusione e rielaborazione in vista di un nuovo assetto di credenze, di credo religiosi e convinzioni metafisiche preesistenti.
+Per Stockhausen viene tutto sotto il segno di induista, grazie agli insegnamenti(non diretti) di un grande mistico indiano di nome _Satprem Sri Aurobindo_, i cui contenuti sono:
+- Metampsicosi
+- idea della vita come evoluzione dalla materia allo spirito - > idea che la singola vita sia uno stadio intermedio di un processo piú complesso e ampio, rispetto alla vita del singolo (reincarnazione)
+- scopo dell'esistenza è la progressiva estensione dei livelli di coscienza -> che porta dalla bruta materia al puro spirito (alla base della _Relatività progressiva_)-> questa relatività progressiva ci porta da un **principio di integrazione ad un principio di sostituzione**, cioè mentre in una concezione piú tradizionale, alcuni sistemi culturali tendono ad opporsi e contrapporsi ai precedenti ->  l'idea di Stockhausen è idea che gli stadi di estensione della coscienza(livelli di coscienza estesi), si realizzano per integrazione, l'idea quindi che l'esistente si allarga a qualcosa di piú che si interizza ed assume in se il sistema precedentemente -> pensando alla relazione di: PUNTE, GRUPPEN e MOMENTE. Vediamo il principio di relatività progressiva in azione oltre a quello di **estensione dei livelli** e di integrazione (PUNTE->integrati in->GRUPPEN->che allargano la consapevolezza compositiva->MOMENTE->assume in se ed integra tutto quanto già sviluppato con punti e gruppi)
+- Lo **scopo della scrittura musicale della nuova musica** è allargare esattamente quanto lo scopo dell'esistenza è l'allargamento dei livelli di esistenza, la nuova musica ha come scopo, estendere i livelli di percezione, ovvero raffinare la percezione e la capacità di distinguere con orecchio e cervello, di riconoscere ed esplorare il suono, qui vige un regime di relatività progressiva, la capacità delle composizoni aumenta per questo motivo. Il principio dell'universalità della vibrazione ci porta anche ad un'altra conseguenza, ovvero la musisca influenza gli esseri umani, psicologicamente e mentalmente, e anche fisicamente.Conseguenza di estensione di percezione come scopo della musica.
+La creazione di opere dedicate a estensione dei livelli di percezione ha lo scopo di:
+  - creare rappresentazioni dell'universo nelle sue strutture
+  - inccorragiare l'estensione della percezione -> (rappresentazione microcosmica)essa è una figura di un'estensione della coscienza che è piú universale
+  - incorragiare l'estensione della coscienza
+
+Abbiamo esplorato nel nostro paradigma Stockhauseniano:
+- gli assunti di base
+- le esemplari intesi come ció che Stockhausen(l'U.P.) considera come normante
+
+Prossimo appuntamento -> si incarica di indagare le immagini e le metafore di cui si serve Stockhausen per rappresentare la sua musica e la sua evoluzione musicale.
+
+Per i metodi compositivi entriamo nel merito della trattazione.
