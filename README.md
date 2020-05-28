@@ -10,6 +10,8 @@ _Maestro Giuseppe Silvi_
 
 #### Giorgio Nottoli - Incontro
 - realizzazione del VCS3 in Faust
+  - realizzazione dei 3 oscillatori
+  - realizzazione del filter/oscillator
 
 #### Luigi Nono - Post-prae-ludium n. 1 per Donau
 - 
@@ -90,5 +92,5 @@ _Maestro Luigino Pizzaleo_
 - Seminario software per l'analisi
 - [Prima Lezione](/CODM-05/20200521)
 - [Seconda Lezione](/CODM-05/20200528)
-- [Il paradigma Stockhausen](/CODM-05/Stockhausen_Paradigma/
+- [Il paradigma Stockhausen](/CODM-05/Stockhausen_Paradigma/Stockhausen_Paradigma_Prima_Parte.md)
 
