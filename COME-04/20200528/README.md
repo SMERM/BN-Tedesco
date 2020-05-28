@@ -50,3 +50,33 @@ Usando un potenziometro come resistenza
 
 - single coil -> 5000/6000 ohm
 - Humbucker 15/16 Kohm  
+
+potenziometro aperto -> tutto il segnale passa attraverso il condensatorre
+
+se potenziometro è chiuso non fa passare corrente nel condensatore
+
+formula dei condensatori in parallelo
+
+[condensatori in serie e parallelo](https://www.matematicamente.it/appunti/fisica-per-le-superiori/elettromagnetismo-fisica-per-le-superiori/condensatori-serie-parallelo/)
+
+![piu_condensatori]
+
+condensatore elettrolitico ha una polarità -> il condensatore può o non puó avere una polarità
+
+condensatori sono ceramici o a poliestere
+
+alcuni condensatori si chiamano elettrolitici -> in cui il materiale dielettrico è un olio minerale -> per le caratteristiche del materiale dielettrico hanno una polarità -> se li utilizzi con la corrente alternata tagliano la frequenza
+
+esistono gli elettrolitici bipolari (che in realtà sono 2 condensatori polari uno in un verso e uno nell'altro)
+
+questi condensatori elettrolitici bipolari vengono usati sopratutto nel campo audio
+
+condensatori in antiparallelo
+
+in lavatrici -> si trovano in genere condensatori antiparalleli chiamati anche filtri di rete
+
+[condensatori non polarizzati](http://circuitielettronici.it/componenti/condensatori-2/condensatori-non-polarizzati/)
+
+[condensatori polarizzati](http://circuitielettronici.it/componenti/condensatori-2/condensatori-polarizzati/)
+
+condensatori elettrolitici non polarizzati sono in realtà 2 condensatori
