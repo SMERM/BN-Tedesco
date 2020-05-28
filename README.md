@@ -69,6 +69,9 @@ _Elettroacustica_
 - Il Condensatore
 - Esempi di primi filtri
 
+## [COME-05](/COME-05)
+_Informatica Musicale_
+
 ## [CODM-05](/CODM-05)
 _Storia della musica elettroacustica._
 
