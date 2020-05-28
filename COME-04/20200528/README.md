@@ -44,4 +44,9 @@ con 2 condensatori da 0,047 microfarad in serie
 
 potenziometro logaritmico con curva che agisce tutta alla fine -> in genere potenziometro logaritmo ha la sigla che inizia con _b_, esempio di un potenziometro da 10 KOhm _B10K_
 
-ed il potenziometro 
+Usando un potenziometro come resistenza
+
+![pickuchitarra](single_pu.jpg)
+
+- single coil -> 5000/6000 ohm
+- Humbucker 15/16 Kohm  
