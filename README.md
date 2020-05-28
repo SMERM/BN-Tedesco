@@ -1,7 +1,7 @@
 # Repository del ciclo di Biennio di Davide Tedesco
 
 ## [COME-01](/COME-01)
-_Esecuzione e interpretazione della musica elettroacustica. Ambienti esecutivi e di controllo per il live electronics._
+_Esecuzione e interpretazione della musica elettroacustica. Ambienti esecutivi e di controllo per il live electronics - MaestroGiuseppe Silvi_
 ### Brani trattati durante il corso:
 - Luigi Nono - Post-prae-ludium n. 1 per Donau
 - Giorgio Nottoli - Incontro
@@ -12,7 +12,7 @@ _Esecuzione e interpretazione della musica elettroacustica. Ambienti esecutivi e
 #### Luigi Nono - Post-prae-ludium n. 1 per Donau
 - 
 ## [COME-02](/COME-02)
-_Composizione musicale elettroacustica._
+_Composizione musicale elettroacustica - Maestro Michelangelo Lupone - Maestro Nicola Bernardini_
 ### Primo Progetto: Chitarra Classica
 
 ![Guitar](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Bernardini/20200114/Schemi_chitarra_classica/ebguitars_plan_complete_large.png)
@@ -51,12 +51,12 @@ Ricerca sulla chitarra classica(acustica con corde in nylon) e primo approccio a
 - Studio n.3: [Intenzioni compositive dello Studio n.3](COME-02/Lezioni_in_Compresenza/20200519/Intenzioni_compositive_dello_Studio_n.3.md), [Appunti Studio n.3 (a)](COME-02/Lezioni_in_Compresenza/20200519/Appunti_Studio_n.3_a.jpeg)
 
 ## [COME-03](/COME-03)
-_Acustica_
+_Acustica - Ingegnere Marco Giordano_
 
 [Libri utilizzati](/COME-03/Libri)
 
 ## [COME-04](/COME-04)
-_Elettroacustica_
+_Elettroacustica - Maestro Federico Scalas_
 ![farfallone](/COME-04/Spherical_Harmonics_deg3.png)
 ### Argomenti trattati:
 #### Teoria
@@ -70,11 +70,13 @@ _Elettroacustica_
 - Esempi di primi filtri
 
 ## [COME-05](/COME-05)
-_Informatica Musicale_
+_Informatica Musicale - Maestro Pasquale Citera_
 
 ## [CODM-05](/CODM-05)
-_Storia della musica elettroacustica._
+_Storia della musica elettroacustica - Maestro Luigino Pizzaleo_
 
 - Seminario software per l'analisi
-- [Prima Lezione: Introduzione](/CODM-05/20200521)
+- [Prima Lezione](/CODM-05/20200521)
+- [Seconda Lezione](/CODM-05/20200528)
+- [Il paradigma Stockhausen](/CODM-05/Stockhausen_Paradigma/
 
