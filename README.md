@@ -92,5 +92,6 @@ _Maestro Luigino Pizzaleo_
 - Seminario software per l'analisi
 - [Prima Lezione](/CODM-05/20200521)
 - [Seconda Lezione](/CODM-05/20200528)
-- [Il paradigma Stockhausen](/CODM-05/Stockhausen_Paradigma/Stockhausen_Paradigma_Prima_Parte.md)
+- [Il paradigma Stockhausen, Prima Parte](/CODM-05/Stockhausen_Paradigma/Stockhausen_Paradigma_Prima_Parte.md)
+- [Il paradigma Stockhausen, Seconda Parte](/CODM-05/Stockhausen_Paradigma/Stockhausen_Paradigma_Seconda_Parte.md)
 
