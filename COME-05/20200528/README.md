@@ -1,0 +1,1 @@
+# Appunti dell'incontro preliminare
