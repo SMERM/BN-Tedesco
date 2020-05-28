@@ -59,7 +59,7 @@ formula dei condensatori in parallelo
 
 [condensatori in serie e parallelo](https://www.matematicamente.it/appunti/fisica-per-le-superiori/elettromagnetismo-fisica-per-le-superiori/condensatori-serie-parallelo/)
 
-![piu_condensatori]
+![piu_condensatori]()
 
 condensatore elettrolitico ha una polarità -> il condensatore può o non puó avere una polarità
 
@@ -80,3 +80,21 @@ in lavatrici -> si trovano in genere condensatori antiparalleli chiamati anche f
 [condensatori polarizzati](http://circuitielettronici.it/componenti/condensatori-2/condensatori-polarizzati/)
 
 condensatori elettrolitici non polarizzati sono in realtà 2 condensatori
+
+provare a fare la prova
+
+- condensatore in parallelo sull'uscita
+
+Per speaker -> voltaggi molto alti e resistenza dello speaker
+
+Crossovere in genere si realizza con condensatore e induttanza
+
+___
+trasformatore in ingresso sinusoide in uscita -> oltre la fondamentale, c'è anche un po' di rumore di fondo
+------
+con diodo -> raddrizzare un onda
+
+filtro attivo è un filtro passivo seguito da un amplificatore
+
+Basso attivo bilanciato stereo
+![alembic](alembic.jpg)
