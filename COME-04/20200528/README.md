@@ -89,12 +89,19 @@ Per speaker -> voltaggi molto alti e resistenza dello speaker
 
 Crossovere in genere si realizza con condensatore e induttanza
 
-___
+______
+
 trasformatore in ingresso sinusoide in uscita -> oltre la fondamentale, c'è anche un po' di rumore di fondo
-------
-con diodo -> raddrizzare un onda
+
+con diodo -> in genere si raddrizza un onda
 
 filtro attivo è un filtro passivo seguito da un amplificatore
 
-Basso attivo bilanciato stereo
+Basso attivo bilanciato bi mono
 ![alembic](alembic.jpg)
+
+chris squire -> bassista con basso con 2 uscite -> con alti su distorsione e bassi non distorti
+
+[masterclass Chris Squire](https://www.youtube.com/watch?v=cprcYnffK_o)
+
+distorsioni con transistor e diodo
