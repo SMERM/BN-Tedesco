@@ -51,9 +51,13 @@ Usando un potenziometro come resistenza
 - single coil -> 5000/6000 ohm
 - Humbucker 15/16 Kohm  
 
+
 potenziometro aperto -> tutto il segnale passa attraverso il condensatorre
 
 se potenziometro è chiuso non fa passare corrente nel condensatore
+
+Schema potenziometro e condensatore
+![potenziometro_condensatore](potenziometro_condensatore.png)
 
 formula dei condensatori in parallelo
 
