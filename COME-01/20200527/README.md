@@ -90,6 +90,8 @@ Conoscere il biquad in maniera semplice > per poterlo applicare in modo musicale
 
 _loopback_ in RME è digitale mentre i meters sono analogici
 
+![problema_loopback_RME](problema_loopback_RME.png)
+
 NUENDO con vst > compensazione di ritardo (latenza)
 
 Importante determinare la latenza della macchina per utilizzare un filtro su macchine diverse
@@ -193,6 +195,8 @@ parte FIR biquad
 parte IIR biquad
 
 su Slack -> fare biquad
+
+![appunti_biquad](appunti_biquad.png)
 
 per l'esame -> si pretende un minimo di lavoro di documentazione -> lavoro da esame è la documentazione
 
