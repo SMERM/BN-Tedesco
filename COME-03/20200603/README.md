@@ -109,9 +109,124 @@ Membrana è sostanzialmente a 2 dimensioni, lo spazio è invece a 3 dimensioni e
 
 Nella prima matrice non entra mai in gioco la terza coppia di pareti, mentre nella seconda matrice inizia ad esser presente la terza coppia di pareti.
 
-_________
-Dal sito di amacoustics troviamo il [Room Mode Calculator](https://amcoustics.com/tools/amroc?l=500&w=700&h=300&fo=200&fu=21&r60=0.6), che ci permette di calcolare i modi naturali di una stanza, facendoci intendere dove sono i modi naturali relativi di una stanza.
+Dal sito di amcoustics troviamo il [Room Mode Calculator](https://amcoustics.com/tools/amroc?l=500&w=700&h=300&fo=200&fu=21&r60=0.6), che ci permette di calcolare i modi naturali di una stanza, facendoci intendere dove sono i modi naturali relativi di una stanza con riferimenti alla coppia di pareti e al modo.
 
 ![amroc](amroc.png)
 
 Piú andiamo avanti con la frequenza, piú si infittiscono le frequenze associate ai modi naturali.
+
+Utilizzando sempre l'applet, scorrendo sulla pagina del Room Mode Calculator, vediamo tutti i dati delle frequenze del modo:
+- frequenza
+- nota
+- tipologia di modo(assiale, tangenziale o obliquo)
+
+Dunque man mano che saliamo in frequenza c'è una densità sempre maggiore di modi naturali.
+
+Al di sotto vediamo il grafico denominato _Bonello(modi per terza)_ ci fa vedere quanti modi cascano all'interno della terza in esame.
+![bonello](bonello.png)
+
+Relazione che ci dice qual'è la densità frequenziale dei modi naturali ovvero numero di modi per unità di frequenza.
+
+D(Nf)= 4πV•(f^2/c^3)
+
+La densità dei modi è proporzionale al volume e cresce con il quadrato della frequenza.
+La curva in Bonello sembra infatti sostanzialmente una parabola.
+
+Altra cosa da notare guardando lo schema delle frequenze dei modi naturali, vediamo la frequenza indicata la frequenza di Schreder, che nel caso in esame vale 151 Hz, essa è lo spartiacque tra 2 situazioni molto diverse.
+
+Prima della frequenza di Schroeder, la densità di modi è tale da giustificare un approccio di tipo modale, oltre essa non ha senso usare l'approccio modale e sarà meglio descrivere la risposta dello spazio in termini di grandezze aggregate.
+
+Nel momento in cui lo spazio diventa piú complesso e dunque diventa piú difficile risolvere le equazioni differenziali.
+
+A più senso dopo la frequenza di Schroeder, ovvero quando la lunghezza d'onda diventa piú piccola, allora la distribuzione dell'energia per i modi sviluppati in frequenza, che possiamo intendere che i modi a frequenza sempre piú alta, contribuiscono ad una diffusione uniforme dell'energia, condizioni chiamate di _campo diffuso._ Per la situazione del campo diffuso ha piú senso descrivere le grandezze uniformemente e non singolarmente.
+
+
+Riverbero descritto in genere con:
+- tipologia spazio
+- grandezza spazio
+
+Senza andare nel dettaglio dunque, come la descrizione del comportamento del gas, che mi interessa descrivere macroscopicamente.
+
+Dopo la frequenza di Schroeder ha senso valutare lo spazio in termini di grandezze macroscopiche. Quando analizziamo il comportamento di uno spazio dobbiamo pensarlo in due modi:
+- comportamento microscopico
+- comportamento macroscopico
+
+All'ingrandirsi di uno spazio, minore sarà la frequenza di Schroeder, poichè le dimensioni dello spazio saranno più grandi delle dimensioni in gioco.
+In spazio piccolo, lunghezze d'onda piú piccole dello spazio in cui ci si trova.
+In spazio grande, ha piú senso trattare geometricamente ed in modo macroscopico il luogo.
+
+Valuto uno studio -> analisi modale
+Valuto un auditorium -> analisi geometrica.
+
+Fino ad ora abbiamo parlato di modi naturali del campo associati a pareti parallele, dunque il filtro è relativo ai modi naturali.
+
+Dunque se eccito il filtro con un impulso(sparo o battito di mani), risuoneranno prevalentemente frequenze nodali.
+
+Se avessi un oscillatore, se mi sintonizzassi su una delle frequenze dei modi naturali, dovrei eccitare il corrispondente modo, e spostandomi anche di mezzo Hz, dovrei uscire dal fenomeno della risonanza.
+
+Nella realtà se il modo fosse naturale, come mi sposto di poco, dovrei uscire dalla risonanza. Per il fatto che le pareti non  sono mai totalmente riflettenti, dunque le pareti sono piú un filtro a campana, ovvero come un filtro risonante. Dunque quel modo risonante risponde ad una banda, e non a una frequenza singola.
+
+Rapporto tra energia riflessa(Er) e l'energia incidente(Ei), alfa è sempre maggiore di 0.
+
+α è il coefficente di assorbimento
+
+α = 1-(Er/Ei) >0
+
+Parete perfettamente assorbente avrebbe coefficente α = 1, parete perfettamente riflettente avrebbe coefficente α = 0.
+
+Nella realtà una parete ha sicuramente un α>0.
+
+α ovviamente ha un comportamento diverso per ogni frequenza e dunque α = α(f).
+
+![campana](campana.png)
+
+Quindi la risonanza non è perfetta, ma è una campana.
+
+E se dunque i modi sono piú numerosi avviene una sovrapposizione di campane
+
+
+delta = coefficente di smorzamento per un certo modo naturale
+
+![ampiezza_campana](ampiezza_campana.png)
+
+Da una certa frequenza in poi potrò avere diversi modi naturali ad ampiezze diverse e coefficente di assorbimento di modi diversi, e dunque le campane si sovrapporranno.
+
+Piú la parete è assorbente, piú la situazione si complica, poichè la campana si allarga.
+
+Se mi metto con un oscillatore, ad una frequenza, cascheranno dunque diversi modi naturali in piú di una campana dei modi naturali.
+
+L'applet vista, suppone che tutt le pareti siano ideali, mentre il simulatore REW, realizza il lavoro con piú precisione e accuratezza.
+![rew_room_sim](rew_room_sim.png)
+
+Coefficente di assorbimento di una parete?
+Caratteristiche delle pareti per la correzione o la progettazione di uno spazio.
+
+Nei software previsionali, ho database con materiali che posso utilizzare, e che sono valutati in tutta la banda.
+
+_______
+
+Se ho una parete, se anche vale l'approssimazione geometrica, se mando della luce sulla parete, il raggio riflesso non è piú un raggio, ma diviene un fascio di luce.(secondo la legge di Snell-Cartesio)
+
+Quando la parete non è perfettamente lucida, l'energia viene diffusa e non la concentra nella direzione dell'onda incidente, ma la diffonde. Che è il motivo per cui noi vediamo il cielo azzurro. Se non avessimo l'atmosfera con dei gas che diffondessero la luce, vedremo il sole come si vede dallo spazio. Poichè ci sono delle molecole nei gas atmosferici, che sono della grandezza della luce blu proveniente dal sole, è per questo motivo che la luce blu viene diffusa nel cielo.
+
+Un raggio riesce a conservare la sua direzionalità, dunque un fronte d'onda piano con una superficie molto piccola.
+
+Differentemente dalla luce in cui la radiazione ha grosso modo 2 ordini di grandezza, mentre nel campo acustico la lunghezza d'onda è sparsa su 3 ordini, con dunque pluralità di lunghezze. Dunnque comportamento diverso in funzione della banda analizzata.
+
+Dunque ad un coefficiente di assorbimento maggiore
+
+Facendo la misura di uno spazio esistente, misuro la risposta in frequenza di uno spazio ed avró delle risposte all'impulso che hanno determinate caratteristiche. Se trovo un'enfasi ad una particolare banda, quello che posso fare per intervenire,
+
+Se trovo che c'è una risonanza molto forte, mi interessa capire da dove viene fuori quella risonanza, e che tipo di modo è coinvolto, se ha una frequenza bassa, è modo tangenziale. Se è un modo assiale, quale coppie di pareti coinvolge.
+
+![modi_tangenziali](modi_tangenziali.png)
+
+Obiettivo per la risposta in frequenza è appiattire il piú possibile la curva, ma non solo. E poi quello che vediamo nella risposta in frequenza, è la parte del comportamento stazionario del mio filtro e non mi dice nulla ad esempio dei rapporti di fase(spettro delle fasi).
+
+Se guardiamo lo spettro del modulo di un impulso, essa è piatta e costante a tutte le frequenze. Anche di un white noise, ma se guardiamo lo spettro di fase dei due suoni è molto diverso. Dunque la risposta in frequenza non dice mai tutta la storia.
+La risposta in frequenza ci da una fotografia infinita, che non tiene conto della transitorietà e del tempo, che è molto importante per la musica.
+
+Uno dei segnali piú complessi da questo punto di vista è il parlato, che ha una tempo varianza estremamente particolare.
+
+
+[Articolo Chafe Sintesi Vocale](https://ccrma.stanford.edu/~cc/vox/smac2013som/)
