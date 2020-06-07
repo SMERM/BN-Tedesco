@@ -7,7 +7,9 @@ Abbiamo elencato i 3 approcci utilizzati per l'analisi degli ambienti:
 - ondulatorio o modale
 - geometrico
 - statistico
+
 ____
+
 Cos'è un modo naturale di un sistema?
 
 Richiamo del significato dei modi naturali, partendo dallo studio dei modi naturali di una coppia di pareti parallele.
@@ -55,6 +57,7 @@ I database delle IR, sono una possibile risposta all'impulso di un ambiente, poi
 Devo dunque campionare tutto lo spazio per capire come si comporta, avendo un'idea generale del comportamento dello spazio, capendo se ci sono punti in cui ci sono criticità.
 
 A seconda del tipo di destinazione d'uso() spazio reale o spazio non esistente):
+
 - auditorium -> progetto lo spazio della platea, fissando un certo numero di punti, software fa la simulazione e posso quindi avere risultati
 - analisi di uno spazio esistente -> riprese diverse per ognuno dei punti che mi interessa, riprendo certo numero di punti in base alle disponibilità che ho
 
@@ -116,6 +119,7 @@ Dal sito di amcoustics troviamo il [Room Mode Calculator](https://amcoustics.com
 Piú andiamo avanti con la frequenza, piú si infittiscono le frequenze associate ai modi naturali.
 
 Utilizzando sempre l'applet, scorrendo sulla pagina del Room Mode Calculator, vediamo tutti i dati delle frequenze del modo:
+
 - frequenza
 - nota
 - tipologia di modo(assiale, tangenziale o obliquo)
@@ -140,14 +144,15 @@ Nel momento in cui lo spazio diventa piú complesso e dunque diventa piú diffic
 
 A più senso dopo la frequenza di Schroeder, ovvero quando la lunghezza d'onda diventa piú piccola, allora la distribuzione dell'energia per i modi sviluppati in frequenza, che possiamo intendere che i modi a frequenza sempre piú alta, contribuiscono ad una diffusione uniforme dell'energia, condizioni chiamate di _campo diffuso._ Per la situazione del campo diffuso ha piú senso descrivere le grandezze uniformemente e non singolarmente.
 
-
 Riverbero descritto in genere con:
+
 - tipologia spazio
 - grandezza spazio
 
 Senza andare nel dettaglio dunque, come la descrizione del comportamento del gas, che mi interessa descrivere macroscopicamente.
 
 Dopo la frequenza di Schroeder ha senso valutare lo spazio in termini di grandezze macroscopiche. Quando analizziamo il comportamento di uno spazio dobbiamo pensarlo in due modi:
+
 - comportamento microscopico
 - comportamento macroscopico
 
@@ -178,16 +183,15 @@ Nella realtà una parete ha sicuramente un α>0.
 
 α ovviamente ha un comportamento diverso per ogni frequenza e dunque α = α(f).
 
-![campana](campana.png)
-
 Quindi la risonanza non è perfetta, ma è una campana.
+
+![campana](campana.png)
 
 E se dunque i modi sono piú numerosi avviene una sovrapposizione di campane
 
-
 delta = coefficente di smorzamento per un certo modo naturale
 
-![ampiezza_campana](ampiezza_campana.png)
+![coeff_smorz](coeff_smorz.png)
 
 Da una certa frequenza in poi potrò avere diversi modi naturali ad ampiezze diverse e coefficente di assorbimento di modi diversi, e dunque le campane si sovrapporranno.
 
@@ -227,6 +231,5 @@ Se guardiamo lo spettro del modulo di un impulso, essa è piatta e costante a tu
 La risposta in frequenza ci da una fotografia infinita, che non tiene conto della transitorietà e del tempo, che è molto importante per la musica.
 
 Uno dei segnali piú complessi da questo punto di vista è il parlato, che ha una tempo varianza estremamente particolare.
-
 
 [Articolo Chafe Sintesi Vocale](https://ccrma.stanford.edu/~cc/vox/smac2013som/)
