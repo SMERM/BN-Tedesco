@@ -40,7 +40,7 @@ Concetto complesso, poichè è una parola usata da molti compositori con signifi
 
 La definizione piú coerente e convincente di _continuum_ ce la diede Trevor Wishart a metà degli anni '90, in un'opera intitolata _Sonica Art_ ma in realtà rappresenta una metafora della contrapposzione tra quantità discretizzate  e possibilità infinite. Nel contnuum si drammatizza la scelta, in esso c'è lo stupore di individuare uno stato, una condizione istantanea ed individuale, all'interno di infinite combinazioni possibili
 
-![continuum.png](/Users/davide/github/SMERM/BN-Tedesco/CODM-05/Stockhausen_Paradigma/Stockhausen_Modelli/continuum.png)
+![continuum.png](continuum.png)
 
 Per ogni entità diciamo: un punto, un gruppo o delle composizioni, tutte le composizioni di un compositore nell'arco della sua vita, tutta la musica esistente, la singola sinusoide di una mistura in una frase di studio I. Dunque ogni entità puó essere  vista come vista come un **grumo di realtà su un punto di un continuum**, non solo ogni entità ma anche ogni parametro.
 
@@ -48,4 +48,4 @@ Per ogni entità diciamo: un punto, un gruppo o delle composizioni, tutte le com
 
 ### Spirale
 
-![spirale.png](/Users/davide/github/SMERM/BN-Tedesco/CODM-05/Stockhausen_Paradigma/Stockhausen_Modelli/spirale.png)
+![spirale.png](spirale.png)
