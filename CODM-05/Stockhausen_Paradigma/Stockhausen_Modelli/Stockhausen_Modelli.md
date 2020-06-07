@@ -48,4 +48,20 @@ Per ogni entità diciamo: un punto, un gruppo o delle composizioni, tutte le com
 
 ### Spirale
 
-![spirale.png](spirale.png)
+
+
+![spirale](spirale.png)
+
+La teoria dell'evoluzione continua, rischia di farci tornare sempre all'inzio, da dove siamo partiti. In realtà è vero che siamo sempre da capo, una volta che un sistema di scrittura viene realizzato pienamente, se non viene superato, diventa un sistema opprimente, un sistema chiuso. La necessità di ogni volta trascendere, ci da l'idea di un movimento circolare, con la quale ci troviamo sempre allo stesso punto. Questo trascendere significa bensí integrare ciò che già esiste in una realtà nuova e più estesa, questo stesso principio governa l'estensione della percezione che secondo Stockhausen è alla base dell'esistenza umana, e che governa la ragion d'essere per realizzare musica, arte. L'evoluzione è dunque continua, benchè il movimento di ricerca ed individuazione, sublimazione sia di **concezione circolare**, ovvero ritorni sempre ad un punto particolare in cui poi bisogna cominciare da capo, il fatto che tutto ció integri progressivamente il già visto e sperimentato, in una dimensione nuova, in cui il significato assume una dimensione nuova ad esempio: il fatto che la singola nota di una serie non rappresenti piú l'altezza di un suono, ma un gruppo, ovvero un gruppo di note, esempio di questa circolarità che integra, sublima e sviluppa le proprietà di un concetto. Ciò che a un livello della spirale è una nota, ad un altro livello è un gruppo ed ad un livello ancora successivo diviene una regione geografica, una formula della superpartitura che genera una composizione di quelle realizzate per mezzo di una formula.
+
+Si realizza con il concetto di spirale la **relatività progressiva** ovvero il fatto che ogni cosa è connessa alla precedente ma in un modo che tende ad integrare progressivamente, e non a sostituire i metodi precedenti. Il principio, ovvero la matrice seriale almeno per tutti gli anni '60 è uno di quegli elementi che sono costanti, ovvero la spina dorsale della spirale.
+
+C'è poi un **processo di integrazione dialettica** che è connaturato alla **relatività progressiva**. Integrazione dialettica significa che ogni proprietà, ogni assetto, ogni procedura, che fa parte di un dato momento della scrittura di Stockhausen, entra in crisi per poi essere riassunto in una forma di sintesi nuova. L'idea della sintesi è legata all'idea dialettica, e iniziamo a capire (forse per la prima volta) che il paradigma di Stockhausen non è altro che una _sequenza di paradigmi e rivoluzioni scientifiche_. Anche le rivoluzioni scientifiche infatti rileggono il passato integrando, conservando l'utilizzabile e scartando l'inutilizzabile. Anche le rivoluzioni scientifiche procedono a spireale ad esempio: nella tecnica dei punti, ogni nota della serie diventa un suono, questa caratteristica diviene inutilizzabile nella teoria dei gruppi, dato che il gruppo è rappresentato da singola nota ma formato da piú note, vuol dire che l'identità tra ciò che ascolto e la nota scritta della serie non è piú utilizzabile(elemento paradigmatico che viene scartato).
+
+**Estensione del principio seriale** è un tipico esempio (realizzazione pratica di ciò appena descritto), dall'organizzazione di cose pronunciate esattamente alla lettera derivate da una serie, alla gestione di aspetti piú complessi di gruppi di note, valori e altezze, ció comporta un'**estensione dell'orizzonte di ricerca**, poichè nel momento in cui il lavoro seriale del mio orizzonte di ricerca, viene acquisito, passa nelle retrovie dell'operare, mentre nell'avanguardia del mio operare rientrano cose nuove ed orizzonti divers, come: ciò che si affaccia al nostro orizzonte per la prima volta è sconosciuto e tutto da esplorare, e man mano che entriamo in questo orizzonte o spazio, ci diviene famigliare, mentre all'orizzonte ci si affacciano nuove possibilità. Tutto ciò con questo movimento a spirale, _circolare, progressivo_, la spirale è un cerchio che si muove nelle tree dimensioni. Esso puó avere sempre lo stesso diametro, ma in Stockhausen, almeno fino a _Mantra_ ovvero fino agli anni '70, il diametro di questa spirale si estende progressivamente. 
+
+### Galassia
+
+Finalmente la metafora usata spesso da Stockhausen che descrive piu
+
+![galassia](galassia.png)
