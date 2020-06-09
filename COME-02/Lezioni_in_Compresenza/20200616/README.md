@@ -1,4 +1,4 @@
-# Appunti della lezione di Martedí 9 Giugno 2020
+# Appunti della lezione di Martedí 16 Giugno 2020
 
 Punto della situazione:
 
