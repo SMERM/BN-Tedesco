@@ -1,12 +1,8 @@
 # Appunti della lezione di Mercoledi 10 Giugno 2020
 
-
-
 ##### Richiami alla scorsa lezione
 
 La scorsa volta abbiamo cominciato a trattare dell'approccio geometrico.
-
-
 
 Prima di approfondire l'approccio geometrico, approfondiamo ulteriormentel'approccio modale.
 
@@ -25,8 +21,6 @@ fl sta per frequenza limite
 in cui V = è il volume dello spazio
 
 delta medio = coefficente di smorzamento medio dei modi
-
-
 
 ##### Calcolo della frequenza di Schroeder
 
@@ -58,25 +52,17 @@ Tr = 0.5 s
 
 fl = 200 Hz
 
-
-
 La frequenza è direttamente proporzionale rispetto al volume ed inversamente proporzionale al tempo di riverberazione
-
-
 
 A _V_ costante se _Tr_ aumenta aumenta anche _fl_
 
 A parità di _Tr_ la variabile in gioco è l'ampiezza, e dunque il volume piú grande sarà connotato da frequenza di Schroeder piú bassa, la si intuisce poichè in un volume piú grande, il campo in cui essa si comporta come un campo diffuso è piú bassa, perchè i modi naturali coinvolti saranno di piú.
-
-
 
 I due calcoli sono simili, poichè c'è una correlazione tra Tr e coefficente di smorzamento medio
 
 Tr = 6.9/delta medio s
 
 All'aumentare dello smorzamento medio, il tempo di riverberazione diminuisce.
-
-
 
 Dunque il secondo calcolo è piú utilizzabile nel nostro campo
 
@@ -156,8 +142,6 @@ Percorso del tratto verde+rosso = tratto azzurro+rosso
 
 ![2pareti](2pareti.png)
 
-
-
 Il raggio da Sa all'ascoltatore sarà attenuato da coefficente di attenuazione della parete e ritardato dal fatto che da _Sa_ all'ascoltatore c'è piú distanza che tra _S_ e l'ascoltatore.
 
 Come fatto per il primo ordine, ottengo la sorgente _Sab_ che è ottenuta dalla riflessione attraverso 2 pareti(a e b), essa sarà una sorgente del secondo ordine, poichè ottenuta dalla riflessione attraverso 2 pareti. Se collego _Sab_ al punto di ricezione, dal punto che interseca la parete b di _Sab_ tiro la congiungente con _Sa_ e la congiungente con _S_ ed ho ottenuto tutto il percorso del raggio che picchia sulle due pareti. Quindi il percorso che congiunge la sorgente _Sab_ con la sorgente, è lo stesso che ho con tutto il percorso _S_, _Sa_ ed _Sab_.
@@ -165,3 +149,57 @@ Come fatto per il primo ordine, ottengo la sorgente _Sab_ che è ottenuta dalla 
 ![2pareti2ord](2pareti2ord.png)
 
 Otterro dunque una costellazione che mi danno il contributo delle cosidette **prime riflessioni**.
+
+Con le varie sorgenti si forma un reticolo, e quando si accende la sorgente reale, si accendono anche le sorgenti virtuali.
+
+![sorgvirtu](sorgvirtu.png)
+
+![sorgvirtu2](sorgvirtu2.png)
+
+Quando mi devo fermare nel calcolare le sorgenti virtuali?
+
+Il contributo sorgenti immagine è interessante fino a quando è percepibile questo contributo.
+
+Piú bassa fisso la soglia del rumore, e dunque piú alto sarà l'onere di calcolo.
+
+![sorgvirtu3](sorgvirtu3.png)
+
+Le due pareti laterali hanno piú attenuazione di quella frontale e posteriore.
+
+Grafico che corrisponde alla risposta di una parete che ha una convessità
+
+![cavita](cavita.png)
+
+Il pattern sottostante è invece piú generale
+
+![cavita2](cavita2.png)
+
+Di questi punti (sorgenti), l'ascoltatore indicato con una x, ne sentirà solo un tot, dunque posso ricavarmi la popolazione di tutte le sorgenti virtuali, ma esse non saranno utili sempre, e la loro utilità dipenderà dalla posizione dell'ascoltatore.
+
+Nel secondo grafico vediamo le sorgenti utili della sorgente stando in quella determinata posizione.
+
+**Differenze sostanziali tra ray tracing e sorgenti virtuali**, la differenza sostanziale sta nella complessità di calcolo. Con il ray tracing ho bisogno di una _potenza di calcolo costante_, ciò è indipendente dallo spazio o dall'ascoltatore. Nel caso delle sorgenti virtuali non ho un'approssimazione, perchè posso calcolare tutte le sorgenti virtuali che mi servono, dunque al crescere delle pareti e delle sorgenti che calcolo, il calcolo aumento. Primo ordine (n calcolo), secondo ordine(n*(n-1)), terzo ordine (n*(n-1)*(n-1)).
+
+Dunque la complessità dell'algoritmo di sorgenti virtuali ha complessità _esponenziale_ (n*(n-1)^k).
+
+Tubo ottagonale
+
+![tuboottagonale](tuboottagonale.png)
+
+Quando accendiamo la sorgente, l'ascoltatore viene investito dal suono diretto e da una moltitudine di sorgenti virtuali, opportunamente attenuate per assorbimento, attenuazione, ed in base all'aria(che si comporta come un LP che varia in funzione della distanza).
+
+fc(d) funzione che da la frequenza di taglio in funzione della distanza
+
+![freqtaglioaria](freqtaglioaria.png)
+
+Motivo per cui se cade un fulmine io sento un tuono, perchè ciò che mi arriva è tutta la parte filtrata e mi arriva tutto il contributo delle medio-gravi.
+
+Nel caso in cui ci si trovi vicino a fulmine, si sente buona parte delle frequenze contenute nella scintilla. Essa non è una sorgente lineare, ma già a 20 metri/50 metri lo si puó considerare come un petardo.
+
+Il suono di un fulmine vicino, anfora gigante che precipita da 200 metri, l'attacco del suono è percussivo e poi viene la parte esplosiva.
+
+Facendosi due conti sull'effetto dell'aria, già a 6 metri di distanza la frequenza è in banda audio.
+
+A distanza di un km la frequenza di taglio è intorno ai 600Hz, ció vuol dire che a 5Khz l'attenuazione è di 44dB.
+
+Bisogna pensare che il nostro sistema percettivo ha tutte queste funzioni incorporate.
