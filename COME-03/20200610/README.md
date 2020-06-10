@@ -178,6 +178,8 @@ Di questi punti (sorgenti), l'ascoltatore indicato con una x, ne sentirà solo u
 
 Nel secondo grafico vediamo le sorgenti utili della sorgente stando in quella determinata posizione.
 
+### Differenze sostanziali tra ray tracing e sorgenti virtuali
+
 **Differenze sostanziali tra ray tracing e sorgenti virtuali**, la differenza sostanziale sta nella complessità di calcolo. Con il ray tracing ho bisogno di una _potenza di calcolo costante_, ciò è indipendente dallo spazio o dall'ascoltatore. Nel caso delle sorgenti virtuali non ho un'approssimazione, perchè posso calcolare tutte le sorgenti virtuali che mi servono, dunque al crescere delle pareti e delle sorgenti che calcolo, il calcolo aumento. Primo ordine (n calcolo), secondo ordine(n*(n-1)), terzo ordine (n*(n-1)*(n-1)).
 
 Dunque la complessità dell'algoritmo di sorgenti virtuali ha complessità _esponenziale_ (n*(n-1)^k).
@@ -203,3 +205,59 @@ Facendosi due conti sull'effetto dell'aria, già a 6 metri di distanza la freque
 A distanza di un km la frequenza di taglio è intorno ai 600Hz, ció vuol dire che a 5Khz l'attenuazione è di 44dB.
 
 Bisogna pensare che il nostro sistema percettivo ha tutte queste funzioni incorporate.
+
+
+
+### Perchè è interessante e importante l'approccio geometrico?
+
+Perchè ci permette di simulare in maniera semplice la prima parte della risposta all'impulso di uno spazio.
+
+Risposta all'impulso, risposta di un sistema usando dei glissandi logaritmici, attraverso una funzione inversa, calcoliamo la risposta all'impulso.
+
+Spiegazione riverbero da [hyperphysics](http://hyperphysics.phy-astr.gsu.edu/hbase/Acoustic/reverb)
+
+Il riverbero è costituito da:
+
+1. suono diretto(che dipende dalla distanza della sorgente), 
+
+2. le prime riflessioni che si riferiscono alle riflessioni piú vicine(ed in genere piú forti) molto importanti per la posizione della sorgente e le qualità dello spazio, 
+
+3. coda 
+
+[Applet amroc]([Amray - The Raytracing Sketchpad](https://amcoustics.com/tools/amray)), per disegnare uno spazio e metterci dentro una sorgente e utilizzare l'algoritmo del _ray tracing_
+
+![raytracingam](raytracingam.png)
+
+Ciò ci fa intendere come si posizionano i raggi in funzione della forma della cavità. 
+
+Utilizzando il beam-forming 
+
+![beam-forming](beam-forming.png)
+
+Caratteristica importante dell'IR è la distanza tra il suono diretto e l'arrivo delle prime riflessioni, perchè ciò ci da informazimi importanti sulla posizione della sorgente
+
+La distanza fra prime riflessioni e me se mi avvicino al fondo della sala diminuisce
+
+![fondosala](fondosala.png)
+
+In apparecchi commerciali _early reflcetions_ e _pre delay_ hanno significato simile.
+
+per le IR ciò che riesci a capire
+
+Diciamo che la zona delle prime riflessioni, è quella in cui il nostro orecchio è ancora in grado di distinguere i singoli contributi.
+
+Quando mi avvicino ad una parete, le prime riflessioni si avvicinano moto al suono diretto, ed in queste condizioni la parte di riverberazione diffusa sovrasta la zona di prime riflessioni, dunque ciò che caratterizza lo spazio e la posizione dell'ascoltatore nello spazio, oltre alle caratteristiche quantitative, è importante capire come sono collocate le 3 regioni(suono diretto, prime riflessioni e zona diffusa(coda)). 
+
+Ad esempio se metto l'ascoltatatore al centro della stanza e la sorgente in prossimità di una parete.
+
+![speakerparete](speakerparete.png)
+
+Configurazione di un corridoio la risposta è anomala, poichè le riflessioni divengono i modi naturali
+
+![corridoio](corridoio.png)
+
+Se accorcio la lunghezza del corridoio la periodicità aumenta.
+
+Con il beam-forming si ricavano i raggi che congiungono sorgenti ed ascoltatore.
+
+Codice in C++ dell'approccio geometrico e della realizzazione di sorgenti virtuali.
