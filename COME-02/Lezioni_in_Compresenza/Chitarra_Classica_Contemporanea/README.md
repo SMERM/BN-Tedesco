@@ -2,41 +2,41 @@
 
 - **Milton Babbitt**
   
-  - ****Composition
+  - Composition
 
 - **Agostino Di Scipio**
   
-  - ****Ektopos
+  - Ektopos
 
 - **Franco Donatoni**
-  
-  - ****Algo
+
+  - Algo
 
 - **Brian Ferneyhough**
   
-  - ****kurze schatten II
+  - kurze schatten II
   - no time
 
 - **Helmut Lachenmann**
   
-  - ****Salut für Caudwell 
+  - Salut für Caudwell 
 
 - **Bruno Maderna**
   
-  - ****Y Después
+  - Y Después
 
 - **Tristan Murail**
   
-  - ****Tellur
+  - Tellur
 
 - **Giacinto Scelsi**
   
-  - ****Ko-Tha
+  - Ko-Tha
 
 - **Toru Takemitsu**
   
-  - ****12 Songs Transcriptions
+  - 12 Songs Transcriptions
 
 - ** Fabio Vacchi**
   
-  - **** Plynn
+  -  Plynn
