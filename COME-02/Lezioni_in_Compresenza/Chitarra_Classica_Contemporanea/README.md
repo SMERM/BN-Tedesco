@@ -37,6 +37,6 @@
   
   - 12 Songs Transcriptions
 
-- ** Fabio Vacchi**
+- **Fabio Vacchi**
   
   -  Plynn
