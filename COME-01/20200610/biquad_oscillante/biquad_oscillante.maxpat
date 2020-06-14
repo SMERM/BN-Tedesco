@@ -40,6 +40,52 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-57",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1028.0, 432.0, 100.0, 22.0 ],
+					"text" : "domainlabel $1/2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-36",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1232.0, 561.0, 179.0, 20.0 ],
+					"text" : "FREQ TO COEFFICENTS"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-31",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1003.0, 410.0, 150.0, 20.0 ],
+					"text" : "SAMPLE RATE"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1232.0, 578.0, 225.0, 60.0 ],
+					"text" : "oscb(f) = impulse : fi.tf2(1,0,0,a1,1)\n with {   \na1 = -2*cos(2*ma.PI*f/ma.SR); \n};"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"format" : 6,
 					"id" : "obj-26",
 					"maxclass" : "flonum",
@@ -390,7 +436,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 731.833337545394897, 424.0, 68.0, 22.0 ],
-					"text" : "-1.948671"
+					"text" : "-1.974133"
 				}
 
 			}
@@ -426,7 +472,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1077.0, 57.0, 150.0, 516.0 ],
+					"patching_rect" : [ 1232.0, 37.0, 150.0, 516.0 ],
 					"text" : "/*BIQUAD FILTER IN FAUST*/\n/* y[n]=b0x[n]+b1x[n−1]+b2x[n−2]−a1y[n−1]−a2y[n−2]\nNote that a and b parameters are inverted */\nimport(\"stdfaust.lib\");\n\na0(a0c) = *(a0c);\na1(a1c) = @(1) : *(a1c);\na2(a2c) = @(2) : *(a2c);\n\nb1(b1c) = *(b1c);\nb2(b2c) = @(1) : *(b2c);\n\n\n//Blocco FIR\na(a0c,a1c,a2c) = _ <: a0(a0c),a1(a1c),a2(a2c) :> _ ;\n//process = no.noise : a(1,1,0): _;\n\n//Blocco IIR\nb(b1c, b2c) = _ <:  b1(b1c), b2(b2c):> _;\n//process = no.noise : ma.sub~b(0.8,0): _;\n\nbiquad(x,a0,a1,a2,b1,b2) = x : a(a0,a1,a2) : ma.sub~(b(b1,b2));\n\n//a = a0(0.9), a1(0.1), a2(0.1);\n//b = b1(0.2), b2(0.2);\nprocess =  biquad;"
 				}
 
@@ -438,8 +484,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 587.75, 369.0, 52.0, 22.0 ],
-					"text" : "0.00002"
+					"patching_rect" : [ 587.75, 369.0, 59.0, 22.0 ],
+					"text" : "0.000003"
 				}
 
 			}
@@ -464,7 +510,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 587.75, 396.0, 59.5, 22.0 ]
+					"patching_rect" : [ 587.75, 396.0, 94.5, 22.0 ]
 				}
 
 			}
@@ -644,6 +690,7 @@
 					"logfreq" : 1,
 					"markercolor" : [ 0.384313725490196, 0.364705882352941, 0.364705882352941, 1.0 ],
 					"maxclass" : "spectroscope~",
+					"monochrome" : 0,
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
