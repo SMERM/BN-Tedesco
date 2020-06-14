@@ -9,13 +9,13 @@
   - Ektopos
 
 - **Franco Donatoni**
-
+  
   - Algo
 
 - **Brian Ferneyhough**
   
   - kurze schatten II
-  - no time
+  - no time (at all)
 
 - **Helmut Lachenmann**
   
@@ -39,4 +39,4 @@
 
 - **Fabio Vacchi**
   
-  -  Plynn
+  - Plynn
