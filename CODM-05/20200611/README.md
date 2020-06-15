@@ -132,8 +132,6 @@ L'effetto è quello di un approccio statistico. Ma a che tipo di collocazione vi
 
 (In Gesange troviamo pratiche deterministiche e aleatorie)
 
-
-
 Nell'etereofonia che è una pratica tipica delle sezioni M di Momente, troviamo la pratica statistica che Stockhausen usa per trattare una certa sezione di nastro. Cosa che troviamo nei 4 criteri della musica elettronica. 
 
 **Polifonia**: impostazione deterministica contrappuntistica, ovvero quanto dura ogni nota, e so esattamente quando arriva la nota x e che cosa arriva.
@@ -150,8 +148,6 @@ Ogni momento finale, ogni estremità della struttura ad albero diventa un piano.
 
 ____
 
-
-
 La struttura ad albero indica che vi è un qualcosa che nasce tutto insieme, e che non è frutto di una scrittura lineare da in prima a un dopo. Il fatto che possiamo decidere se vada prima il K o il D, attorno a una struttura centrale M. Ci dice che non è importante la direzionalità.
 
 In Momente c'è una sezione in cui vi sono gli applausi, dunque essi fanno parte del brano. 
@@ -166,4 +162,30 @@ Dagli anni '50 musica verso l'assenza di sviluppo, ed è parimenti lecita una co
 
 (Ascolto del brano)
 
-Arriviamo dunque a Gesang der Jüngelinge
+Arriviamo dunque a Gesang der Jüngelinge. Nell'analisi di Gesange vi è la traduzione in inglese del testo apocrifo biblico del Profeta Daniele. Testo dell'*invocazione fanciulli nelle fornaci*, testo intenso.
+
+(Ascolto dell'inizio de Il mio tesoro intanto dal Don Giovanni di Mozart versione cantata da Josef Protschka, bambino che canta nel Gesange, carriera come tenore e noto come interprete di Lieder tedeschi, ed interprete mozartiano)
+
+Analisi tradotta non alla perfezione dal francese, in cui vi sono cose poco chiare...
+
+Analisi che ci dice qualcosa dei criteri utilizzati nel Gesang.
+
+Lo spazio è uno dei tratti fondamentali del brano, il brano era inizialmente quadrifonico, e dunque va pensato sulle due dimensioni. Dunque lo ascoltiamo male.
+
+Stockhausen, Nono, Chowning rinunciano allo spazio perchè lo spazio non è evidentemente importante.
+
+Allo spazio si rinuncia poichè non è un parametro compositivo...
+
+Dunque la registrazione discografica tiene traccia solo dei parametri che fanno parte di una concezione di scrittura piú tradizionale.
+
+Problema è che nella struttrua compositiva sono integrate cose che fanno parte del dominio dell'accadere e non del comunicare, dunque tutto ciò che appartiene al dominio dell'accadere(come lo spazio). Per Stockhausen la serializzazione è lo strumento tra periodico e statistico, caratteristiche fondamentali dell'onda sonora. Tra questi 2 poli (della pulsazione regolare e della pulsazione imprevedibile), c'è l'organizzazione seriale che deve arrivare dall'alto del compositore.
+
+Lo spazio puó essere anche l'essenziale (I am sitting in a room), stiamo dunque parlando di accadimento e non di parametri misurabili su scala, poichè non abbiamo una scala, non possiamo discretizzare lo spazio, che avviene e ci contiente, e dunque non rientra nelle competenze della vecchia musica astratta, musica del messaggio e della combinazione.
+
+*Lo spazio è il momente in cui abbiamo i piedi...* (È un esser dentro lo spazio,  non è un esser di fronte)
+
+
+
+![Gesang_Org_1](Gesang_Org_1.png)
+
+![Gesang_Org_2](Gesang_Org_2.png)
