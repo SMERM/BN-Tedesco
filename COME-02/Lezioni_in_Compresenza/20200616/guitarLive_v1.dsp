@@ -23,7 +23,18 @@ panic = *(button("Panic")) : si.smoo;
 feedback = _ <: -(panic_in)<: -(panic):> _;
 
 /*DISTORTION SECTION*/
-distortion = dm.cubicnl_demo;
+disto = ba.bypass1(on_off, ef.cubicnl_nodc(drive:si.smoo,offset:si.smoo))
+with{
+	cnl_group(x)  = vgroup("DISTORSIONE [tooltip: Reference:
+		https://ccrma.stanford.edu/~jos/pasp/Cubic_Soft_Clipper.html]", x);
+	on_off = cnl_group(checkbox("[0] Bypass [tooltip: When this is checked, the
+		nonlinearity has no effect]"));
+	drive = cnl_group(hslider("[1] Drive [tooltip: Amount of distortion]",
+		0, 0, 1, 0.01));
+	offset = cnl_group(hslider("[2] Offset [tooltip: Brings in even harmonics]",
+		0, 0, 1, 0.01));
+};
+distortion = disto;
 
 /*FILTERS SECTION*/
 filters = fi.dcblocker ;
