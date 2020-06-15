@@ -90,4 +90,6 @@ Il carotaggio all'interno degli infiniti tessuti musicali possibili rende l'idea
 
 Di fatto ciò che esiste filosoficamente sono dei piani paralleli(poichè non c'è nessuna comunicazione) infiniti.
 
-Quello che vedo è davvero:
+Quello che vedo è davvero questo dunque:
+
+![momentform_cerchi](momentform_cerchi.png)
