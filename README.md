@@ -104,12 +104,14 @@ _Maestro Pasquale Citera_
 _Maestro Luigino Pizzaleo_
 
 - [Seminario software per l'analisi](/CODM-05/20200514/Seminario_software_per_l'analisi.md/)
+
 - [Prima Lezione](/CODM-05/20200521)
 - [Seconda Lezione](/CODM-05/20200528)
 - [Terza Lezione](/CODM-05/20200528/)
 - [Quarta Lezione](/CODM-05/20200604/)
 - [Quinta Lezione](/CODM-05/20200611/)
 - [Sesta Lezione](/CODM-05/20200618/)
+
 - [Il paradigma Stockhausen](/CODM-05/Stockhausen_Paradigma)
 
 
