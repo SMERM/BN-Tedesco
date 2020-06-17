@@ -4,6 +4,8 @@
 #### _Esecuzione e interpretazione della musica elettroacustica. Ambienti esecutivi e di controllo per il live electronics_
 
 _Maestro Giuseppe Silvi_
+
+![foto](/COME-01/20200527/FilterOscillator3.png)
 ### Brani trattati durante il corso:
 - Luigi Nono - Post-prae-ludium n. 1 per Donau
 - Giorgio Nottoli - Incontro
@@ -64,6 +66,7 @@ Ricerca sulla chitarra classica(acustica con corde in nylon) e primo approccio a
 
 _Ingegnere Marco Giordano_
 
+![foto](/COME-03/20200610/tuboottagonale.png)
 [Libri e risorse utilizzate](/COME-03/Risorse)
 
 - [Prima Lezione](/COME-03/20200527/)
@@ -95,6 +98,8 @@ _Maestro Federico Scalas_
 
 _Maestro Pasquale Citera_
 
+![foto](/COME-05/20200611/FMcode.png)
+
 - Filtri FIR
 - Filtri IIR
 
@@ -103,6 +108,7 @@ _Maestro Pasquale Citera_
 
 _Maestro Luigino Pizzaleo_
 
+![foto](/CODM-05/Stockhausen_Paradigma/Kontakte_Hardware_allo_Studio_della_WDR_di_Colonia/messgenerator_60_part.png)
 - [Seminario software per l'analisi](/CODM-05/20200514/Seminario_software_per_l'analisi.md/)
 
 - [Prima Lezione](/CODM-05/20200521)
