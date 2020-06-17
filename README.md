@@ -67,6 +67,7 @@ Ricerca sulla chitarra classica(acustica con corde in nylon) e primo approccio a
 _Ingegnere Marco Giordano_
 
 ![foto](/COME-03/20200610/tuboottagonale.png)
+
 [Libri e risorse utilizzate](/COME-03/Risorse)
 
 - [Prima Lezione](/COME-03/20200527/)
