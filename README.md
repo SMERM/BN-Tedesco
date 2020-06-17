@@ -15,6 +15,7 @@ _Maestro Giuseppe Silvi_
 
 #### Luigi Nono - Post-prae-ludium n. 1 per Donau
 - 
+
 ## [COME-02](/COME-02)
 #### _Composizione musicale elettroacustica_
 
@@ -52,16 +53,24 @@ Ricerca sulla chitarra classica(acustica con corde in nylon) e primo approccio a
 - [Sketches](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200324/Sketches.pdf)
 #### Studi 
 - Legenda: [Draft_1_Legenda](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200407/Legenda_Part_Perc.jpg)
+- Legenda elettroacustica: [Schema 1](/COME-02/Lezioni_in_Compresenza/20200616/guitar_Electroacustic_Scheme_I.jpg)
 - Studio n.1: [Intenzioni compositive dello Studio n.1](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200505/Intenzioni_compositive_dello_Studio_n.1.md),[Draft_1 Studio n.1 Partitura](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200331/Draft_1_Studio_n.1_Partitura.pdf), [Draft_1 Studio n.1 Audio](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200331/Draft_1_Studio_n.1_Audio.wav), [Draft_2 Studio n.1 Partitura]()
 - Studio n.2: [Intenzioni compositive dello Studio n.2](), [Draft_1 Studio n.2 Partitura](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200407/Draft_1%20Studio%20n.2%20Partitura.pdf), [Draft_2 Studio n.2 Partitura](), [Draft_2 Studio n.2 Audio]()
 - Studio n.3: [Intenzioni compositive dello Studio n.3](COME-02/Lezioni_in_Compresenza/20200519/Intenzioni_compositive_dello_Studio_n.3.md), [Appunti Studio n.3 (a)](COME-02/Lezioni_in_Compresenza/20200519/Appunti_Studio_n.3_a.jpeg)
+-Studio n.4 a: [partitura](/COME-02/Lezioni_in_Compresenza/20200616/Studio_n.4_a.pdf)
 
 ## [COME-03](/COME-03)
 #### _Acustica degli ambienti musicali_
 
 _Ingegnere Marco Giordano_
 
-[Libri utilizzati](/COME-03/Libri)
+[Libri e risorse utilizzate](/COME-03/Risorse)
+
+- [Prima Lezione](/COME-03/20200527/)
+- [Seconda Lezione](/COME-03/20200603/)
+- [Terza Lezione](/COME-03/20200610/)
+- [Quarta Lezione](/COME-03/20200617/)
+
 
 ## [COME-04](/COME-04)
 #### _Elettroacustica_
@@ -76,13 +85,18 @@ _Maestro Federico Scalas_
 #### Pratica
 - Inizio di saldatura di componenti hardware per l'audio
 - La resistenza
-- Il Condensatore
+- Il condensatore
 - Esempi di primi filtri
+- Il diodo
+- Il transistor
 
 ## [COME-05](/COME-05)
 #### _Informatica Musicale_ 
 
 _Maestro Pasquale Citera_
+
+- Filtri FIR
+- Filtri IIR
 
 ## [CODM-05](/CODM-05)
 #### _Storia della musica elettroacustica_
@@ -92,6 +106,10 @@ _Maestro Luigino Pizzaleo_
 - Seminario software per l'analisi
 - [Prima Lezione](/CODM-05/20200521)
 - [Seconda Lezione](/CODM-05/20200528)
-- [Il paradigma Stockhausen, Prima Parte](/CODM-05/Stockhausen_Paradigma/Stockhausen_Paradigma_Prima_Parte.md)
-- [Il paradigma Stockhausen, Seconda Parte](/CODM-05/Stockhausen_Paradigma/Stockhausen_Paradigma_Seconda_Parte.md)
+- [Terza Lezione](/CODM-05/20200528/)
+- [Quarta Lezione](/CODM-05/20200604/)
+- [Quinta Lezione](/CODM-05/20200611/)
+- [Sesta Lezione](/CODM-05/20200618/)
+- [Il paradigma Stockhausen](/CODM-05/Stockhausen_Paradigma)
+
 
