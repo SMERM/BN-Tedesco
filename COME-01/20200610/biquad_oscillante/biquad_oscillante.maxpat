@@ -183,7 +183,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 299.0, 183.0, 640.0, 480.0 ],
+						"rect" : [ 344.0, 219.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -218,8 +218,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 106.0, 124.0, 38.0, 22.0 ],
-									"text" : "sig~ ."
+									"patching_rect" : [ 106.0, 124.0, 51.0, 22.0 ],
+									"text" : "sig~ 50."
 								}
 
 							}
@@ -398,7 +398,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1011.0, 383.0, 50.0, 22.0 ],
-					"text" : "96000."
+					"text" : "44100."
 				}
 
 			}
@@ -434,7 +434,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 731.833337545394897, 424.0, 68.0, 22.0 ],
-					"text" : "-1.811656"
+					"text" : "-2."
 				}
 
 			}
@@ -682,7 +682,6 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"domain" : [ 0.0, 48000.0 ],
 					"fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-33",
 					"logfreq" : 1,
