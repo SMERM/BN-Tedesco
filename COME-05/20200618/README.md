@@ -40,3 +40,5 @@ Secondo metodo
 ### IIR del secondo ordine
 
 ![IIR_2_ord](IIR_2_ord.png)
+
+[Articolo sui filtri IIR e le approssimazioni per la conversione da frequenze a coefficente a per il filtro](https://www.dsprelated.com/showarticle/182.php)
