@@ -133,3 +133,15 @@ Esistono varie tipologie di interfacciamento con varie tipologie di programmi e 
 Vediamo arduino2max per l'utilizzo di Arduino con [arduino2max](https://github.com/joesanford/arduino2max).
 
 ![arduino2max](arduino2max.png)
+
+Se ponticello uscita a 5V e la mando a entrata a0, vedo che il valore letto da quest'entrata è 1023, ovvero il massimo.
+
+Ora se inserisco un potenziometro in mezzo, posso far variare la resistenza e dunque il valore letto dall'entrata a0.
+
+Se il potenziometro lo collego ad un pedale posso modificare la resistenza con il movimento del pedale.
+
+La GND mando sempre il residuo per avere un valore di riferimento e non creo la differenza.
+
+Pin centrale è quello che si muove e il laterali sono gli estremi del carbone.
+
+Se collego una qualsiasi cosa posso usarla con max ad esempio convertendolo in MIDI.
