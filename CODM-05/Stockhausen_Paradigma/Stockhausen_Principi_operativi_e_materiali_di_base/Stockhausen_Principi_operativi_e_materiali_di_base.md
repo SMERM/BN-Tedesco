@@ -191,3 +191,56 @@ Forma dunque di aumentazione formale, poichè dato un certo elemento, esso può 
 #### Formula
 
 ![form](form.png)
+
+
+Non è altro che un brano di musica che può stare in una o due pagine, che diviene una specie di mappa o carta geografica che descrive il pezzo vero e proprio.
+In pratica, a partire da **Plus-Minus** e dall'idea di _processo_ che ne fornisce sicuramente un precedente; poichè in Plus-Minus viene applicata per la prima volta l'idea di _suono nucleo_ ovvero _Zentralklang_, invece di un'idea di _suono come accessorio_ o _Akzidens_, potremmo chiamarli come tronco e rami.
+Idea dunque che ci sia struttura fondamentale che da il colore armonico a evento sonoro e a delle idee e struttre collaterali che si accompagnano al suono che conferiscono un carattere, un colore o meglio un'identità a tutto l'evento sonoro.
+
+Oltre alla divisione principale tra _suoni nucleo_ e _suoni accessori_, che proviene da Plus-Minus, vi è sempre un'**idea della galassia**(idea topografica della musica), e una differenziazione e dialettica tra locale e globale:
+- i _suoni nucleo_ sono delle strutture seriale che troviamo nella formula
+- i _suoni accessori_ sono invece una tipologia di suoni molto ben definiti
+  - eco
+  - pre-eco
+  - pausa colorata
+  - variazione
+  - scala
+  - modulazione
+
+I suoni accessori sono tutte categorie che Stockhausen muta dalla pratica del nastro magnetico. Eco e pre-eco sono fenomeni indesiderati della registrazione su nastro magnetico.
+
+La pausa colorata, proviene dal sibilo del nastro vuoto. (Anche in  Plus-Minus vi è questa idea, eventi sonori divengono banda o nastro silenzioso, silenzio abitato da fruscii e sussurri, versione fantasma del nastro. Pausa colorata come metafora del nastro vuoto)
+
+La scala(o ponte) sono struttre di passaggio tra un _Zentralklang_ ed un altro.
+
+La variazione è un mutamento realizzato sui materiali di base.
+
+La modulazione, intesa come variazione della velocità del nastro, o variazione ritmica dell'intensità, ovvero tremolo e vibrato, applicati metaforicamente ad una struttura.
+
+_Esempio di serie con do-re-mi-fa-sol, ed aggiungendo note a caso in mezzo, realizzo un tremolo ed espando questo Zentralklang con una modalità che Stockhausen chiama variazione._
+
+La formula non è altro che un brano di cui la realizzazione finale è la meta-partitura, ovvero musica fatta con la musica, dunque il rapporto che normalmente in tutti gli altri stadi gli elementi intrattengono con i parametri, la formula intrattiene rapporti con questi elementi che la costituiscono. Questi elementi vengono congelati nella formula(danno luogo a forma, percorso e a una geografia del pezzo) questi elementi vengono dunque sottoposti a un processo chiamato _poiezione_, in cui ogni elemento viene proiettato su dimensione temporale piú grande attraverso la _proiezione della formuala_, e dotato di questi _suoni accessori_ che lo arrichiscono e lo identificano e gli danno carattere.
+
+### Riepilogo dei materiali di base in Stockhausen
+
+Categorie|Elementi|Parametri|
+---------|--------|---------|
+Suoni(deterministico)|Punti|Altezza,  durata, dinamica, timbro, collocazione
+Statistico|Gruppi|Direzione, ambito, densità
+Forma|Momenti|Organizzazione(Gestalt,Struktur), tendenza temporale(statica, dinamica)
+Trasformazione|Processo|Mutamento, cambiamento
+Composizione|Formula|Elementi(nucleo, accessori)
+
+
+Possibilità di descrivere delle categorie con i suoni e con parametri tradizionali della serialità integrale.
+I parametri statistici, moltiplicazione dei parametri determnistici che danno luogo ai punti.
+Estensione di deterministico e statistico che genera i momenti.
+Abbiamo poi quel particolare momento che è la trasformazione(mutamento o cambiamento) che si avvale del processo. Ed infine la composizione che è il punto di arrivo va dal singolo suono a _Licht_(che dura una settimana), caratterizzata dalla formula; possiamo pensare la categoria in termini di elementi, i quali possono essere composti dai parametri, gli elementi successivi possono essere costruiti a partire dal basso della gerarchia; fino a che elementi intrecciati danno luogo alla composizione.
+
+Tutte queste categorie, nel momento in cui vengono situati in forme scalari o sottoposti a una polarizzazione(in cui ci si muove con serializzazione o determinismo), divengono gradi di una forma scalare, che divengono un qualcosa di disomogeno(vedi caratteristiche dei _Suoni accessori_, tipologie totalmente diverse fra loro). In cui scala,la variazione e la modulazione sono sottotipi della variazione, mentre eco, pre-eco e pausa colorata vengono trasformati in elementi formali.
+
+(La scala o ponte ha come matrice nel mondo del nastro magnetico, quel particolare glissato che si ha quando si avvia il nastro, che da luogo a glissati strani.)
+
+Dunque nella formula gli elementi stanno alla formula, come in tutti gli altri elementi i parametri stanno all'elemento.
+
+La tabella riassume e fa capire la relatività progressivia descritta all'inizio, ovvero quel progressivo integrare le acquisizioni precedenti in sistemi più articolati, intensi e piú complessi e grandi.
