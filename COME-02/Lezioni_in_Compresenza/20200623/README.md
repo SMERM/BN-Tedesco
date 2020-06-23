@@ -6,3 +6,7 @@
 - [Lilypond Tutorial](https://www.youtube.com/watch?v=tclwyZr08bE&list=PLHi8BvxILUV6x9FqEmZiYrEj6VMGmTKjt)
 - Decisioni sulle lezioni
 - Cosa portare all'esame, proseguire con gli studi o passare ad un brano?
+- consigli per la realizzazione di un pedale
+- consigli sul filtraggio per la gestione del feedback
+- accortezze per la gestione delle intensità con i filtri (come Nono)
+- 5 Piccoli studi per chitarra classica aumentata
