@@ -128,8 +128,110 @@ Questa ultima posizione guarda specularmente la direzione dell'emissione del Suo
 ![grotta4.jpg](foto_echi_d'acqua/grotta4.jpg)
 __________
 
+### Schema audio
+
+[Schema Audio utilizzato](SchemaAudioMatera_1.pdf)
+
+Le opere girano su Arduino e Max, esse girano con sensori cablati e wireless.
+
+Distribuzione dei canali audio precisa.
+
+Emissione capace di distribuire un'immagine spaziale dei canali per avere una gestione delle varie regioni frequenziali. Vita interna dell'opera che viene generata da una competrazione vitale attraverso il suono attraverso il movimento interno dei sistemi.
+
+(Capacità di evocare un movimento è data da cancellazioni delle HRTF, e del filtraggio, con elevazione del segnale attraverso dei filtri, realizzando una sorta di scultura acustica).
+
+#### Trucchi nell'assemblaggio dei componenti
+
+Parallelo o serie dei diffusori. Le impedenze ovviamente sono indicate poichè quando si viaggia con molti metri di cavo. Ciò ha un peso rilevante con le correnti che devono attraversare i filtri di rame.
+
+Corrente di rete sopra i 10000 Hz che poteva essere ovviamente data dai cavi che realizzano un filtro passa basso e dunque a problemi di filtraggio.
+
+#### Cavi
+
+Come devono essere trattati i cavi e utilizzati. Lavoro di preparazione dei cavi per l'installazione. Preparativi per le installazioni sono essenziali poichè essi servono alla predisposizione dell'opera, inventandosi dei trucchi, per dare la giusta tensione per dare la giusta tensione.
+
+È determinante dunque un buon progetto.
+
 __________
-Domande:
-- gestione dei conflitti fra le varie modalità di riproduzione
-- possibile l'ascolto di più opere insieme
-- rapporto tra collettività e individualità del genere
+- trasmissione in digitale e amplificazione sul luogo??
+
+Umidità nel luogo e formazione di condensa, non ha reso possibile il fatto di porre regie interne al Palombaro stesso.
+__________
+### Punti di analisi del luogo
+- punto di Laura Bianchini
+- punto di Alessio Gabriele
+- punto Lupone
+
+### Richiesta
+
+Esecuzione musicale con 2 tipologie:
+1. visita guidata
+2. visita installazioni
+
+#### Visita guidata
+
+Carattere che permettesse alla guida di parlare. La guida ed il pubblico sono all'interno di quest'onda generando un inseguimento del pubblico.
+
+#### Visita installazioni
+
+- sfondo totale
+- suoni forma
+
+#### Regole compositivie (organizzazione materiale)
+- consequenzialità
+- adiacenza
+- congruenza
+- dialettica
+- ricorsivita`
+- alea controllata
+- riferimento
+
+Vi sono gradi di coerenza ben intellegibili e problematiche che hanno a che fare con simultaneità spazio dell'insieme.
+
+##### Congruenza
+
+Congruenza che permette di congiungere un compositore all'altro.
+Con passaggio di parte dei materiali con congruenza specifica che fa legare e differenziare materiali e parti dell'Installazione.
+
+##### Ricorsività
+
+trasformazioni ed anche elementi con ostinati e ripetizioni anche iterate del materiale
+
+#### Strati
+3 strati:
+1. sfondo totale
+2. sfondo locale
+3. suono forma
+
+##### Sfondo Locale
+Ciò che rappresenta la dimensione piano, sottofondo deve attenersi in modo rigoroso con congruenza e dialettica con lo _sfondo totale_ che deve integrarsi.
+
+##### Suono Forma
+Elementi in risalto, con durate minime e massime.
+
+Macroclassificazioni per gestire la dialettica delle installazioni
+_________
+Sono regolati a livello algoritmico compressioni e attenuazioni per collaborazione delle varie opere e vi sono configurazioni possibili.
+__________
+### Lavoro in equipe
+
+Musica elettronica, possibilità di lavoro in equipe.
+Contributi diversificati che arrichiscono il profilo del lavoro d'arte, e si deve condividere sul piano umano l'idea e le passioni.
+
+[Regole Compositive Echi d'acqua](20190913_REGOLE_COMPOSITIVE_ECHIDACQUA_v2_mik.pdf)
+[Video Echi d'acqua](Video_Echi_d'acqua.mp4)
+
+_________
+### Diffusore per la parte di Alessio Gabriele
+
+- efficacia della direzionalità del diffusore
+  - accorgimento di allineamento dei 2 driver
+  - analisi escursione in frequenza
+- compressione della dinamica per la geometria dell'ambiente
+- dati i limiti al compositore, esso ha sfruttato al massimo le limitazioni dello strumento(ultima parte che ha risolto un'attenta equalizzazione con loudness complessiva per la resa finale)
+
+Ovviamente i driver sono scelti per avere accoppiamento con curva adeguata e rendendo il sistema complessivo adeguato.
+
+Nella chitarra l'equilibrio dinamico tra corda piú grave e piú acuta deve esser dunque bilanciato.
+
+_L'accoppiamento di piú parti non da quasi mai una risposta lineare._
