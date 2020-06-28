@@ -61,7 +61,8 @@ Ricerca sulla chitarra classica(acustica con corde in nylon) e primo approccio a
 - Studio n.3: [Intenzioni compositive dello Studio n.3](COME-02/Lezioni_in_Compresenza/20200519/Intenzioni_compositive_dello_Studio_n.3.md), [Appunti Studio n.3 (a)](COME-02/Lezioni_in_Compresenza/20200519/Appunti_Studio_n.3_a.jpeg)
 - Studio n.4 a: [partitura alla prima versione](/COME-02/Lezioni_in_Compresenza/20200616/Studio_n.4_a.pdf)
 - Studio n.4 b: 
-- Studio n.5: (sfuttare la scordatura naturale della chitarra)
+- Studio n.5: [Intenzioni compositive dello Studio n.5](), (sfuttare la scordatura naturale della chitarra)
+- Studio n.6: [Intenzioni compositive dello Studio n.6]()
 
 ## [COME-03](/COME-03)
 #### _Acustica degli ambienti musicali_
