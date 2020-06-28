@@ -77,6 +77,7 @@ _Ingegnere Marco Giordano_
 - [Seconda Lezione](/COME-03/20200603/)
 - [Terza Lezione](/COME-03/20200610/)
 - [Quarta Lezione](/COME-03/20200617/)
+- [Quinta Lezione](/COME-03/20200624/)
 
 
 ## [COME-04](/COME-04)
@@ -121,6 +122,7 @@ _Maestro Luigino Pizzaleo_
 - [Quarta Lezione](/CODM-05/20200604/)
 - [Quinta Lezione](/CODM-05/20200611/)
 - [Sesta Lezione](/CODM-05/20200618/)
+- [Settima Lezione](/CODM-05/20200625/)
 
 - [Il paradigma Stockhausen](/CODM-05/Stockhausen_Paradigma)
 
