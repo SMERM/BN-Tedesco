@@ -117,3 +117,111 @@ Che varia in base all'umidità ed alla frequenza.
 Considerare l'attenuazione dell'aria mi porta ad avere tempi di riverberazione piú bassi e diversi.
 
 Esempio per ambiente a 5000 m^3 differenza con la formula con attenuazione da quella senza del 30% di riverberazione.
+______________
+### Grandezze per caratterizzare la risposta di uno spazio
+
+Con Sabine veniva usato il _tempo di riverbero_ ovvero _RT60_. La formula di Sabine da una caratteristica astratta del tempo di riverberazione che dipende dal volume e dall'alfa segnato.
+
+Glossario di tutti i parametri e le grandezze che si usano nel mondo dell'acustica.
+[Acoustic Glossary](http://www.acoustic-glossary.co.uk/)
+
+In esso vi sono sia termini discorsivi che termini di grandezze collegate.
+
+Inoltre ci sono delle norme standard che definiscono i tempi di riverberazione.
+
+La IEC 801-31-07 che definisce i parametri di cui parliamo e questi parametri sono standardizzati.
+
+Norma [ISO 3382](http://store.uni.com/catalogo/uni-en-iso-3382-2-2008?josso_back_to=http://store.uni.com/josso-security-check.php&josso_cmd=login_optional&josso_partnerapp_host=store.uni.com) che si occupa di definire quali sono le procedure e i parametri di determinati ambienti e spazi.
+
+Divisa in 3 parti:
+1. spazi performativi, metodi per sale acustiche da spettacolo, se si volesse fare l'acustico certificato dovrebbe usare apparecchiature descritte nella prima parte
+2. descrive norme per spazi ordinari
+3. misura e valutazione di spazi open space
+
+Procedure e metodi di valutazione sono già stabilite in modo standard
+
+Per avere valutazione certificata di uno spazio acustico, bisogna seguire la norma 3382, ciò denota che è stato fatto un notevole lavoro di sistematizzazione e standardizzazione.
+
+### Tempi di riverberazione in funzione della sala
+
+![timerev](timerev.png)
+
+Da questo grafico denotiamo i vari tempi di riverberazione. Valori ottenuti da campionamento di varie sale da concerto.
+
+### _RT60_
+
+Esso è il tempo necessario affinche la risposta all'impulso decada di 60dB.
+
+Come faccia a calcolare tempo di riverberazione avendo una risposta all'impulso?
+
+![irriv](irriv.png)
+
+Sulle ordinate abbiamo i dB, mentre sulle ascisse abbiamo i ms di RT60.
+
+Una curva esponenziale decrescente su grafico cartesiano lineare viene rappresentata in un certo modo:
+
+se cambio il moltiplicatore all'esponenziale cambia la ripidita1 con cui scende la curva:
+![exp](exp.png)
+dipende dal coefficente della x
+![exp2](exp2.png)
+Se uso una rappresentazione esponenziale questo grafico diviene una retta, e la pendenza della retta è il coefficente della x.
+
+Il piano in ordinata sono i decibel che è logaritmico e lo utilizziamo.
+
+La retta che ho della IR mi da un'idea  di come avviene la decrescita delle RT60. Scopriamo dunque che essa decresce esponenzialmente.
+![rt60red](rt60red.png)
+
+Ciò ci da proprio il valore di RT60 ovvero del coefficente, quindi proprio come decresce la IR.
+
+Una volta che ho l'angolo della retta posso ricavarmi RT60, sostanzialmente dal grafico.
+
+![redalfa](redalfa.png)
+
+Linea curva è la IR, mentre altre linee incontrano la curva in punti diversi.
+Questo procedimento serve per individuare il T10, T20  e T30 che servono ad individuare quando il suono decade di tot dB.
+
+![cumul](cumul.png)
+
+Estrapolando la retta del T20 trovo il T20
+
+![t20](t20.png)
+
+Questi parametri sono utili, perchè mi danno delle informazioni piú precise, su quanto la curva reale di decadimento sia uniforme o meno.
+
+Il tasso di diversità tra questi tempi di riverbero ci dice quanto è irregolare e quanto è uniforme all'inizio la risposta all'impulso.
+
+Nel caso da noi analizzato la risposta all'impulso ha delle irregolarità all'inizio. E ciò mi da l'idea della parte iniziale dell'IR. È come se calcolassi il tempo di riverberazione in base valori in dB diversi da 60.
+
+### EDT
+
+Parametro chiamato EDT, ovvero Early deacy time, ovvero tempo di riferimento delle prime riflessioni
+
+Retta a -10dB e quando incontra la curva faccio fermare il cronometro, ottengo dunque:
+
+![edt](edt.png)
+
+Se estrapolo il segmento di retta e ne prendo il tempo e lo moltiplico per 6 ottengo l'EDT.
+
+![edt2](edt2.png)
+EDT ricavato da una caduta di 10dB ma viene confrontato con RT60, l'EDT ha lo scopo di capire qual'è l'uniformità tra il profilo di decadimento delle prime riflessioni ed il profilo di decadimento della risposta diffusa.
+
+L'EDT mi da l'RT60 stimato sulle prime riflessioni.
+
+Chiaramente nella maggior parte dei casi i valori dell'EDT sono inferiori a quelli dell'RT60. E l'entità di questa differenza garantisce un'indicazione della mancanza di diffusione del campo in quel punto.
+
+Il T60 è uguale e non varia al variare dei punti di misurazione dello spazio.
+
+Il T60 ha un senso da una certa dimensione di una sala in poi; poichè in uno spazio piccolo siamo piú in campo di diffusione dei modi naturali. se sto valutando uno spazio abbastanza grande(sale con uso performativo, sale con una notevole cubatura), e lo misuro in vari punti troverò sempre tempo di riverberazione simile.
+
+L'EDT cambia molto rispetto al punto in cui prendo la risposta all'impulso, poichè in essa hanno molto piú importanza le prime riflessioni. Se dunque consideriamo il fatto che un EDT uguale a T60 è come un campo perfettamente diffuso, vuol dire che quello è un indicatore che quello è un campo non perfettamente diffuso.
+
+Stiamo conoscendo questi parametri con approccio statistico, parlando dunque di un campo che ha un approccio ergotico, uniformemente diffuso. Stiamo dunque conoscendo parametri che mi definiscono lo scostamento dallo spazio reale da quello perfettamente diffuso.
+
+L'EDT è definito da caratteristiche percettive molto precise ed esso mi da indicazioni su parametri percettivi e sensazioni psicoacustiche.
+
+Come documentazione anche l'help di REW, c'è una documentazione fatta molto  bene dei parametri utilizzati nel software.
+
+______________
+Modalità di esame:
+
+- riprendere un proprio ambiente e documentarlo
