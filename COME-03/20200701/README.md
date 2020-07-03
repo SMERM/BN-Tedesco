@@ -131,7 +131,7 @@ Inoltre ci sono delle norme standard che definiscono i tempi di riverberazione.
 
 La IEC 801-31-07 che definisce i parametri di cui parliamo e questi parametri sono standardizzati.
 
-Norma [ISO 3382](http://store.uni.com/catalogo/uni-en-iso-3382-2-2008?josso_back_to=http://store.uni.com/josso-security-check.php&josso_cmd=login_optional&josso_partnerapp_host=store.uni.com) che si occupa di definire quali sono le procedure e i parametri di determinati ambienti e spazi.
+Norma [ISO 3382](http://store.uni.com/catalogo/uni-en-iso-3382-1-2009?josso_back_to=http://store.uni.com/josso-security-check.php&josso_cmd=login_optional&josso_partnerapp_host=store.uni.com) che si occupa di definire quali sono le procedure e i parametri di determinati ambienti e spazi.
 
 Divisa in 3 parti:
 1. spazi performativi, metodi per sale acustiche da spettacolo, se si volesse fare l'acustico certificato dovrebbe usare apparecchiature descritte nella prima parte
@@ -150,7 +150,7 @@ Da questo grafico denotiamo i vari tempi di riverberazione. Valori ottenuti da c
 
 ### _RT60_
 
-Esso è il tempo necessario affinche la risposta all'impulso decada di 60dB.
+Esso è il tempo necessario affinchè la risposta all'impulso decada di 60dB.
 
 Come faccia a calcolare tempo di riverberazione avendo una risposta all'impulso?
 
