@@ -16,11 +16,13 @@ Quando T60,T10 e T30 sono simili hanno una buona uniformità del comportamento.
 
 Immagini caricate sul wiki -> grafici che mostrano la definizione delle grandezze di cui parlavamo
 ____
-### Descrittori degli spazio
+## Descrittori degli spazio
 
 Essi sono molti e possiamo guardare la norma 3382 e ne si trovano molti
 
 Quelli che noi vediamo sono ovviamente solo una parte.
+
+### Descrittori statistici relativi all'IR
 
 #### ITDG
 
@@ -73,3 +75,117 @@ I valori ottimali per l'ITDG variano a seconda dello spazio:
 - spazio destinato alla parola -> sotto una certa soglia di circa 50 ms -> valori di piú di 50 ms sono sconsigliati per spazi destinati alla particolare
 
 Valore magico per l'ITDG è intorno a 30 ms
+
+#### BR - Bass  Ratio
+
+Esso è sostanzialmente un rapporto tra i tempi di riverbero calcolati a diverse frequenze, in particolare esso è:
+
+![BR](BR.png)
+Esso esprime un rapporto tra tempi di riverbero preso a delle precise frequenze.
+
+Questo valore ci da indicazioni della pienezza del suono nel registro medio-grave. Tipicamente le sale migliori sono quelle che hanno il _BR_ tra 1.2 e 1.25.
+
+1.2 < BR < 1.25
+
+#### Brilliance
+
+Allo stesso modo si definisce un altro indice molto simile denominata brilliance.
+
+Essa ha una definizione simile alla BR ma su frequenze diverse.
+
+![B](B.png)
+
+Parametri per la luminosità dell'ambiente a livello acustico, ovvero quanta parte c'è di contributo medio-grave e medio-acuto.
+
+Questi due parametri ovviamente sono collegati ai materiali dello spazio.
+
+Materiali molto lisci e rigidi aumentano i parametri di Brilliance, mentre il legno da contributo al BR.
+
+Legno ha la capicità di preservare la regione medio-grave dello spettro.(A seconda dell'essenza e della finitura del legno cambia molto per le qualità di risuonatore).
+
+Questi 2 parametri vengono valutati per lavori di adattamento acustico.
+
+(Placche di legno all'auditorium per evitare creazione di modi particolari)
+
+![Auditorium progetto Renzo Piano](http://www.rpbw.com/project/parco-della-musica-auditorium)
+
+___________
+### Descrittori statistici relativi all'energia
+
+Entriamo ora in una famiglia di parametri che danno informazioni di carattere energetico, utili soprattutto per determinare l'intellegibilità del segnale(per il parlato e per la musica).
+
+Energia è relativa al quadrato della pressione.
+
+Se faccio il quadrato e la somma di tutti gli impulsi la Etotale è la somma delle di tutti gli impulsi.
+
+![etot](etot.png)
+
+Se devo fare il calcolo solo di un tot di energia del segnale (energia parziale) prendo solo una certa regione della Etotale.
+
+Se voglio valutare l'intellegibilità del segnale, nel caso del parlato, è importante capire quanta parte del segnale è intellegibile.
+
+Il parlato è quella parte piú variabile del suono, e per avere intellegibilità, l'energia per avere intellegibilità ha importanza quanta energia è contenuta nella prima parte dell'IR rispetto al totale dell'energia.
+
+#### D50 (Definition)
+
+Rapporto fra energia utile ed energia totale. Per energia utili in questo caso va dagli 0 ai 50 ms. Energia totale va da 0 a infinito.
+
+![d50](d50.png)
+
+Nel caso del parlato il D50 deve essere maggiore di 0.5. Nei primo 50 ms ci deve essere almeno metà dell'energia totale perchè il parlato sia intellegibile.
+
+Altri indici di chiarezza definiti **Clarity**, sono il C50 e C80.
+
+#### C50/C80 (Clarity)
+
+Essi sono definiti come il rapporto tra energia utile ed energia dannosa.
+
+Ora le misure sono logaritmiche e si calcolano come:
+
+![clari](clari.png)
+
+In cui al numeratore abbiamo l'energia utile ed al denominatore abbiamo l'energia dannosa dagli 50/80 ms fino ad infinito.
+
+Essi sono usati per l'intellegibilità del parlato(C50) e della musica(C80).
+
+Il C50 ha bisongo che tutte le articolazioni siano percepibili. Per la musica va bene il C80 poi le articolazioni sono più lente del parlato. Il livello di intellegibilità può essere anche piú basso rispetto al parlato.
+
+Valori ottimali per il C50 e il C80:
+
+![tabclari](tabclari.png)
+
+C50|-|C80
+------|----------|--------
+< 0dB|Non idoneo|< -4dB
+0dB < C50 < 3dB| Discreto| 0 < C80 < 2dB
+> 3dB | Idoneo | > 2dB
+
+
+### Spazialità
+
+La _spatial impression_ è una delle caratteristiche piú importanti valutate.
+Per avere una sensazione di spazialità corretta le ITDG non devono superare gli 80 ms e devono arrivare all'ascoltatore da direzioni laterali, perchè questa cosa aumenta la percezione di asimmetria dello spazio.
+
+I rapporti di intensità tra prime riflessioni e suono diretta devono rispettare le leggi dell'effetto precedenza(effetto Haas).
+
+Dal punto di vista frequenziale, le bande di frequenza più importante per l'impressione spaziale sono quelle con banda di ottava ai 125 Hz(suono caldo) e della parte a 1000 Hz(banda di apertura), essa contribuisce a dare una presenza spaziale del suono, fronte di presenza piú alto.
+
+Mentre la banda dei 125 Hz contribuisce a creare un suono avvolgente, la banda intorno ai 1000 Hz è legata alla sensazione di apertura del suono. L'impressione della spazialità è legata molto a coerenza interaurale. Una bassa coerenza interaurale da un piú largo ambiente spaziale. Spazio asimetterico bassa coerenza interaurale.
+
+Una simmetria dal punto di vista spaziale ci piace, ma dal punto di vista acustico non ci piace molto.
+
+Piú sono diversi i segnali che arrivano alle due orecchie piú ci sembra di essere in uno spazio aperto.
+
+Ci sono diversi parametri per la coerenza del segnale tra due orecchie, tra cui la ITACC ovvero _inter aural cross correlation_. Tutti questi parametri vengono in genere registrati con delle Dummy-Head.
+
+[parametri di sale da concerto](https://www.akutek.info/concert_hall_acoustics_files/parameters.htm)
+
+Beranek -> studioso dell'acustica degli spazi (rank di Beranek) -> criteri di Valutazione delle sale acustiche [articolo](https://www.akutek.info/Papers/MS_Beranek_London-2017.pdf)
+
+Parametro G da un'idea del rinforzo acustico dato dalla sala -> energia registrata/energia data dalla sorgente in campo aperto a 10 m di distanza
+
+Lo spazio chiuso ha una funzione di rinforzo acustico naturale, G è una funzione di rinforzo acustico dello spazio(10log*Etot/Ecampo aperto a 10 m)
+
+[sito sull'acustica](https://www.akutek.info/index.htm)
+____________
+Prossime lezioni -> rinfrescata ai meccanismi della percezioni(IID, ITD, HRTF, etc...), focus su REW per capire come si usa per fare una misurazione
