@@ -188,4 +188,4 @@ Lo spazio chiuso ha una funzione di rinforzo acustico naturale, G è una funzion
 
 [sito sull'acustica](https://www.akutek.info/index.htm)
 ____________
-Prossime lezioni -> rinfrescata ai meccanismi della percezioni(IID, ITD, HRTF, etc...), focus su REW per capire come si usa per fare una misurazione
+Prossime lezioni -> rinfrescata ai meccanismi della percezioni(IID, ITD, HRTF, etc...), focus su REW per capire come si usa per fare una misurazione.
