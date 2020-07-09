@@ -134,3 +134,6 @@ _Esempio con l'acqua_
 
 Acqua sporca a pressione uguale all'ingresso -> distorsore
 Acqua limpida a pressione maggiore -> overdrive -> il componente successivo va a _sporcare_ l'acqua
+_________
+
+I Kfraftwerk avevano un'estetica visuale e sonora di un futuro cibernetico, mentre i Tangerine Dream erano piú umani.
