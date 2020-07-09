@@ -137,3 +137,9 @@ Acqua limpida a pressione maggiore -> overdrive -> il componente successivo va a
 _________
 
 I Kfraftwerk avevano un'estetica visuale e sonora di un futuro cibernetico, mentre i Tangerine Dream erano piú umani.
+
+___________
+
+### Amplificazione simmetrica e asimmetrica
+
+Come una forma d'onda della tromba, essa ha pochissima semionda negativa, questo fatto caratterizza il timbro, alcuni distorsori hanno il controllo della simmetricità.
