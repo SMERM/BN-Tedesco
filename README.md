@@ -113,7 +113,7 @@ _Maestro Pasquale Citera_
 
 _Maestro Luigino Pizzaleo_
 
-![foto](/CODM-05/Stockhausen_Paradigma/Kontakte_Hardware_allo_Studio_della_WDR_di_Colonia/messgenerator_60_part.png)
+![foto](/CODM-05/Stockhausen_Paradigma/Stockhausen_I_prinicipi_costruttivi/schema.png)
 - [Seminario software per l'analisi](/CODM-05/20200514/Seminario_software_per_l'analisi.md/)
 
 - [Prima Lezione](/CODM-05/20200521)
