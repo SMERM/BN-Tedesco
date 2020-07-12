@@ -60,7 +60,7 @@ Ricerca sulla chitarra classica(acustica con corde in nylon) e primo approccio a
 - Studio n.2: [Intenzioni compositive dello Studio n.2](), [Draft_1 Studio n.2 Partitura](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200407/Draft_1%20Studio%20n.2%20Partitura.pdf), [Draft_2 Studio n.2 Partitura](), [Draft_2 Studio n.2 Audio]()
 - Studio n.3: [Intenzioni compositive dello Studio n.3](COME-02/Lezioni_in_Compresenza/20200519/Intenzioni_compositive_dello_Studio_n.3.md), [Appunti Studio n.3 (a)](COME-02/Lezioni_in_Compresenza/20200519/Appunti_Studio_n.3_a.jpeg)
 - Studio n.4 a: [partitura alla prima versione](/COME-02/Lezioni_in_Compresenza/20200616/Studio_n.4_a.pdf)
-- Studio n.4 b: 
+- Studio n.4 b: [Intenzioni compositive dello Studio n.4 b]()
 - Studio n.5: [Intenzioni compositive dello Studio n.5](), (sfuttare la scordatura naturale della chitarra)
 - Studio n.6: [Intenzioni compositive dello Studio n.6]()
 
@@ -78,6 +78,8 @@ _Ingegnere Marco Giordano_
 - [Terza Lezione](/COME-03/20200610/)
 - [Quarta Lezione](/COME-03/20200617/)
 - [Quinta Lezione](/COME-03/20200624/)
+- [Sesta Lezione](/COME-03/20200701)
+- [Settima Lezione](/COME-03/20200708/)
 
 
 ## [COME-04](/COME-04)
@@ -113,7 +115,7 @@ _Maestro Pasquale Citera_
 
 _Maestro Luigino Pizzaleo_
 
-![foto](/CODM-05/Stockhausen_Paradigma/Stockhausen_I_prinicipi_costruttivi/schema.png)
+![paradigma_stock](/CODM-05/Stockhausen_Paradigma/Stockhausen_I_prinicipi_costruttivi/schema.png)
 - [Seminario software per l'analisi](/CODM-05/20200514/Seminario_software_per_l'analisi.md/)
 
 - [Prima Lezione](/CODM-05/20200521)
@@ -123,7 +125,11 @@ _Maestro Luigino Pizzaleo_
 - [Quinta Lezione](/CODM-05/20200611/)
 - [Sesta Lezione](/CODM-05/20200618/)
 - [Settima Lezione](/CODM-05/20200625/)
+- [Ottava Lezione](/CODM-05/20200702/)
+- [Nona Lezione](/CODM-05/20200706/)
+- [Decima Lezione](/CODM-05/20200709/)
 
-- [Il paradigma Stockhausen](/CODM-05/Stockhausen_Paradigma)
+
+- [Lezioni sul paradigma Stockhausen](/CODM-05/Stockhausen_Paradigma)
 
 
