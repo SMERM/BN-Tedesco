@@ -168,4 +168,34 @@ Problema di questa formula è che con questa tipologia di filtro, arrivati alla 
 
 Goniometria e trigonometria (studio angoli e studio dei triangoli)
 
-La formula che utilizziamo è più complessa di quella vista 
+La formula che utilizziamo è più complessa di quella vista
+
+_________
+
+cerchiamo di sostituire la formula che non funzionava prima con la formula che funziona, ovvero:
+
+![formula2](formula2.png)
+
+[sito formula 2](https://www.earlevel.com/main/2013/10/28/pole-zero-placement-v2)
+________________
+
+Filtro iir 1 polo e 2 zeri
+![domanda1](domanda1.png)
+
+Esso è un filtro iir poichè l'uscita y te la trovi nella formula
+
+il segnale in ingresso è considerato uno zero
+
+## ordine del filtro
+
+in base alla potenza (n^-1, n^-2 etc)
+
+## biquad
+
+filtro con 2 poli e 2 zeri
+
+![biquaddraw](biquaddraw.png)
+
+_________
+
+prossima volta svf e comb filter, cosí abbiamo tutti gli oggetti per iniziare a sentire le diverse riverberazioni
