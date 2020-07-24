@@ -1,0 +1,8 @@
+\select@language {italian}
+\select@language {italian}
+\contentsline {section}{\numberline {I}Introduzione}{2}{section.1}
+\contentsline {section}{\numberline {II}La chitarra}{2}{section.2}
+\contentsline {section}{\numberline {III}La chitarra classica nella musica contemporanea}{3}{section.3}
+\contentsline {section}{\numberline {IV}L\IeC {\textquoteright }aumentazione: l'amplificazione, Il feedback e la distorsione}{3}{section.4}
+\contentsline {section}{\numberline {V}Gli sketches e gli studi per chitarra}{4}{section.5}
+\contentsline {section}{\numberline {VI}Conclusioni}{4}{section.6}
