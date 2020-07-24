@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2020.7.23)  24 JUL 2020 19:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2020.7.23)  24 JUL 2020 23:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1065,7 +1065,7 @@ Package multicol Warning: I moved some lines to the next page.
 
 
 [4 <./img/guitarLive.png> <./img/luoghi_perc.png> <./img/catene.png (PNG copy)>
- <./img/chladni1.png>]
+ <./img/chladni1.png>] [5]
 LaTeX Font Info:    Try loading font information for TS1+bch on input line 183.
 
 
@@ -1077,16 +1077,21 @@ LaTeX Font Warning: Font shape `T1/cmss/m/sc' in size <10> not available
 (Font)              Font shape `T1/cmr/m/sc' tried instead on input line 183.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--189
+Underfull \hbox (badness 10000) in paragraph at lines 182--190
 
  []
 
-[5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 197.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 197.
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--211
+
+ []
+
+[6]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 214.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 214.
  (./Davide_Tedesco_Verso_una_nuova_frontiera_della_chitarra_classica .aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 197.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 197.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 214.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 214.
 Package rerunfilecheck Info: File `"Davide_Tedesco_Verso_una_nuova_frontiera_de
 lla_chitarra_classica ".out' has not changed.
 (rerunfilecheck)             Checksum: 3F8B5610B73F477C584E38E51C7B7CB7;393.
@@ -1100,13 +1105,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 11081 strings out of 493089
- 168086 string characters out of 6134842
+ 11088 strings out of 493089
+ 168152 string characters out of 6134842
  396054 words of memory out of 5000000
  14193 multiletter control sequences out of 15000+600000
- 69121 words of font info for 163 fonts, out of 8000000 for 9000
+ 69749 words of font info for 167 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,11n,43p,1886b,537s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,11n,43p,1886b,539s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/tex
 live/2015/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2015/texm
@@ -1119,10 +1124,10 @@ ublic/cm-super/sfcc1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pub
 lic/cm-super/sfss1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
 c/cm-super/sfss2488.pfb>
 Output written on "Davide_Tedesco_Verso_una_nuova_frontiera_della_chitarra_clas
-sica .pdf" (5 pages, 5375939 bytes).
+sica .pdf" (6 pages, 5381630 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
- 19 named destinations out of 1000 (max. 500000)
+ 133 PDF objects out of 1000 (max. 8388607)
+ 102 compressed objects within 2 object streams
+ 20 named destinations out of 1000 (max. 500000)
  36436 words of extra memory for PDF output out of 42996 (max. 10000000)
 
