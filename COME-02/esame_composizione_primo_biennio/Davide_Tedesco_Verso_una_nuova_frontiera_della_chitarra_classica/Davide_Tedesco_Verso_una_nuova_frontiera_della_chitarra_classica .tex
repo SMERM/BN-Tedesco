@@ -115,7 +115,7 @@ La domande che sorgono da una prima panoramica sono: qual’è il ruolo della ch
 
 %----------------------------------------------------2= La chitarra
 
-\section{ La chitarra}
+\section{ Breve storia della chitarra}
 
 Dalla famiglia dei liuti nel 500 d.C. circa, si iniziarono ad intravedere alcune delle più moderne versioni dello strumento con il guscio (la cassa armonica) non più di forma tondeggiante, ma esso fu sostituito da due superfici piatte unite da una fascia.
 \includegraphics[width=0.4\textwidth]{img/chit_spaccato.png}
@@ -163,26 +163,27 @@ In questo vasto ambiante compositivo ed esecutivo che porta con se brillantezza 
 
 \subsection{L'amplificazione} 
 Il posizionamento di un microfono piezo-elettrico sul \textit{piano armonico} dello strumento è un'operazione non nuova nell'ambito chitarristico. Laddove esso viene utilizzato come mero sistema per fare uno zoom sullo strumento in situazioni in cui lo stesso risulterebbe flebile ed impercettibile, esso viene utilizzato solamente come mezzo di amplificazione puro che ad un livello di amplificazione costante porta il suono chiaramente agli spettatori. La soluzione tecnica non porta con se però l'esperienza che Stockhausen\footnote{in Mikrofonie I} ha elaborato, lasciando le possibilità che un'azione del genere procura nel dimenticatoio. Infatti, l'utilizzo di un sensore a contatto e la gestione dello stesso in tempo reale è forse il modo piú immediato, chiaro e apprezzabile di operazione dell'osservazione del microscopico.
-%\includegraphics[width=0.5\textwidth]{img/chit.png}
+
+\includegraphics[width=0.4\textwidth]{img/chit.jpg}
+
 Le unghie, i polpastrelli ed il palmo della mano sono eccitatori talmente vari che è possibile apprezzarne chiaramente la differenza solamente attraverso l'amplificazione, rendendo chiaro ciò che già da un paio di metri di distanza in ambito chitarristico è considerato impossibile. La gestione inoltre attraverso il filtraggio del suono in tempo reale rende ancor meglio l'idea di cosa due strumenti(la chitarra ed il microfono) possano realizzare, donando veramente nuove sonorità e timbriche allo strumento chitarra, senza appiattirsi alla importante ma pur limitata esperienza polpastrello-unghia descritta da Pujol\footnote{Emilio Pujol, El dilemmma del sonido en la guitarra, Ricordi 1979}.
 
-\subsection{Il feeback} 
+\subsection{Il feedback} 
 Da anni utilizzata come tecnica di aumentazione nell'ambito elettrico della chitarra, ma seppur classificabile in diverse tipologie è forse una delle frontiere da esplorare nell'ambiente musicale chitarristico classico. Il feedback classificabile in diverse tipologie\footnote{feedback digitale, feedback di natura acustica, feedback di natura strutturale}, può essere implementato strutturalmente sullo strumento per mezzo di 2 componenti: un sensore ed un attuatore\footnote{altoparlante senza membrana in grado di propagare strutturalmente il suono}. Essi realizzano un vero e proprio sistema di feedback strutturale gestibile dall'esecutore che è limitato solamente dalla natura fisica dello strumento che viene utilizzato. Attravero una IR\footnote{risposta all’impulso, ovvero fotografia di come reagisce un corpo risonante ad un impulso} riusciamo dunque a determinare le zone frequenziali in cui il sistema potrebbe rispondere meglio alle sollecitazioni effettuate da particolari frequenze.
-\includegraphics[width=0.5\textwidth]{img/ir.png}
-Nell'immagine esemplificativa notiamo la curva della risposta in frequenza del sistema in quella che chiameremo \textit{posizione 1}, ovvero l'accoppiamento di sensore e attuatore in due precisi luoghi. Come è possibile visionare nel video esemplificativo\footnote{\href{https://www.youtube.com/watch?v=7BwwTopM3Ek}{Link al video d'esempio della gestione del feedback}}, la gestione del feedback sullo strumento risulta adeguata a seconda dei movimenti dell'esecutore, i quali catalogati e studiati rientreranno all'interno dei gesti da implementare in partitura, facendo raggiungere una nuova consapevolezza dello strumento al musicista. I primi limiti che si pongono con il feedback sono però le frequenze a cui lo strumento riesce a risuonare(dipendenti dallo strumento e dal sensore ed attuatore utilizzati), i quali vengo però aggirati semplicemente dall'implementazione di filtri che rendono piú malleabile l'utilizzo del feedback stesso. La tipologia di filtro va ovviamente a denotare caratteristiche diverse nella realizzazione sonora, ma non potrà mai realizzare un qualcosa di totalmente estraneo alla fisicità dello strumento in uso.
+\newline
+
+\includegraphics[width=0.4\textwidth]{img/ir.png}
+
+Nell'immagine esemplificativa notiamo la curva della risposta in frequenza del sistema in quella che chiameremo \textit{posizione 1}, ovvero l'accoppiamento di sensore e attuatore in due precisi luoghi. Come è possibile visionare nel video esemplificativo\footnote{\href{https://www.youtube.com/watch?v=7BwwTopM3Ek}{Link al video d'esempio della gestione del feedback}}, la gestione del feedback sullo strumento risulta adeguata a seconda dei movimenti dell'esecutore, i quali catalogati e studiati rientreranno all'interno dei gesti da implementare in partitura, facendo raggiungere una nuova consapevolezza dello strumento al musicista. I primi limiti che si pongono con il feedback sono però le frequenze a cui lo strumento riesce a risuonare(dipendenti dallo strumento e dal sensore ed attuatore utilizzati), i quali vengo però aggirati semplicemente dall'implementazione di filtri che rendono piú malleabile l'utilizzo del feedback stesso. La tipologia di filtro va ovviamente a denotare caratteristiche diverse nella realizzazione sonora-timbrica, ma non potrà mai realizzare un qualcosa di totalmente estraneo alla fisicità dello strumento in uso, ciò renderà sicuramente ogni esecuzione unica, ma denotando un unico luogo di provenienza compositiva.
 
 \subsection{La distorsione} 
-
-
-\footnote{\href{https://www.youtube.com/watch?v=K3yqyxcJStg}{Link al video d'esempio della distorsione}}
-
-%\includegraphics[width=0.3\textwidth]{img/guitarLive.png}
+Dopo aver realizzato che la chitarra può dunque essere aumentata riuscendo a far espletare nuove sonorità, timbri e metodologie di esecuzione si è pronti al passo successivo, ovvero cercare di far appropriare lo strumento originario delle tecniche e delle possibilità della chitarra elettrica. Nell'esempio video al piè\footnote{\href{https://www.youtube.com/watch?v=K3yqyxcJStg}{Link al video d'esempio della distorsione}} si nota come l'implementazione e la gestione della distorsione sia non solo possibile e funzioni molto bene, ma come essa riesca a portare un elemento come quello della distorsione, naturalmente nel contesto chitarristico. La chitarra di per sè è infatti ora equipaggiata delle possibilità che la chitarra elettrica detiene(attraverso il sensore piezo-elettrico), e la distorsione come mezzo espressivo riesce a fondere la tecnica e i timbri sviluppati nell'ambito popolare degli ultimi 100 anni con le consuetudini e le corde in nylon della chitarra classica. Questo ultimo passaggio all'interno del discorso di \textit{aumentazione} dello strumento svecchia notevolmente le possibilità ed insieme al feedback ed alla \textit{microfonazione compositiva} dona nuova linfa ad uno strumento storico e storicizzato.
 
 
 %----------------------------------------------------5= Gli sketches e gli studi per chitarra
 \section{ Gli sketches e gli studi per chitarra}
 
-Alla ricerca non di un nuovo strumento, ma bensí di un nuovo linguaggio e di una ricerca di un virtuosismo non basato sulla sola velocità dell’esecuzione dei brani, il compositore osservando il contemporaneo ed estrapolando la sua idea deve tentare di riportarlo sullo strumento.
+Alla ricerca non di un nuovo strumento, ma bensí di una nuova tipologia di linguaggio e di una ricerca di un virtuosismo non basato sulla sola velocità dell’esecuzione dei brani, il compositore osservando il contemporaneo ed estrapolando la sua idea deve tentare di riportarlo sullo strumento.
 \includegraphics[width=0.5\textwidth]{img/luoghi_perc.png}
 
 %----------------------------------------------------6= Conclusioni
@@ -196,6 +197,10 @@ La ricerca effettuata fin qui è stata eseguita infatti su di una chitarra che p
 I patterns di Chladni  di una chitarra possono ad esempio farci intendere quali siano i punti nodali dello strumento aiutandoci nel posizionamento di un sensore piezo-elettrico o di un attuatore sul piano armonico, ma ogni strumento avrà dei suoi punti che faranno espletare al meglio risultati analoghi. Bisogna quindi precisare che la ricerca in questa direzione cercando di sfruttare lo strumento nel miglior modo possibile dovrà esser seguita dal compositore e che egli dovrà fornire degli strumenti adeguati per far preparare lo strumentista all'esecuzione in concerto. Questi strumenti saranno un vero è proprio mezzo che dovrà accompagnare nella messa in scena musicale e dovranno preparare lo strumento all'esecuzione. Si punta quindi ad una ricerca da parte dello strumentista che possa far trasparire l'intenzione compositiva anche attraverso strumenti realizzati costruttivamente in maniere differenti.
 La ricerca di un metodo chiaro di scrittura è inoltre un altro punto fondamentale, esso chiarirà ogni dubbio dell'esecutore ogni qualvolta 
 
+Karplus 
+
+gestione del live da parte dell'esecutore con pedale
+
 Il seguente testo è a corredo dal materiale elaborato, studiato ed approfondito durante il corso dell'anno reperibile attraverso il link al piè.\footnote{https://github.com/SMERM/BN-Tedesco/tree/master/COME-02}
 
 \newpage
@@ -207,12 +212,16 @@ Il seguente testo è a corredo dal materiale elaborato, studiato ed approfondito
 •\textsc{\textsf {Curt Sachs}}, \emph{Storia degli strumenti musicali}, Mondadori 1980\\
 •\textsc{\textsf {Emilio Pujol}}, \emph{El dilemmma del sonido en la guitarra}, Ricordi 1979\\
 •\textsc{\textsf {Carlo Carfagna, Michele Greci}}, \emph{Chitarra, storia e immagini}, Fratelli Palombi Editori 2000\\
-•\textsc{\textsf {Michelangelo Lupone}}, \emph{Poetica e tecnica del Feed-back per l’aumentazione degli strumenti}, Biennale CIMM 2019\\, 
+•\textsc{\textsf {Karlheinz Stockhausen}}, \emph{Sulla musica, a cura di Robin Maconie}, Marion Boyars 1989\\
+•\textsc{\textsf {Michelangelo Lupone}}, \emph{Poetica e tecnica del Feed-back per l’aumentazione degli strumenti}, Biennale CIMM 2019\\
 •\textsc{\textsf {Rita Torres, Paulo Ferreira-Lopes}}, \emph{Towards Overcoming the Guitar's Color Research Gap}, CITAR 2014\\
 •\textsc{\textsf {Jonathan Godfrey}}, \emph{Principles of Idiomatic Guitar Writing},  2013\\
 •\textsc{\textsf {John Schneider}}, \emph{The Contemporary Guitar},  University of California Press 1985\\
 
-\hspace*{10mm}
+%\hspace*{10mm}
+
+\vfill\null
+\columnbreak
 
 %===============================================Brani ascoltati e partiture visionate
 
