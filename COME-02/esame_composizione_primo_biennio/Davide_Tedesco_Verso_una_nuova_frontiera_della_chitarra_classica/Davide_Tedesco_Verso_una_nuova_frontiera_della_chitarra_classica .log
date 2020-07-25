@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2020.7.23)  25 JUL 2020 10:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2020.7.23)  25 JUL 2020 12:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -754,68 +754,76 @@ File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 \Gin@req@height=\dimen162
 \Gin@req@width=\dimen163
 )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip51
+\enit@outerparindent=\dimen164
+\enit@toks=\toks22
+\enit@inbox=\box56
+\enitdp@description=\count128
+)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/abstract/abstract.sty
 Package: abstract 2009/06/08 v1.2a configurable abstracts
-\abstitleskip=\skip51
-\absleftindent=\skip52
-\absrightindent=\skip53
-\absparindent=\skip54
-\absparsep=\skip55
+\abstitleskip=\skip52
+\absleftindent=\skip53
+\absrightindent=\skip54
+\absparindent=\skip55
+\absparsep=\skip56
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
-\ttl@box=\box56
-\beforetitleunit=\skip56
-\aftertitleunit=\skip57
-\ttl@plus=\dimen164
-\ttl@minus=\dimen165
-\ttl@toksa=\toks22
-\titlewidth=\dimen166
-\titlewidthlast=\dimen167
-\titlewidthfirst=\dimen168
+\ttl@box=\box57
+\beforetitleunit=\skip57
+\aftertitleunit=\skip58
+\ttl@plus=\dimen165
+\ttl@minus=\dimen166
+\ttl@toksa=\toks23
+\titlewidth=\dimen167
+\titlewidthlast=\dimen168
+\titlewidthfirst=\dimen169
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/titlesec/block.tss
 File: block.tss 2011/12/15
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip58
-\f@ncyO@elh=\skip59
-\f@ncyO@erh=\skip60
-\f@ncyO@olh=\skip61
-\f@ncyO@orh=\skip62
-\f@ncyO@elf=\skip63
-\f@ncyO@erf=\skip64
-\f@ncyO@olf=\skip65
-\f@ncyO@orf=\skip66
+\fancy@headwidth=\skip59
+\f@ncyO@elh=\skip60
+\f@ncyO@erh=\skip61
+\f@ncyO@olh=\skip62
+\f@ncyO@orh=\skip63
+\f@ncyO@elf=\skip64
+\f@ncyO@erf=\skip65
+\f@ncyO@olf=\skip66
+\f@ncyO@orf=\skip67
 )
 (./Davide_Tedesco_Verso_una_nuova_frontiera_della_chitarra_classica .aux)
 \openout1 = `"Davide_Tedesco_Verso_una_nuova_frontiera_della_chitarra_classica 
 .aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 77.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 78.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Info: Redefining \it@ocap on input line 77.
-LaTeX Info: Redefining \it@ccap on input line 77.
-LaTeX Info: Redefining \microtypecontext on input line 77.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Info: Redefining \it@ocap on input line 78.
+LaTeX Info: Redefining \it@ccap on input line 78.
+LaTeX Info: Redefining \microtypecontext on input line 78.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -869,19 +877,19 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box57
-Package hyperref Info: Link coloring OFF on input line 77.
+\AtBeginShipoutBox=\box58
+Package hyperref Info: Link coloring OFF on input line 78.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count128
+\c@section@level=\count129
 )
-LaTeX Info: Redefining \ref on input line 77.
-LaTeX Info: Redefining \pageref on input line 77.
-LaTeX Info: Redefining \nameref on input line 77.
+LaTeX Info: Redefining \ref on input line 78.
+LaTeX Info: Redefining \pageref on input line 78.
+LaTeX Info: Redefining \nameref on input line 78.
 
 (./Davide_Tedesco_Verso_una_nuova_frontiera_della_chitarra_classica .out)
 (./Davide_Tedesco_Verso_una_nuova_frontiera_della_chitarra_classica .out)
@@ -892,17 +900,17 @@ LaTeX Info: Redefining \nameref on input line 77.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count129
-\scratchdimen=\dimen169
-\scratchbox=\box58
-\nofMPsegments=\count130
-\nofMParguments=\count131
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count132
-\MPscratchDim=\dimen170
-\MPnumerator=\count133
-\makeMPintoPDFobject=\count134
-\everyMPtoPDFconversion=\toks24
+\scratchcounter=\count130
+\scratchdimen=\dimen170
+\scratchbox=\box59
+\nofMPsegments=\count131
+\nofMParguments=\count132
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count133
+\MPscratchDim=\dimen171
+\MPnumerator=\count134
+\makeMPintoPDFobject=\count135
+\everyMPtoPDFconversion=\toks25
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -918,14 +926,14 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 80.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 81.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 
 LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <24> not available
-(Font)              size <24.88> substituted on input line 80.
+(Font)              size <24.88> substituted on input line 81.
 
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: T1).
@@ -933,27 +941,27 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/m/n' instead on input line 80.
+(Font)              using `T1/cmss/m/n' instead on input line 81.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/sc' undefined
-(Font)              using `T1/cmss/b/n' instead on input line 80.
+(Font)              using `T1/cmss/b/n' instead on input line 81.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' in size <24> not available
-(Font)              size <24.88> substituted on input line 80.
+(Font)              size <24.88> substituted on input line 81.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 80.
+(Font)              <12> on input line 81.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 80.
+(Font)              <8> on input line 81.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 80.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 80.
+(Font)              <6> on input line 81.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 81.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -964,7 +972,12 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 
 (./Davide_Tedesco_Verso_una_nuova_frontiera_della_chitarra_classica .toc
-Overfull \hbox (1.96997pt too wide) detected at line 10
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 7.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 7.
+
+Overfull \hbox (1.96997pt too wide) detected at line 13
 \T1/bch/b/n/10 VIII 
  []
 
@@ -976,133 +989,107 @@ Overfull \hbox (1.96997pt too wide) detected at line 10
  [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 111.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 111.
-
-<img/chit_spaccato.png, id=57, 175.3752pt x 214.8828pt>
+<img/chit_spaccato.png, id=72, 175.3752pt x 214.8828pt>
 File: img/chit_spaccato.png Graphic file (type png)
 
 <use img/chit_spaccato.png>
-Package pdftex.def Info: img/chit_spaccato.png used on input line 120.
+Package pdftex.def Info: img/chit_spaccato.png used on input line 121.
 (pdftex.def)             Requested size: 171.99922pt x 210.76402pt.
  [2 <./img/chit_spaccato.png>]
-<img/ektopos.png, id=73, 223.5552pt x 141.1674pt>
+<img/ektopos.png, id=88, 223.5552pt x 141.1674pt>
 File: img/ektopos.png Graphic file (type png)
  <use img/ektopos.png>
-Package pdftex.def Info: img/ektopos.png used on input line 140.
+Package pdftex.def Info: img/ektopos.png used on input line 141.
 (pdftex.def)             Requested size: 215.0023pt x 135.77116pt.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 138--149
+Overfull \hbox (10.0pt too wide) in paragraph at lines 139--150
 []
  []
 
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 3 might be wrong on input line 149.
+(multicol)                Footnotes on page 3 might be wrong on input line 150.
 
 
-[3 <./img/ektopos.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 157--164
-
- []
-
-<img/ir.png, id=93, 250.536pt x 130.5678pt>
+[3 <./img/ektopos.png>] [4] <img/ir.png, id=123, 250.536pt x 130.5678pt>
 File: img/ir.png Graphic file (type png)
- <use img/ir.png>
-Package pdftex.def Info: img/ir.png used on input line 167.
+
+<use img/ir.png>
+Package pdftex.def Info: img/ir.png used on input line 171.
 (pdftex.def)             Requested size: 215.0023pt x 112.05101pt.
 
-<img/guitarLive.png, id=94, 314.17375pt x 420.57124pt>
-File: img/guitarLive.png Graphic file (type png)
-
-<use img/guitarLive.png>
-Package pdftex.def Info: img/guitarLive.png used on input line 168.
-(pdftex.def)             Requested size: 129.00269pt x 172.68561pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--169
-[]\T1/bch/m/n/10 (+20) video esem-pio ge-stio-ne del feed-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--169
-\T1/bch/m/n/10 (+20) back[][][] vi-deo esem-pio Di-stor-sio-ne[][][]
- []
-
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 165--169
+Overfull \hbox (10.0pt too wide) in paragraph at lines 170--173
 []
  []
 
-[4] <img/luoghi_perc.png, id=106, 736.7525pt x 573.14125pt>
+<img/luoghi_perc.png, id=128, 736.7525pt x 573.14125pt>
 File: img/luoghi_perc.png Graphic file (type png)
 
 <use img/luoghi_perc.png>
-Package pdftex.def Info: img/luoghi_perc.png used on input line 175.
+Package pdftex.def Info: img/luoghi_perc.png used on input line 186.
 (pdftex.def)             Requested size: 215.0023pt x 167.25615pt.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 174--176
+Overfull \hbox (10.0pt too wide) in paragraph at lines 185--187
 [] 
  []
 
-<img/catene.png, id=107, 327.1422pt x 430.7292pt>
+[5 <./img/ir.png>] <img/catene.png, id=142, 327.1422pt x 430.7292pt>
 File: img/catene.png Graphic file (type png)
- <use img/catene.png>
-Package pdftex.def Info: img/catene.png used on input line 182.
-(pdftex.def)             Requested size: 215.0023pt x 283.0794pt.
 
-<img/chladni1.png, id=109, 223.5552pt x 167.6664pt>
+<use img/catene.png>
+Package pdftex.def Info: img/catene.png used on input line 193.
+(pdftex.def)             Requested size: 215.0023pt x 283.0794pt.
+ <img/chladni1.png, id=144, 223.5552pt x 167.6664pt>
 File: img/chladni1.png Graphic file (type png)
- <use img/chladni1.png>
-Package pdftex.def Info: img/chladni1.png used on input line 184.
+
+<use img/chladni1.png>
+Package pdftex.def Info: img/chladni1.png used on input line 195.
 (pdftex.def)             Requested size: 215.0023pt x 161.25722pt.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 181--187
+Overfull \hbox (10.0pt too wide) in paragraph at lines 192--198
 []
  []
 
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 181--187
+Overfull \hbox (10.0pt too wide) in paragraph at lines 192--198
 []
  []
 
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 5 might be wrong on input line 187.
+(multicol)                Footnotes on page 6 might be wrong on input line 198.
 
 
-[5 <./img/ir.png> <./img/guitarLive.png> <./img/luoghi_perc.png>] [6 <./img/cat
-ene.png (PNG copy)> <./img/chladni1.png>]
-LaTeX Font Info:    Try loading font information for TS1+bch on input line 194.
+[6 <./img/luoghi_perc.png> <./img/catene.png (PNG copy)> <./img/chladni1.png>]
+[7]
+LaTeX Font Info:    Try loading font information for TS1+bch on input line 205.
 
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ts1bch.fd
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ts1bch.fd
 File: ts1bch.fd 2004/10/18 font definitions for TS1/bch.
 )
 
 LaTeX Font Warning: Font shape `T1/cmss/m/sc' in size <10> not available
-(Font)              Font shape `T1/cmr/m/sc' tried instead on input line 194.
+(Font)              Font shape `T1/cmr/m/sc' tried instead on input line 205.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--202
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 208--236
+Underfull \hbox (badness 10000) in paragraph at lines 205--213
 
  []
 
-[7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 240.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 240.
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--248
+
+ []
+
+[8]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 252.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 252.
  (./Davide_Tedesco_Verso_una_nuova_frontiera_della_chitarra_classica .aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 240.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 240.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 252.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 252.
 Package rerunfilecheck Info: File `"Davide_Tedesco_Verso_una_nuova_frontiera_de
 lla_chitarra_classica ".out' has not changed.
-(rerunfilecheck)             Checksum: D2EEDD51C46DA8EE402B5F4CC3AAD100;530.
+(rerunfilecheck)             Checksum: BE1ACEDBDC92E4324D30C88B7705EC95;719.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1113,13 +1100,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 11130 strings out of 493089
- 168550 string characters out of 6134842
- 399054 words of memory out of 5000000
- 14195 multiletter control sequences out of 15000+600000
- 72305 words of font info for 185 fonts, out of 8000000 for 9000
+ 11427 strings out of 493089
+ 173476 string characters out of 6134842
+ 405239 words of memory out of 5000000
+ 14474 multiletter control sequences out of 15000+600000
+ 72565 words of font info for 187 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,11n,43p,1886b,541s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,11n,43p,1886b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/tex
 live/2015/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2015/texm
@@ -1132,10 +1119,10 @@ ublic/cm-super/sfcc1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pub
 lic/cm-super/sfss1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
 c/cm-super/sfss2488.pfb>
 Output written on "Davide_Tedesco_Verso_una_nuova_frontiera_della_chitarra_clas
-sica .pdf" (7 pages, 5389975 bytes).
+sica .pdf" (8 pages, 5385775 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
- 139 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 36452 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 207 PDF objects out of 1000 (max. 8388607)
+ 176 compressed objects within 2 object streams
+ 45 named destinations out of 1000 (max. 500000)
+ 36471 words of extra memory for PDF output out of 42996 (max. 10000000)
 

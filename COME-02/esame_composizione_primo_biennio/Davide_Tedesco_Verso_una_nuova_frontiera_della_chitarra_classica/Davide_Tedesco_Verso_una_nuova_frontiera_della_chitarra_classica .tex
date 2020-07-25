@@ -23,6 +23,7 @@
 \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
 \usepackage{lipsum} % Package to generate dummy text throughout this template
 \usepackage{graphicx}
+\usepackage{enumitem}   
 %abstract
 \usepackage{abstract} % Allows abstract customization
 \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
@@ -151,20 +152,31 @@ L'utilizzo dell'elettronica all'interno del panorama musicale tradizionale per s
 
 \section{ L’aumentazione: l'amplificazione, Il feedback e la distorsione}
 
-In questo vasto ambiante compositivo ed esecutivo che porta con se brillantezza e freschezza di idee, vi è però sempre dunque un minimo comun denominatore, ovvero lo strumento solo rilegato alle sue possibilità strutturali oramai trite e ritrite. Forse si puó notare nella mancanza dell'elettronica all'interno del discorso compositivo chitarristico classico, una voglia di legame con il passato che sta portando a lungo andare alla dispersione dei risultati raggiunto nel '900, lasciando lo strumento in mano alla sola musica popolare. 
+In questo vasto ambiante compositivo ed esecutivo che porta con se brillantezza e freschezza di idee, vi è però sempre un minimo comun denominatore, ovvero lo strumento solo lasciato alle sue possibilità fisiche che oramai ha reso stereotipato il modo di scrivere per esso. Forse si puó notare nella mancanza dell'elettronica all'interno del discorso compositivo chitarristico classico, una voglia di legame con il passato che sta portando a lungo andare alla dispersione dei risultati raggiunti nel '900, lasciando lo strumento in mano alla sola musica popolare. 
 
-\noindent Da queste riflessioni nasce dunque la necessità di provare a realizzare un qualcosa che potesse integrare l'elettronica con lo strumento, come è già stato fatto per molti altri strumenti soli, riuscendo a captare il microscopico dello strumento, le caratterizzazioni fisiche dello strumento e le possibilità donate dall'esperienza della chitarra elettrica nel contemporaneo.
-\noindent
-\newline
-\textbf{Amplificazione} \newline
-\textbf{Feedback} \newline
-\textbf{Distorsione} \newline
+\noindent Da queste riflessioni nasce dunque la necessità di provare a realizzare un qualcosa che possa integrare l'elettronica con lo strumento, come è già stato fatto per molti altri strumenti soli, riuscendo a captare il microscopico dello strumento, le caratterizzazioni fisiche dello strumento e le possibilità donate dall'esperienza della chitarra elettrica nel contemporaneo. Il processo che nasce da questi pensieri può esser inteso come una vera e propria \textit{aumentazione} dello strumento stesso che attraverso l'elettronica e la gestione del gesto musicale per mezzo dell'elettronica riesce a donare nuove possibilità allo stesso. La ricerca in atto porta dunque alle prime tre possibilità che il sistema realizzato mette a disposizione: 
+\begin{enumerate}[label=(\roman*)]
+\item L'amplificazione
+\item Il feeback 
+\item La distorsione
+\end{enumerate}
 
+\subsection{L'amplificazione} 
+Il posizionamento di un microfono piezo-elettrico sul \textit{piano armonico} dello strumento è un'operazione non nuova nell'ambito chitarristico. Laddove esso viene utilizzato come mero sistema per fare uno zoom sullo strumento in situazioni in cui lo stesso risulterebbe flebile ed impercettibile, esso viene utilizzato solamente come mezzo di amplificazione puro che ad un livello di amplificazione costante porta il suono chiaramente agli spettatori. La soluzione tecnica non porta con se però l'esperienza che Stockhausen\footnote{in Mikrofonie I} ha elaborato, lasciando le possibilità che un'azione del genere procura nel dimenticatoio. Infatti, l'utilizzo di un sensore a contatto e la gestione dello stesso in tempo reale è forse il modo piú immediato, chiaro e apprezzabile di operazione dell'osservazione del microscopico.
+%\includegraphics[width=0.5\textwidth]{img/chit.png}
+Le unghie, i polpastrelli ed il palmo della mano sono eccitatori talmente vari che è possibile apprezzarne chiaramente la differenza solamente attraverso l'amplificazione, rendendo chiaro ciò che già da un paio di metri di distanza in ambito chitarristico è considerato impossibile. La gestione inoltre attraverso il filtraggio del suono in tempo reale rende ancor meglio l'idea di cosa due strumenti(la chitarra ed il microfono) possano realizzare, donando veramente nuove sonorità e timbriche allo strumento chitarra, senza appiattirsi alla importante ma pur limitata esperienza polpastrello-unghia descritta da Pujol\footnote{Emilio Pujol, El dilemmma del sonido en la guitarra, Ricordi 1979}.
 
-video esempio gestione del feedback\footnote{https://www.youtube.com/watch?v=7BwwTopM3Ek}
-video esempio Distorsione\footnote{https://www.youtube.com/watch?v=K3yqyxcJStg}
+\subsection{Il feeback} 
+Da anni utilizzata come tecnica di aumentazione nell'ambito elettrico della chitarra, ma seppur classificabile in diverse tipologie è forse una delle frontiere da esplorare nell'ambiente musicale chitarristico classico. Il feedback classificabile in diverse tipologie\footnote{feedback digitale, feedback di natura acustica, feedback di natura strutturale}, può essere implementato strutturalmente sullo strumento per mezzo di 2 componenti: un sensore ed un attuatore\footnote{altoparlante senza membrana in grado di propagare strutturalmente il suono}. Essi realizzano un vero e proprio sistema di feedback strutturale gestibile dall'esecutore che è limitato solamente dalla natura fisica dello strumento che viene utilizzato. Attravero una IR\footnote{risposta all’impulso, ovvero fotografia di come reagisce un corpo risonante ad un impulso} riusciamo dunque a determinare le zone frequenziali in cui il sistema potrebbe rispondere meglio alle sollecitazioni effettuate da particolari frequenze.
 \includegraphics[width=0.5\textwidth]{img/ir.png}
-\includegraphics[width=0.3\textwidth]{img/guitarLive.png}
+Nell'immagine esemplificativa notiamo la curva della risposta in frequenza del sistema in quella che chiameremo \textit{posizione 1}, ovvero l'accoppiamento di sensore e attuatore in due precisi luoghi. Come è possibile visionare nel video esemplificativo\footnote{\href{https://www.youtube.com/watch?v=7BwwTopM3Ek}{Link al video d'esempio della gestione del feedback}}, la gestione del feedback sullo strumento risulta adeguata a seconda dei movimenti dell'esecutore, i quali catalogati e studiati rientreranno all'interno dei gesti da implementare in partitura, facendo raggiungere una nuova consapevolezza dello strumento al musicista. I primi limiti che si pongono con il feedback sono però le frequenze a cui lo strumento riesce a risuonare(dipendenti dallo strumento e dal sensore ed attuatore utilizzati), i quali vengo però aggirati semplicemente dall'implementazione di filtri che rendono piú malleabile l'utilizzo del feedback stesso. La tipologia di filtro va ovviamente a denotare caratteristiche diverse nella realizzazione sonora, ma non potrà mai realizzare un qualcosa di totalmente estraneo alla fisicità dello strumento in uso.
+
+\subsection{La distorsione} 
+
+
+\footnote{\href{https://www.youtube.com/watch?v=K3yqyxcJStg}{Link al video d'esempio della distorsione}}
+
+%\includegraphics[width=0.3\textwidth]{img/guitarLive.png}
 
 
 %----------------------------------------------------5= Gli sketches e gli studi per chitarra
@@ -195,6 +207,7 @@ Il seguente testo è a corredo dal materiale elaborato, studiato ed approfondito
 •\textsc{\textsf {Curt Sachs}}, \emph{Storia degli strumenti musicali}, Mondadori 1980\\
 •\textsc{\textsf {Emilio Pujol}}, \emph{El dilemmma del sonido en la guitarra}, Ricordi 1979\\
 •\textsc{\textsf {Carlo Carfagna, Michele Greci}}, \emph{Chitarra, storia e immagini}, Fratelli Palombi Editori 2000\\
+•\textsc{\textsf {Michelangelo Lupone}}, \emph{Poetica e tecnica del Feed-back per l’aumentazione degli strumenti}, Biennale CIMM 2019\\, 
 •\textsc{\textsf {Rita Torres, Paulo Ferreira-Lopes}}, \emph{Towards Overcoming the Guitar's Color Research Gap}, CITAR 2014\\
 •\textsc{\textsf {Jonathan Godfrey}}, \emph{Principles of Idiomatic Guitar Writing},  2013\\
 •\textsc{\textsf {John Schneider}}, \emph{The Contemporary Guitar},  University of California Press 1985\\
@@ -220,6 +233,7 @@ Il seguente testo è a corredo dal materiale elaborato, studiato ed approfondito
 •\textsc{\textsf {Fausto Romitelli}}, \emph{Seascape}, Ricordi 1994\\
 •\textsc{\textsf {Fausto Romitelli}}, \emph{Coralli}, Ricordi 1987\\
 •\textsc{\textsf {Fausto Romitelli}}, \emph{Highway to hell}, Ricordi 1984\\
+•\textsc{\textsf {Federico Bonacossa}}, \emph{Shikantaza}, Cyklos 2005\\
 •\textsc{\textsf {Franco Donatoni}}, \emph{Algo}, xx 199x\\
 •\textsc{\textsf {Giacinto Scelsi}}, \emph{Ko-Tha}, Salabert 1962\\
 •\textsc{\textsf {Helmut Lachenmann}}, \emph{Salut für Caudwell}, xx 199x\\
