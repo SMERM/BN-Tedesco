@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2020.7.23)  25 JUL 2020 16:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2020.7.23)  25 JUL 2020 18:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -800,30 +800,30 @@ File: block.tss 2011/12/15
 \openout1 = `"Davide_Tedesco_Verso_una_nuova_frontiera_della_chitarra_classica 
 .aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 78.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 79.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 79.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Info: Redefining \it@ocap on input line 78.
-LaTeX Info: Redefining \it@ccap on input line 78.
-LaTeX Info: Redefining \microtypecontext on input line 78.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Info: Redefining \it@ocap on input line 79.
+LaTeX Info: Redefining \it@ccap on input line 79.
+LaTeX Info: Redefining \microtypecontext on input line 79.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -878,7 +878,7 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box58
-Package hyperref Info: Link coloring OFF on input line 78.
+Package hyperref Info: Link coloring OFF on input line 79.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -887,9 +887,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count129
 )
-LaTeX Info: Redefining \ref on input line 78.
-LaTeX Info: Redefining \pageref on input line 78.
-LaTeX Info: Redefining \nameref on input line 78.
+LaTeX Info: Redefining \ref on input line 79.
+LaTeX Info: Redefining \pageref on input line 79.
+LaTeX Info: Redefining \nameref on input line 79.
 
 (./Davide_Tedesco_Verso_una_nuova_frontiera_della_chitarra_classica .out)
 (./Davide_Tedesco_Verso_una_nuova_frontiera_della_chitarra_classica .out)
@@ -926,14 +926,14 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 81.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 82.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 
 LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <24> not available
-(Font)              size <24.88> substituted on input line 81.
+(Font)              size <24.88> substituted on input line 82.
 
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: T1).
@@ -941,27 +941,27 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/m/n' instead on input line 81.
+(Font)              using `T1/cmss/m/n' instead on input line 82.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/sc' undefined
-(Font)              using `T1/cmss/b/n' instead on input line 81.
+(Font)              using `T1/cmss/b/n' instead on input line 82.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' in size <24> not available
-(Font)              size <24.88> substituted on input line 81.
+(Font)              size <24.88> substituted on input line 82.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 81.
+(Font)              <12> on input line 82.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 81.
+(Font)              <8> on input line 82.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 81.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 81.
+(Font)              <6> on input line 82.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 82.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -989,140 +989,116 @@ Overfull \hbox (1.96997pt too wide) detected at line 13
  [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<img/chit_spaccato.png, id=72, 175.3752pt x 214.8828pt>
+<img/chit_spaccato.png, id=77, 175.3752pt x 214.8828pt>
 File: img/chit_spaccato.png Graphic file (type png)
 
 <use img/chit_spaccato.png>
-Package pdftex.def Info: img/chit_spaccato.png used on input line 121.
+Package pdftex.def Info: img/chit_spaccato.png used on input line 124.
 (pdftex.def)             Requested size: 171.99922pt x 210.76402pt.
 
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 2 might be wrong on input line 133.
+(multicol)                Footnotes on page 2 might be wrong on input line 137.
 
 
 [2 <./img/chit_spaccato.png>]
-<img/ektopos.png, id=88, 223.5552pt x 141.1674pt>
+<img/ektopos.png, id=93, 223.5552pt x 141.1674pt>
 File: img/ektopos.png Graphic file (type png)
  <use img/ektopos.png>
-Package pdftex.def Info: img/ektopos.png used on input line 141.
+Package pdftex.def Info: img/ektopos.png used on input line 145.
 (pdftex.def)             Requested size: 215.0023pt x 135.77116pt.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 139--150
+Overfull \hbox (10.0pt too wide) in paragraph at lines 143--153
 []
  []
 
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 3 might be wrong on input line 150.
+(multicol)                Footnotes on page 3 might be wrong on input line 153.
 
 
-[3 <./img/ektopos.png>] [4] <img/chit.jpg, id=119, 4047.12pt x 3035.34pt>
+[3 <./img/ektopos.png>] [4] <img/chit.jpg, id=124, 4047.12pt x 3035.34pt>
 File: img/chit.jpg Graphic file (type jpg)
 
 <use img/chit.jpg>
-Package pdftex.def Info: img/chit.jpg used on input line 167.
+Package pdftex.def Info: img/chit.jpg used on input line 170.
 (pdftex.def)             Requested size: 171.99922pt x 128.98866pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--174
+Underfull \hbox (badness 10000) in paragraph at lines 175--177
 
  []
 
-<img/ir.png, id=124, 250.536pt x 130.5678pt>
+<img/ir.png, id=129, 250.536pt x 130.5678pt>
 File: img/ir.png Graphic file (type png)
  <use img/ir.png>
-Package pdftex.def Info: img/ir.png used on input line 175.
+Package pdftex.def Info: img/ir.png used on input line 178.
 (pdftex.def)             Requested size: 171.99922pt x 89.63762pt.
 
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 5 might be wrong on input line 178.
+(multicol)                Footnotes on page 5 might be wrong on input line 181.
 
 
 [5 <./img/chit.jpg> <./img/ir.png>]
-<img/legenda.png, id=143, 506.89375pt x 272.01625pt>
+<img/legenda.png, id=149, 506.89375pt x 272.01625pt>
 File: img/legenda.png Graphic file (type png)
  <use img/legenda.png>
-Package pdftex.def Info: img/legenda.png used on input line 191.
+Package pdftex.def Info: img/legenda.png used on input line 194.
 (pdftex.def)             Requested size: 171.99922pt x 92.29752pt.
 
-<img/luoghi_perc.png, id=144, 736.7525pt x 573.14125pt>
+<img/luoghi_perc.png, id=150, 736.7525pt x 573.14125pt>
 File: img/luoghi_perc.png Graphic file (type png)
 
 <use img/luoghi_perc.png>
-Package pdftex.def Info: img/luoghi_perc.png used on input line 195.
+Package pdftex.def Info: img/luoghi_perc.png used on input line 198.
 (pdftex.def)             Requested size: 171.99922pt x 133.79617pt.
-
-
-Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 6 might be wrong on input line 207.
-
-
-[6 <./img/legenda.png>] <img/catene.png, id=162, 327.1422pt x 430.7292pt>
+ [6 <./img/legenda.png> <./img/luoghi_perc.png>]
+<img/catene.png, id=173, 327.1422pt x 430.7292pt>
 File: img/catene.png Graphic file (type png)
-
-<use img/catene.png>
-Package pdftex.def Info: img/catene.png used on input line 214.
-(pdftex.def)             Requested size: 215.0023pt x 283.0794pt.
- <img/chladni1.png, id=164, 223.5552pt x 167.6664pt>
-File: img/chladni1.png Graphic file (type png)
-
-<use img/chladni1.png>
-Package pdftex.def Info: img/chladni1.png used on input line 216.
-(pdftex.def)             Requested size: 215.0023pt x 161.25722pt.
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 213--219
-[]
- []
-
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 213--219
-[]
- []
+ <use img/catene.png>
+Package pdftex.def Info: img/catene.png used on input line 219.
+(pdftex.def)             Requested size: 171.99922pt x 226.45827pt.
 
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 7 might be wrong on input line 219.
+(multicol)                Footnotes on page 7 might be wrong on input line 222.
 
 
-[7 <./img/luoghi_perc.png>] [8 <./img/catene.png (PNG copy)> <./img/chladni1.pn
-g>]
-LaTeX Font Info:    Try loading font information for TS1+bch on input line 231.
+[7 <./img/catene.png (PNG copy)>]
+<img/chladni1.png, id=185, 223.5552pt x 167.6664pt>
+File: img/chladni1.png Graphic file (type png)
+ <use img/chladni1.png>
+Package pdftex.def Info: img/chladni1.png used on input line 224.
+(pdftex.def)             Requested size: 171.99922pt x 129.00372pt.
 
- (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ts1bch.fd
+[8 <./img/chladni1.png>]
+LaTeX Font Info:    Try loading font information for TS1+bch on input line 236.
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ts1bch.fd
 File: ts1bch.fd 2004/10/18 font definitions for TS1/bch.
 )
 
 LaTeX Font Warning: Font shape `T1/cmss/m/sc' in size <10> not available
-(Font)              Font shape `T1/cmr/m/sc' tried instead on input line 231.
+(Font)              Font shape `T1/cmr/m/sc' tried instead on input line 236.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--260
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--279
+Underfull \hbox (badness 10000) in paragraph at lines 236--265
 
  []
 
-[9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 283.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 283.
- (./Davide_Tedesco_Verso_una_nuova_frontiera_della_chitarra_classica .aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 283.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 283.
+[9] [10]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 308.
+ [11]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 308.
 
+(./Davide_Tedesco_Verso_una_nuova_frontiera_della_chitarra_classica .aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 308.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 308.
+Package rerunfilecheck Info: File `"Davide_Tedesco_Verso_una_nuova_frontiera_de
+lla_chitarra_classica ".out' has not changed.
+(rerunfilecheck)             Checksum: CAAB3220D5576037A5C5876029737747;767.
 
-Package rerunfilecheck Warning: File `"Davide_Tedesco_Verso_una_nuova_frontiera
-_della_chitarra_classica ".out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `"Davide_Tedesco_Verso_una_nuova_fro
-ntiera_della_chitarra_classica ".out':
-(rerunfilecheck)             Before: 321889920A3175E5C2D6A287F6D6D7AA;688
-(rerunfilecheck)             After:  F8582326647F57B264F12306108E806F;688.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -1132,29 +1108,30 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 11467 strings out of 493089
- 173918 string characters out of 6134842
+ 11529 strings out of 493089
+ 174509 string characters out of 6134842
  405231 words of memory out of 5000000
- 14482 multiletter control sequences out of 15000+600000
- 74449 words of font info for 199 fonts, out of 8000000 for 9000
+ 14487 multiletter control sequences out of 15000+600000
+ 84812 words of font info for 229 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,11n,43p,1914b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/tex
+ 36i,11n,43p,1940b,689s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
+exlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/tex
 live/2015/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2015/texm
 f-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2015/texmf-d
-ist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2015/texmf-dist
-/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/local/texlive/2015/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fo
-nts/type1/public/lm/lmtt9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/p
-ublic/cm-super/sfcc1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pub
-lic/cm-super/sfss1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
-c/cm-super/sfss2488.pfb>
+ist/fonts/type1/bitstrea/charter/bchbi8a.pfb></usr/local/texlive/2015/texmf-dis
+t/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2015/texmf-dist/f
+onts/type1/bitstrea/charter/bchri8a.pfb></usr/local/texlive/2015/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/font
+s/type1/public/lm/lmtt9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pub
+lic/cm-super/sfcc1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
+c/cm-super/sfss1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
+cm-super/sfss2488.pfb>
 Output written on "Davide_Tedesco_Verso_una_nuova_frontiera_della_chitarra_clas
-sica .pdf" (9 pages, 7621949 bytes).
+sica .pdf" (11 pages, 7638074 bytes).
 PDF statistics:
- 238 PDF objects out of 1000 (max. 8388607)
- 202 compressed objects within 3 object streams
- 56 named destinations out of 1000 (max. 500000)
- 36481 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 274 PDF objects out of 1000 (max. 8388607)
+ 235 compressed objects within 3 object streams
+ 69 named destinations out of 1000 (max. 500000)
+ 41097 words of extra memory for PDF output out of 42996 (max. 10000000)
 

@@ -8,6 +8,7 @@
 \contentsline {subsection}{\numberline {II}Il feedback}{5}{subsection.4.2}
 \contentsline {subsection}{\numberline {III}La distorsione}{6}{subsection.4.3}
 \contentsline {section}{\numberline {V} Gli Sketches e gli studi per chitarra}{6}{section.5}
-\contentsline {section}{\numberline {VI} Conclusioni}{7}{section.6}
+\contentsline {section}{\numberline {VI} Conclusioni \& nuove prospettive}{7}{section.6}
 \contentsline {section}{\numberline {VII} Brani ascoltati \& partiture visionate}{9}{section.7}
 \contentsline {section}{\numberline {VIII} Bibliografia \& sitografia}{9}{section.8}
+\contentsline {section}{\numberline {IX} Indice delle figure}{9}{section.9}
