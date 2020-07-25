@@ -3,11 +3,11 @@
 \contentsline {section}{\numberline {I} Introduzione}{2}{section.1}
 \contentsline {section}{\numberline {II} Breve storia della chitarra}{2}{section.2}
 \contentsline {section}{\numberline {III} La chitarra nella musica contemporanea}{3}{section.3}
-\contentsline {section}{\numberline {IV} L\IeC {\textquoteright }aumentazione: l'amplificazione, Il feedback e la distorsione}{4}{section.4}
+\contentsline {section}{\numberline {IV} L\IeC {\textquoteright }aumentazione}{4}{section.4}
 \contentsline {subsection}{\numberline {I}L'amplificazione}{5}{subsection.4.1}
 \contentsline {subsection}{\numberline {II}Il feedback}{5}{subsection.4.2}
 \contentsline {subsection}{\numberline {III}La distorsione}{6}{subsection.4.3}
-\contentsline {section}{\numberline {V} Gli sketches e gli studi per chitarra}{6}{section.5}
-\contentsline {section}{\numberline {VI} Conclusioni}{6}{section.6}
-\contentsline {section}{\numberline {VII} Bibliografia \& sitografia}{8}{section.7}
-\contentsline {section}{\numberline {VIII} Brani ascoltati \& partiture visionate}{8}{section.8}
+\contentsline {section}{\numberline {V} Gli Sketches e gli studi per chitarra}{6}{section.5}
+\contentsline {section}{\numberline {VI} Conclusioni}{7}{section.6}
+\contentsline {section}{\numberline {VII} Brani ascoltati \& partiture visionate}{9}{section.7}
+\contentsline {section}{\numberline {VIII} Bibliografia \& sitografia}{9}{section.8}

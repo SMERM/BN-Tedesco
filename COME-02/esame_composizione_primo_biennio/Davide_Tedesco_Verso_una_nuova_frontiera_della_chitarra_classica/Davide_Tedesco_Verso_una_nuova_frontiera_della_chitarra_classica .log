@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2020.7.23)  25 JUL 2020 13:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2020.7.23)  25 JUL 2020 16:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1017,15 +1017,10 @@ Package multicol Warning: I moved some lines to the next page.
 (multicol)                Footnotes on page 3 might be wrong on input line 150.
 
 
-[3 <./img/ektopos.png>]
-
-Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 4 might be wrong on input line 166.
-
-
-[4] <img/chit.jpg, id=117, 4047.12pt x 3035.34pt>
+[3 <./img/ektopos.png>] [4] <img/chit.jpg, id=119, 4047.12pt x 3035.34pt>
 File: img/chit.jpg Graphic file (type jpg)
- <use img/chit.jpg>
+
+<use img/chit.jpg>
 Package pdftex.def Info: img/chit.jpg used on input line 167.
 (pdftex.def)             Requested size: 171.99922pt x 128.98866pt.
 
@@ -1033,7 +1028,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 172--174
 
  []
 
-<img/ir.png, id=122, 250.536pt x 130.5678pt>
+<img/ir.png, id=124, 250.536pt x 130.5678pt>
 File: img/ir.png Graphic file (type png)
  <use img/ir.png>
 Package pdftex.def Info: img/ir.png used on input line 175.
@@ -1045,74 +1040,89 @@ Package multicol Warning: I moved some lines to the next page.
 
 
 [5 <./img/chit.jpg> <./img/ir.png>]
-<img/luoghi_perc.png, id=140, 736.7525pt x 573.14125pt>
+<img/legenda.png, id=143, 506.89375pt x 272.01625pt>
+File: img/legenda.png Graphic file (type png)
+ <use img/legenda.png>
+Package pdftex.def Info: img/legenda.png used on input line 191.
+(pdftex.def)             Requested size: 171.99922pt x 92.29752pt.
+
+<img/luoghi_perc.png, id=144, 736.7525pt x 573.14125pt>
 File: img/luoghi_perc.png Graphic file (type png)
 
 <use img/luoghi_perc.png>
-Package pdftex.def Info: img/luoghi_perc.png used on input line 187.
-(pdftex.def)             Requested size: 215.0023pt x 167.25615pt.
+Package pdftex.def Info: img/luoghi_perc.png used on input line 195.
+(pdftex.def)             Requested size: 171.99922pt x 133.79617pt.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 186--188
-[] 
- []
 
-<img/catene.png, id=141, 327.1422pt x 430.7292pt>
+Package multicol Warning: I moved some lines to the next page.
+(multicol)                Footnotes on page 6 might be wrong on input line 207.
+
+
+[6 <./img/legenda.png>] <img/catene.png, id=162, 327.1422pt x 430.7292pt>
 File: img/catene.png Graphic file (type png)
- <use img/catene.png>
-Package pdftex.def Info: img/catene.png used on input line 194.
-(pdftex.def)             Requested size: 215.0023pt x 283.0794pt.
 
-<img/chladni1.png, id=143, 223.5552pt x 167.6664pt>
+<use img/catene.png>
+Package pdftex.def Info: img/catene.png used on input line 214.
+(pdftex.def)             Requested size: 215.0023pt x 283.0794pt.
+ <img/chladni1.png, id=164, 223.5552pt x 167.6664pt>
 File: img/chladni1.png Graphic file (type png)
- <use img/chladni1.png>
-Package pdftex.def Info: img/chladni1.png used on input line 196.
+
+<use img/chladni1.png>
+Package pdftex.def Info: img/chladni1.png used on input line 216.
 (pdftex.def)             Requested size: 215.0023pt x 161.25722pt.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 193--199
+Overfull \hbox (10.0pt too wide) in paragraph at lines 213--219
 []
  []
 
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 193--199
+Overfull \hbox (10.0pt too wide) in paragraph at lines 213--219
 []
  []
 
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 6 might be wrong on input line 199.
+(multicol)                Footnotes on page 7 might be wrong on input line 219.
 
 
-[6 <./img/luoghi_perc.png>] [7 <./img/catene.png (PNG copy)> <./img/chladni1.pn
+[7 <./img/luoghi_perc.png>] [8 <./img/catene.png (PNG copy)> <./img/chladni1.pn
 g>]
-LaTeX Font Info:    Try loading font information for TS1+bch on input line 210.
+LaTeX Font Info:    Try loading font information for TS1+bch on input line 231.
 
  (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ts1bch.fd
 File: ts1bch.fd 2004/10/18 font definitions for TS1/bch.
 )
 
 LaTeX Font Warning: Font shape `T1/cmss/m/sc' in size <10> not available
-(Font)              Font shape `T1/cmr/m/sc' tried instead on input line 210.
+(Font)              Font shape `T1/cmr/m/sc' tried instead on input line 231.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--220
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 229--258
+Underfull \hbox (badness 10000) in paragraph at lines 231--260
 
  []
 
-[8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 262.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 262.
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--279
+
+ []
+
+[9]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 283.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 283.
  (./Davide_Tedesco_Verso_una_nuova_frontiera_della_chitarra_classica .aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 262.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 262.
-Package rerunfilecheck Info: File `"Davide_Tedesco_Verso_una_nuova_frontiera_de
-lla_chitarra_classica ".out' has not changed.
-(rerunfilecheck)             Checksum: 611ABCDB5117801F4DE114CA070F8F8E;736.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 283.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 283.
 
+
+Package rerunfilecheck Warning: File `"Davide_Tedesco_Verso_una_nuova_frontiera
+_della_chitarra_classica ".out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `"Davide_Tedesco_Verso_una_nuova_fro
+ntiera_della_chitarra_classica ".out':
+(rerunfilecheck)             Before: 321889920A3175E5C2D6A287F6D6D7AA;688
+(rerunfilecheck)             After:  F8582326647F57B264F12306108E806F;688.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -1122,13 +1132,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 11439 strings out of 493089
- 173609 string characters out of 6134842
- 405239 words of memory out of 5000000
- 14478 multiletter control sequences out of 15000+600000
- 73193 words of font info for 191 fonts, out of 8000000 for 9000
+ 11467 strings out of 493089
+ 173918 string characters out of 6134842
+ 405231 words of memory out of 5000000
+ 14482 multiletter control sequences out of 15000+600000
+ 74449 words of font info for 199 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,11n,43p,1886b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,11n,43p,1914b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/tex
 live/2015/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2015/texm
@@ -1141,10 +1151,10 @@ ublic/cm-super/sfcc1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pub
 lic/cm-super/sfss1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
 c/cm-super/sfss2488.pfb>
 Output written on "Davide_Tedesco_Verso_una_nuova_frontiera_della_chitarra_clas
-sica .pdf" (8 pages, 7602201 bytes).
+sica .pdf" (9 pages, 7621949 bytes).
 PDF statistics:
- 208 PDF objects out of 1000 (max. 8388607)
- 176 compressed objects within 2 object streams
- 45 named destinations out of 1000 (max. 500000)
- 36476 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 238 PDF objects out of 1000 (max. 8388607)
+ 202 compressed objects within 3 object streams
+ 56 named destinations out of 1000 (max. 500000)
+ 36481 words of extra memory for PDF output out of 42996 (max. 10000000)
 
