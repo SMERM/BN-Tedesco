@@ -47,7 +47,7 @@ Ricerca sulla chitarra classica(acustica con corde in nylon) e primo approccio a
 - [algoritmo per la gestione del feedback realizzato in Faust(FEEDBACK_CONTROLLER v.0.1)](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200512/FEEDBACK_CONTROLLER.dsp)
 ![FEEDBACK_CONTROLLER v.0.1](COME-02/Lezioni_in_Compresenza/20200512/FEEDBACK_CONTROLLER%20v.0.1.png)
 - IR chitarra classica sistema sensore-attuatore [posizione 1](COME-02/Lezioni_in_Compresenza/20200519/Sistema_Sensore-Attuatore_Posizione_1) ![ir chitarra posizione 1](COME-02/Lezioni_in_Compresenza/20200519/Classica_Attuatore_Posizione_1_Cal.jpg)
-- IR chitarra classica sistema sensore-attuatore posizione 2(da fare) ![ir chitarra posizione 2]()
+- IR chitarra classica sistema sensore-attuatore posizione 2(da caricare)
 - [VIDEO - implementazione di un LPF e un pedale MIDI(ON/OFF) per controllo del feedback, scordatura durante Feedback](https://youtu.be/7BwwTopM3Ek)
 
 
@@ -100,6 +100,12 @@ _Maestro Federico Scalas_
 - Il diodo
 - Il transistor
 
+#### Progetto per l'esame di primo biennio
+- Realizzazione di due diffusori passivi; caratteristiche:
+  - a 2 vie
+  - crossover regolabile
+  - mobile in multistrato
+
 ## [COME-05](/COME-05)
 #### _Informatica Musicale_ 
 
@@ -109,6 +115,8 @@ _Maestro Pasquale Citera_
 
 - Filtri FIR
 - Filtri IIR
+- Filtro Biquad
+- Filtro Comb
 
 ## [CODM-05](/CODM-05)
 #### _Storia della musica elettroacustica_
