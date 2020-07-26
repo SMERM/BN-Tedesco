@@ -49,7 +49,8 @@ Ricerca e composizione sulla chitarra classica e primo approccio allo sviluppo d
 - [VIDEO - implementazione di un LPF e un pedale MIDI(ON/OFF) per controllo del feedback, scordatura durante Feedback](https://youtu.be/7BwwTopM3Ek)
 
 
-### Lavori 
+### Lavori
+#### Sketches
 - [Sketches](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200324/Sketches.pdf)
 
 #### Studi 
