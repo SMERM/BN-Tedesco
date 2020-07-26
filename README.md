@@ -43,7 +43,6 @@ Ricerca e composizione sulla chitarra classica e primo approccio allo sviluppo d
 - [VIDEO - esempio chitarra classica distorta](https://youtu.be/K3yqyxcJStg)
 - [VIDEO - esempio feedback strutturale(piezo-attuatore) su chitarra classica](https://www.youtube.com/watch?v=TraqAMf5Exo)-> nella descrizione del video, minutaggio segnato di alcuni primi esempi di feedback
 - [algoritmo per la gestione del feedback realizzato in Faust(FEEDBACK_CONTROLLER v.0.1)](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200512/FEEDBACK_CONTROLLER.dsp)
-![FEEDBACK_CONTROLLER v.0.1](COME-02/Lezioni_in_Compresenza/20200512/FEEDBACK_CONTROLLER%20v.0.1.png)
 - IR chitarra classica sistema sensore-attuatore [posizione 1](COME-02/Lezioni_in_Compresenza/20200519/Sistema_Sensore-Attuatore_Posizione_1) ![ir chitarra posizione 1](COME-02/Lezioni_in_Compresenza/20200519/Classica_Attuatore_Posizione_1_Cal.jpg)
 - IR chitarra classica sistema sensore-attuatore posizione 2(da caricare)
 - [VIDEO - implementazione di un LPF e un pedale MIDI(ON/OFF) per controllo del feedback, scordatura durante Feedback](https://youtu.be/7BwwTopM3Ek)
