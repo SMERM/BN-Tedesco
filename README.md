@@ -53,16 +53,16 @@ Ricerca sulla chitarra classica(acustica con corde in nylon) e primo approccio a
 
 ### Lavori 
 - [Sketches](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200324/Sketches.pdf)
+
 #### Studi 
 - Legenda: [Draft_1_Legenda](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200407/Legenda_Part_Perc.jpg)
 - Legenda elettroacustica: [Schema 1](/COME-02/Lezioni_in_Compresenza/20200616/guitar_Electroacustic_Scheme_I.jpg)
-- Studio n.1: [Intenzioni compositive dello Studio n.1](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200505/Intenzioni_compositive_dello_Studio_n.1.md),[Draft_1 Studio n.1 Partitura](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200331/Draft_1_Studio_n.1_Partitura.pdf), [Draft_1 Studio n.1 Audio](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200331/Draft_1_Studio_n.1_Audio.wav), [Draft_2 Studio n.1 Partitura]()
-- Studio n.2: [Intenzioni compositive dello Studio n.2](), [Draft_1 Studio n.2 Partitura](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200407/Draft_1%20Studio%20n.2%20Partitura.pdf), [Draft_2 Studio n.2 Partitura](), [Draft_2 Studio n.2 Audio]()
+- Studio n.1: [Intenzioni compositive dello Studio n.1](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200505/Intenzioni_compositive_dello_Studio_n.1.md),[Draft_1 Studio n.1 Partitura](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200331/Draft_1_Studio_n.1_Partitura.pdf), [Draft_1 Studio n.1 Audio](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200331/Draft_1_Studio_n.1_Audio.wav)
+- Studio n.2: [Draft_1 Studio n.2 Partitura](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200407/Draft_1%20Studio%20n.2%20Partitura.pdf)
 - Studio n.3: [Intenzioni compositive dello Studio n.3](COME-02/Lezioni_in_Compresenza/20200519/Intenzioni_compositive_dello_Studio_n.3.md), [Appunti Studio n.3 (a)](COME-02/Lezioni_in_Compresenza/20200519/Appunti_Studio_n.3_a.jpeg)
 - Studio n.4 a: [partitura alla prima versione](/COME-02/Lezioni_in_Compresenza/20200616/Studio_n.4_a.pdf)
-- Studio n.4 b: [Intenzioni compositive dello Studio n.4 b]()
-- Studio n.5: [Intenzioni compositive dello Studio n.5](), (sfuttare la scordatura naturale della chitarra)
-- Studio n.6: [Intenzioni compositive dello Studio n.6]()
+- Studio n.5:  (sfuttare la scordatura naturale della chitarra)
+- Studio n.6: 
 
 ## [COME-03](/COME-03)
 #### _Acustica degli ambienti musicali_
