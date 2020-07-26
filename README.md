@@ -14,9 +14,7 @@ _Maestro Giuseppe Silvi_
 - realizzazione del VCS3 in Faust
   - realizzazione dei 3 oscillatori
   - realizzazione del filter/oscillator
-
-#### Luigi Nono - Post-prae-ludium n. 1 per Donau
-- 
+  - realizzazione della matrice
 
 ## [COME-02](/COME-02)
 #### _Composizione musicale elettroacustica_
@@ -26,7 +24,7 @@ _Maestro Michelangelo Lupone - Maestro Nicola Bernardini_
 
 ![Guitar](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Bernardini/20200114/Schemi_chitarra_classica/ebguitars_plan_complete_large.png)
 
-Ricerca sulla chitarra classica(acustica con corde in nylon) e primo approccio allo sviluppo di studi per lo strumento "espanso".
+Ricerca e composizione sulla chitarra classica e primo approccio allo sviluppo di studi per lo strumento _aumentato_.
 
 - la chitarra come percussione, ovvero catalogazione delle modalità di percussione-> [schema ed esempi](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Bernardini/20200204/Modi%20di%20percussione%20con%20le%20dita.pdf)
 - eccitazione del piano armonico attraverso un attuatore [Visaton EX 60 R](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200407/ex60r_8.pdf) -> [analisi spettrale ed esempi](https://github.com/SMERM/BN-Tedesco/tree/master/COME-02/Lezioni_in_Compresenza/20200317/Various_Sweeps)
@@ -39,7 +37,7 @@ Ricerca sulla chitarra classica(acustica con corde in nylon) e primo approccio a
 - estensioni dell'algoritmo di sintesi della corda "Karplus-Strong" -> [articolo](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200407/David%20A.%20Jaffe%20and%20Julius%20O.%20Smith%20-%20Extensions%20of%20the%20Karplus-Strong%20Plucked-String%20Algorithm.pdf)
 - Lettura e studio del manuale "The Contemporary Guitar" di John Schneider -> [Manuale](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200331/The-Contemporary-Guitar-Schneider-Vol-5.pdf)
 - Lettura e studio di "Principles of Idiomatic Guitar Writing" di Jonathan Godfrey ->[Testo](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200331/Principles%20of%20Idiomatic%20Guitar%20Writing%20-%20Jonathan%20Godfrey.pdf),  [Esempi Audio](https://github.com/SMERM/BN-Tedesco/tree/master/COME-02/Lezioni_in_Compresenza/20200331/Principles%20of%20Idiomatic%20Guitar%20Writing%20-%20Jonathan%20Godfrey_Audio_Tracks)
-- sostegno infinito del suono di chitarra attraverso l'[algoritmo realizzato in Faust](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200324/karplus_filtrato.dsp) -> [esempi]()
+- sostegno infinito del suono di chitarra attraverso l'[algoritmo realizzato in Faust](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200324/karplus_filtrato.dsp)
 - lettura del [testo di Emilio Pujol "The dilemma of Timbre on the Guitar"](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/1979-Emilio-Pujol-Il-Dilemma-del-Timbro-sulla-Chitarra/1979-emilio-pujol-el-dilema-del-sonido-en-la-guitarra.pdf), [traduzione in italiano del testo di Emilio Pujol "The dilemma of Timbre on the Guitar"](https://github.com/SMERM/BN-Tedesco/tree/master/COME-02/Lezioni_in_Compresenza/1979-Emilio-Pujol-Il-Dilemma-del-Timbro-sulla-Chitarra/1979-Emilio-Pujol-Il-Dilemma-del-Timbro-sulla-Chitarra-Traduzione)
 - analisi dei brani di [chitarra elettrica contemporanea](https://github.com/SMERM/BN-Tedesco/tree/master/COME-02/Lezioni_in_Compresenza/Chitarra_Elettrica_Contemporanea)
 - [VIDEO - esempio chitarra classica distorta](https://youtu.be/K3yqyxcJStg)
