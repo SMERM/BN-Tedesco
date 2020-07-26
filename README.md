@@ -28,8 +28,8 @@ Ricerca e composizione sulla chitarra classica e primo approccio allo sviluppo d
 
 - la chitarra come percussione, ovvero catalogazione delle modalità di percussione-> [schema ed esempi](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Bernardini/20200204/Modi%20di%20percussione%20con%20le%20dita.pdf)
 - eccitazione del piano armonico attraverso un attuatore [Visaton EX 60 R](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/Lezioni_in_Compresenza/20200407/ex60r_8.pdf) -> [analisi spettrale ed esempi](https://github.com/SMERM/BN-Tedesco/tree/master/COME-02/Lezioni_in_Compresenza/20200317/Various_Sweeps)
-- ripresa con sensore piezoelettrico dello strumento(Rappresentazione del _micro_, il "da vicino") -> [Esempi]()
-- ripresa microfonica con microfono esterno dallo strumento (Rappresentazione del _macro_, il "davanti allo strumento") -> [esempi]()
+- ripresa con sensore piezoelettrico dello strumento(Rappresentazione del _micro_, il "da vicino")
+- ripresa microfonica con microfono esterno dallo strumento (Rappresentazione del _macro_, il "davanti allo strumento")
 - catalogazione dei suoni consonantici e vocalici per implementazione in live degli stessi sull'attuatore -> esempi
 - criteri per la spazializzazione in sala da concerto ???
 - gestione agevole del suono ripreso micro e macro (algoritmo di interpolazione fra i due???)
@@ -129,15 +129,14 @@ _Maestro Luigino Pizzaleo_
 - [Seminario software per l'analisi](/CODM-05/20200514/Seminario_software_per_l'analisi.md/)
 
 - [Prima Lezione](/CODM-05/20200521)
-- [Seconda Lezione](/CODM-05/20200528)
-- [Terza Lezione](/CODM-05/20200528/)
-- [Quarta Lezione](/CODM-05/20200604/)
-- [Quinta Lezione](/CODM-05/20200611/)
-- [Sesta Lezione](/CODM-05/20200618/)
-- [Settima Lezione](/CODM-05/20200625/)
-- [Ottava Lezione](/CODM-05/20200702/)
-- [Nona Lezione](/CODM-05/20200706/)
-- [Decima Lezione](/CODM-05/20200709/)
+- [Seconda Lezione](/CODM-05/20200528/)
+- [Terza Lezione](/CODM-05/20200604/)
+- [Quarta Lezione](/CODM-05/20200611/)
+- [Quinta Lezione](/CODM-05/20200618/)
+- [Sesta Lezione](/CODM-05/20200625/)
+- [Settima Lezione](/CODM-05/20200702/)
+- [Ottava Lezione](/CODM-05/20200706/)
+- [Nona Lezione](/CODM-05/20200709/)
 
 
 - [Lezioni sul paradigma Stockhausen](/CODM-05/Stockhausen_Paradigma)
