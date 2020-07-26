@@ -63,6 +63,9 @@ Ricerca e composizione sulla chitarra classica e primo approccio allo sviluppo d
 - Studio n.5:  (sfuttare la scordatura naturale della chitarra)
 - Studio n.6: 
 
+### Papers
+- [Verso una nuova frontiera della chitarra classica - Luglio 2020](https://github.com/SMERM/BN-Tedesco/blob/master/COME-02/esame_composizione_primo_biennio/Davide_Tedesco_Verso_una_nuova_frontiera_della_chitarra_classica/Davide_Tedesco_Verso_una_nuova_frontiera_della_chitarra_classica.pdf)
+
 ## [COME-03](/COME-03)
 #### _Acustica degli ambienti musicali_
 
