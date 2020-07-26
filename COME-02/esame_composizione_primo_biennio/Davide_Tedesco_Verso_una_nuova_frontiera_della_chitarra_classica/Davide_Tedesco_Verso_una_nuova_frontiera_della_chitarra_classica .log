@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2020.7.23)  25 JUL 2020 21:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2020.7.23)  26 JUL 2020 10:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1005,92 +1005,99 @@ Package multicol Warning: I moved some lines to the next page.
 <img/ektopos.png, id=103, 223.5552pt x 141.1674pt>
 File: img/ektopos.png Graphic file (type png)
  <use img/ektopos.png>
-Package pdftex.def Info: img/ektopos.png used on input line 145.
+Package pdftex.def Info: img/ektopos.png used on input line 146.
 (pdftex.def)             Requested size: 215.0023pt x 135.77116pt.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 143--153
+Overfull \hbox (10.0pt too wide) in paragraph at lines 143--154
 []
  []
 
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 3 might be wrong on input line 153.
+(multicol)                Footnotes on page 3 might be wrong on input line 154.
 
 
 [3 <./img/ektopos.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
 
  []
 
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 4 might be wrong on input line 166.
+(multicol)                Footnotes on page 4 might be wrong on input line 167.
 
 
 [4] <img/chit.jpg, id=137, 4047.12pt x 3035.34pt>
 File: img/chit.jpg Graphic file (type jpg)
  <use img/chit.jpg>
-Package pdftex.def Info: img/chit.jpg used on input line 171.
+Package pdftex.def Info: img/chit.jpg used on input line 173.
 (pdftex.def)             Requested size: 171.99922pt x 128.98866pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--178
+Underfull \hbox (badness 10000) in paragraph at lines 178--180
 
  []
 
 <img/ir.png, id=142, 250.536pt x 130.5678pt>
 File: img/ir.png Graphic file (type png)
  <use img/ir.png>
-Package pdftex.def Info: img/ir.png used on input line 179.
+Package pdftex.def Info: img/ir.png used on input line 181.
 (pdftex.def)             Requested size: 171.99922pt x 89.63762pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--184
+[][]
+ []
 
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 5 might be wrong on input line 182.
+(multicol)                Footnotes on page 5 might be wrong on input line 184.
 
 
 [5 <./img/chit.jpg> <./img/ir.png>]
 <img/legenda.png, id=167, 506.89375pt x 272.01625pt>
 File: img/legenda.png Graphic file (type png)
  <use img/legenda.png>
-Package pdftex.def Info: img/legenda.png used on input line 197.
+Package pdftex.def Info: img/legenda.png used on input line 199.
 (pdftex.def)             Requested size: 171.99922pt x 92.29752pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--202
+[][]
+ []
 
 <img/luoghi_perc.png, id=168, 736.7525pt x 573.14125pt>
 File: img/luoghi_perc.png Graphic file (type png)
 
 <use img/luoghi_perc.png>
-Package pdftex.def Info: img/luoghi_perc.png used on input line 201.
+Package pdftex.def Info: img/luoghi_perc.png used on input line 203.
 (pdftex.def)             Requested size: 171.99922pt x 133.79617pt.
- [6 <./img/legenda.png>]
-<img/catene.png, id=186, 327.1422pt x 430.7292pt>
-File: img/catene.png Graphic file (type png)
- <use img/catene.png>
-Package pdftex.def Info: img/catene.png used on input line 224.
-(pdftex.def)             Requested size: 171.99922pt x 226.45827pt.
- [7 <./img/luoghi_perc.png>] <img/chladni1.png, id=203, 223.5552pt x 167.6664pt
->
-File: img/chladni1.png Graphic file (type png)
 
-<use img/chladni1.png>
-Package pdftex.def Info: img/chladni1.png used on input line 229.
+Underfull \hbox (badness 10000) in paragraph at lines 203--207
+[][] \T1/bch/m/n/10 (+20) I
+ []
+
+[6 <./img/legenda.png>] <img/catene.png, id=186, 327.1422pt x 430.7292pt>
+File: img/catene.png Graphic file (type png)
+
+<use img/catene.png>
+Package pdftex.def Info: img/catene.png used on input line 226.
+(pdftex.def)             Requested size: 171.99922pt x 226.45827pt.
+ [7 <./img/luoghi_perc.png>]
+<img/chladni1.png, id=203, 223.5552pt x 167.6664pt>
+File: img/chladni1.png Graphic file (type png)
+ <use img/chladni1.png>
+Package pdftex.def Info: img/chladni1.png used on input line 232.
 (pdftex.def)             Requested size: 171.99922pt x 129.00372pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
+Underfull \hbox (badness 10000) in paragraph at lines 234--236
 
  []
 
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 8 might be wrong on input line 234.
+(multicol)                Footnotes on page 8 might be wrong on input line 238.
 
 
 [8 <./img/catene.png (PNG copy)> <./img/chladni1.png>] [9]
-LaTeX Font Info:    Try loading font information for TS1+bch on input line 243.
+LaTeX Font Info:    Try loading font information for TS1+bch on input line 247.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ts1bch.fd
@@ -1098,26 +1105,266 @@ File: ts1bch.fd 2004/10/18 font definitions for TS1/bch.
 )
 
 LaTeX Font Warning: Font shape `T1/cmss/m/sc' in size <10> not available
-(Font)              Font shape `T1/cmr/m/sc' tried instead on input line 243.
+(Font)              Font shape `T1/cmr/m/sc' tried instead on input line 247.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--272
+Underfull \hbox (badness 10000) in paragraph at lines 247--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--276
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--293
+Underfull \hbox (badness 10000) in paragraph at lines 247--276
 
  []
 
-[10] [11]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 314.
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--295
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--295
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--295
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--295
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--295
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--295
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--295
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--295
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--295
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--295
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--295
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--295
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--310
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 310--311
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--313
+
+ []
+
+[11]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 320.
  [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 314.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 320.
 
 (./Davide_Tedesco_Verso_una_nuova_frontiera_della_chitarra_classica .aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 314.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 314.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 320.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 320.
 Package rerunfilecheck Info: File `"Davide_Tedesco_Verso_una_nuova_frontiera_de
 lla_chitarra_classica ".out' has not changed.
 (rerunfilecheck)             Checksum: C70B383B5164BA84C0124541431B2CBE;767.
@@ -1131,13 +1378,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 11567 strings out of 493089
- 174913 string characters out of 6134842
- 405290 words of memory out of 5000000
- 14491 multiletter control sequences out of 15000+600000
- 93104 words of font info for 246 fonts, out of 8000000 for 9000
+ 11561 strings out of 493089
+ 174865 string characters out of 6134842
+ 406290 words of memory out of 5000000
+ 14492 multiletter control sequences out of 15000+600000
+ 92470 words of font info for 242 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,12n,43p,2052b,693s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,12n,43p,2032b,659s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/tex
 live/2015/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2015/texm
@@ -1151,7 +1398,7 @@ lic/cm-super/sfcc1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
 c/cm-super/sfss1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
 cm-super/sfss2488.pfb>
 Output written on "Davide_Tedesco_Verso_una_nuova_frontiera_della_chitarra_clas
-sica .pdf" (12 pages, 7642016 bytes).
+sica .pdf" (12 pages, 7642301 bytes).
 PDF statistics:
  299 PDF objects out of 1000 (max. 8388607)
  259 compressed objects within 3 object streams
