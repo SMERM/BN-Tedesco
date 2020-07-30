@@ -1,0 +1,14 @@
+fbcf (sig, delT, gain)
+{
+	Delay zmn(samplerate);
+	delTime = delT*(samplerate/1000);
+	g = clamp(gain, 0., 0.999);
+
+	zmnDel = zmn.read(delTime);
+	zmnG = zmnDel*g;
+	yn = sig+zmnG;
+
+	zmn.write(yn);
+
+return yn;
+}
