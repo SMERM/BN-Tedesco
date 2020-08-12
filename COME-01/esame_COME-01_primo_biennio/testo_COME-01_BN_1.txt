@@ -1,0 +1,10 @@
+ABSTRACT
+
+La realizzazione del brano "incontro" di Giorgio Nottoli, ci ha posto di fronte a vari e profondamente diverse problematiche.
+Esse affrontate con i giusti mezzi ci hanno permesso di iniziare a realizzare gli strumenti necessari per l'esecuzione e l'interpretazione del brano.
+I documenti forniti dall'autore, oltre ad il manuale dello strumento principe(l'EMS VCS3) di questa composizione hanno reso più semplice il lavoro di "porting" dello strumento, facendoci intendere a fondo come realizzare digitalmente uno strumento analogico complesso e composto da varie tipologie interconnesse di hardware.
+FAUST e Max ci hanno aiutato lungo il percorso, permettendoci di realizzare lo strumento ponendoci una "tabula rasa" capace di farci capire ed intendere quali scelte algoritme effettuare a seconda degli aspetti fisici necessari.
+
+INTRODUZIONE
+
+CONCLUSIONI
