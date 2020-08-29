@@ -1,5 +1,7 @@
 # Repository del ciclo di Biennio di Davide Tedesco
 
+# Questo repoistory non viene più aggiornato da Luglio 2020, il repository attuale e reperibile a [questo link](https://gitlab.com/SMERM/BN-Tedesco)
+
 ## [COME-01](/COME-01)
 #### _Esecuzione e interpretazione della musica elettroacustica. Ambienti esecutivi e di controllo per il live electronics_
 
